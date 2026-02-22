@@ -64,9 +64,17 @@ function Generate-FillBlank {
         $ans = if ($sub -in @("I")) {0} elseif ($sub -in @("He","She")) {1} else {2}
         Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("am","is","are","be") -Answer $ans -Explanation "主語に合うbe動詞を選びます。" -KeyPhrase "穴埋め:be動詞"
       } else {
-        $verbs = @("play","study","watch","cook","read")
-        $v = $verbs[($i - 1) % $verbs.Count]
-        $q = "$sub ___ every day. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+        $verbPhrases = @(
+          @("play", "soccer"),
+          @("study", "English"),
+          @("watch", "TV"),
+          @("cook", "dinner"),
+          @("read", "books")
+        )
+        $vp = $verbPhrases[($i - 1) % $verbPhrases.Count]
+        $v = [string]$vp[0]
+        $obj = [string]$vp[1]
+        $q = "$sub ___ $obj every day. (" + $Level + "-FB-" + $i.ToString("00") + ")"
         $ans = if ($sub -in @("He","She")) {1} else {0}
         Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($v, "$($v)s", "$($v)ed", "$($v)ing") -Answer $ans -Explanation "現在形の主語と動詞の形を確認します。" -KeyPhrase ("穴埋め:現在形 (" + $v + ")")
       }
@@ -82,8 +90,9 @@ function Generate-FillBlank {
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($base, "goes", "went", "going") -Answer 2 -Explanation "yesterday があるので過去形を使います。" -KeyPhrase "穴埋め:過去形"
         }
         1 {
-          $q = "$sub has lived here ___ 2020. (" + $Level + "-FB-" + $i.ToString("00") + ")"
-          Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("for", "since", "from", "during") -Answer 1 -Explanation "起点を表すので since を使います。" -KeyPhrase "穴埋め:since"
+          $q = "$sub ___ lived here since 2020. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $ans2 = if ($sub -in @("He","She")) {1} else {0}
+          Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("have", "has", "had", "having") -Answer $ans2 -Explanation "主語に合わせて have / has を使い分けます。" -KeyPhrase "穴埋め:現在完了"
         }
         2 {
           $q = "This book is ___ than that one. (" + $Level + "-FB-" + $i.ToString("00") + ")"

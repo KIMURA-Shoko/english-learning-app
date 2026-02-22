@@ -47,6 +47,46 @@ function Get-JaccardSimilarity {
   return [double]$intersection / [double]$union
 }
 
+function Get-FilledSentence {
+  param(
+    [string]$QuestionText,
+    [string]$CorrectChoice
+  )
+  if ([string]::IsNullOrWhiteSpace($QuestionText)) { return "" }
+  if ($QuestionText -notmatch "___") { return "" }
+  return ($QuestionText -replace "___", $CorrectChoice)
+}
+
+function Test-NaturalFilledSentence {
+  param([string]$Sentence)
+
+  if ([string]::IsNullOrWhiteSpace($Sentence)) { return $false }
+
+  $s = $Sentence.Trim()
+  # 末尾の識別タグ "(A1-FB-01)" などは自然さ判定から除外
+  $s = [regex]::Replace($s, "\s+\([A-Z0-9\-]+\)$", "")
+  if ($s -notmatch "[\.\?\!]$") { return $false }
+
+  $norm = Normalize-Text $s
+  $tokens = @()
+  if ($norm) { $tokens = $norm.Split(" ") }
+  if ($tokens.Count -lt 4) { return $false }
+
+  # 明らかな重複語（例: play play）を検出
+  for ($i = 1; $i -lt $tokens.Count; $i++) {
+    if ($tokens[$i] -eq $tokens[$i - 1]) {
+      return $false
+    }
+  }
+
+  # 代表的な他動詞が目的語なしで "every day" に直結する不自然文を検出
+  if ($norm -match "\b(play|read|watch|cook|study)\s+every\s+day\b") {
+    return $false
+  }
+
+  return $true
+}
+
 $jsonRaw = Get-Content -Raw -Encoding UTF8 $InputPath
 $problems = $jsonRaw | ConvertFrom-Json
 
@@ -133,6 +173,20 @@ for ($i = 0; $i -lt $problems.Count; $i++) {
         $errors.Add([pscustomobject]@{problem_id=$problemId; type="answer_out_of_range"; message="answer index out of range"})
       } else {
         $correctChoice = [string]$p.choices[$ans]
+
+        # fill_blank は正答埋め込み後の自然さを必須チェック
+        $qType = if ($p.PSObject.Properties.Name -contains "question_type") { [string]$p.question_type } else { "" }
+        if ($qType -eq "fill_blank") {
+          $filled = Get-FilledSentence -QuestionText ([string]$p.question_text) -CorrectChoice $correctChoice
+          if (-not (Test-NaturalFilledSentence -Sentence $filled)) {
+            $errors.Add([pscustomobject]@{
+              problem_id = $problemId
+              type = "unnatural_filled_sentence"
+              message = "Filled sentence looks unnatural: $filled"
+            })
+          }
+        }
+
         $exp = [string]$p.explanation_ja
         if ([string]::IsNullOrWhiteSpace($exp)) {
           $errors.Add([pscustomobject]@{problem_id=$problemId; type="empty_explanation"; message="explanation_ja is empty"})

@@ -23,7 +23,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ every day. (A1-FB-02)",
+        "question_text":  "You ___ English every day. (A1-FB-02)",
         "choices":  [
                         "study",
                         "studys",
@@ -61,7 +61,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She ___ every day. (A1-FB-04)",
+        "question_text":  "She ___ dinner every day. (A1-FB-04)",
         "choices":  [
                         "cook",
                         "cooks",
@@ -99,7 +99,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They ___ every day. (A1-FB-06)",
+        "question_text":  "They ___ soccer every day. (A1-FB-06)",
         "choices":  [
                         "play",
                         "plays",
@@ -137,7 +137,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ every day. (A1-FB-08)",
+        "question_text":  "You ___ TV every day. (A1-FB-08)",
         "choices":  [
                         "watch",
                         "watchs",
@@ -175,7 +175,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She ___ every day. (A1-FB-10)",
+        "question_text":  "She ___ books every day. (A1-FB-10)",
         "choices":  [
                         "read",
                         "reads",
@@ -213,7 +213,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They ___ every day. (A1-FB-12)",
+        "question_text":  "They ___ English every day. (A1-FB-12)",
         "choices":  [
                         "study",
                         "studys",
@@ -251,7 +251,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ every day. (A1-FB-14)",
+        "question_text":  "You ___ dinner every day. (A1-FB-14)",
         "choices":  [
                         "cook",
                         "cooks",
@@ -289,7 +289,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She ___ every day. (A1-FB-16)",
+        "question_text":  "She ___ soccer every day. (A1-FB-16)",
         "choices":  [
                         "play",
                         "plays",
@@ -327,7 +327,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They ___ every day. (A1-FB-18)",
+        "question_text":  "They ___ TV every day. (A1-FB-18)",
         "choices":  [
                         "watch",
                         "watchs",
@@ -365,7 +365,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ every day. (A1-FB-20)",
+        "question_text":  "You ___ books every day. (A1-FB-20)",
         "choices":  [
                         "read",
                         "reads",
@@ -1543,16 +1543,16 @@
         "cefr_level":  "A2",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You has lived here ___ 2020. (A2-FB-02)",
+        "question_text":  "You ___ lived here since 2020. (A2-FB-02)",
         "choices":  [
-                        "for",
-                        "since",
-                        "from",
-                        "during"
+                        "have",
+                        "has",
+                        "had",
+                        "having"
                     ],
-        "answer":  1,
-        "explanation_ja":  "起点を表すので since を使います。",
-        "key_phrase":  "穴埋め:since",
+        "answer":  0,
+        "explanation_ja":  "主語に合わせて have / has を使い分けます。",
+        "key_phrase":  "穴埋め:現在完了",
         "status":  "draft",
         "created_at":  "2026-02-22T10:22:00Z",
         "source":  "codex_pre_generated"
@@ -1619,16 +1619,16 @@
         "cefr_level":  "A2",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They has lived here ___ 2020. (A2-FB-06)",
+        "question_text":  "They ___ lived here since 2020. (A2-FB-06)",
         "choices":  [
-                        "for",
-                        "since",
-                        "from",
-                        "during"
+                        "have",
+                        "has",
+                        "had",
+                        "having"
                     ],
-        "answer":  1,
-        "explanation_ja":  "起点を表すので since を使います。",
-        "key_phrase":  "穴埋め:since",
+        "answer":  0,
+        "explanation_ja":  "主語に合わせて have / has を使い分けます。",
+        "key_phrase":  "穴埋め:現在完了",
         "status":  "draft",
         "created_at":  "2026-02-22T10:26:00Z",
         "source":  "codex_pre_generated"
@@ -1695,16 +1695,16 @@
         "cefr_level":  "A2",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She has lived here ___ 2020. (A2-FB-10)",
+        "question_text":  "She ___ lived here since 2020. (A2-FB-10)",
         "choices":  [
-                        "for",
-                        "since",
-                        "from",
-                        "during"
+                        "have",
+                        "has",
+                        "had",
+                        "having"
                     ],
         "answer":  1,
-        "explanation_ja":  "起点を表すので since を使います。",
-        "key_phrase":  "穴埋め:since",
+        "explanation_ja":  "主語に合わせて have / has を使い分けます。",
+        "key_phrase":  "穴埋め:現在完了",
         "status":  "draft",
         "created_at":  "2026-02-22T10:30:00Z",
         "source":  "codex_pre_generated"
@@ -1771,16 +1771,16 @@
         "cefr_level":  "A2",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You has lived here ___ 2020. (A2-FB-14)",
+        "question_text":  "You ___ lived here since 2020. (A2-FB-14)",
         "choices":  [
-                        "for",
-                        "since",
-                        "from",
-                        "during"
+                        "have",
+                        "has",
+                        "had",
+                        "having"
                     ],
-        "answer":  1,
-        "explanation_ja":  "起点を表すので since を使います。",
-        "key_phrase":  "穴埋め:since",
+        "answer":  0,
+        "explanation_ja":  "主語に合わせて have / has を使い分けます。",
+        "key_phrase":  "穴埋め:現在完了",
         "status":  "draft",
         "created_at":  "2026-02-22T10:34:00Z",
         "source":  "codex_pre_generated"
@@ -1847,16 +1847,16 @@
         "cefr_level":  "A2",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They has lived here ___ 2020. (A2-FB-18)",
+        "question_text":  "They ___ lived here since 2020. (A2-FB-18)",
         "choices":  [
-                        "for",
-                        "since",
-                        "from",
-                        "during"
+                        "have",
+                        "has",
+                        "had",
+                        "having"
                     ],
-        "answer":  1,
-        "explanation_ja":  "起点を表すので since を使います。",
-        "key_phrase":  "穴埋め:since",
+        "answer":  0,
+        "explanation_ja":  "主語に合わせて have / has を使い分けます。",
+        "key_phrase":  "穴埋め:現在完了",
         "status":  "draft",
         "created_at":  "2026-02-22T10:38:00Z",
         "source":  "codex_pre_generated"
