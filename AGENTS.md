@@ -1,23 +1,23 @@
 ﻿# 回答方針
 日本語で簡潔かつ丁寧に回答すること。
 
-# 固定ワークフロー: 誤答分析
+# 固定ワークフロー: 回答分析
 ユーザーが次の形式で依頼した場合、以下を必ず実行する。
 
 ## トリガー
-- `誤答分析: 最新`
-- `誤答分析: <JSONファイル名>`
+- `回答分析: 最新`
+- `回答分析: <JSONファイル名>`
 
 ## 実行手順
-1. `reports/wrong-history/` 配下のJSONを確認する。
-2. トリガーが `最新` の場合は、`tools/analyze-latest-wrong-history.ps1` を実行する。
-3. トリガーがファイル名指定の場合は、`tools/analyze-wrong-history.ps1 -WrongHistoryPath "reports/wrong-history/<JSONファイル名>"` を実行する。
-4. `reports/` 配下から最新の `weakness-report-*.md` を特定して読み込む（ファイル名の厳密一致に依存しない）。
+1. `reports/answer-history/` 配下のJSONを確認する。
+2. トリガーが `最新` の場合は、`tools/analyze-latest-answer-history.ps1` を実行する。
+3. トリガーがファイル名指定の場合は、`tools/analyze-answer-history.ps1 -AnswerHistoryPath "reports/answer-history/<JSONファイル名>"` を実行する。
+4. `reports/` 配下から最新の `answer-analysis-report-*.md` を特定して読み込む（ファイル名の厳密一致に依存しない）。
 5. レポート内容を以下の観点で要約して返す。
-- レベル別の誤答傾向
-- 問題タイプ別の誤答傾向
-- 優先復習すべき問題TOP
-- 直近の誤答傾向
+- レベル別の正答率/誤答率
+- 問題タイプ別の正答率/誤答率
+- 優先復習すべき問題
+- 直近の回答傾向
 6. 必要に応じて、次の学習アクションを3つ以内で提案する。
 
 ## 注意
@@ -28,7 +28,7 @@
 # 再発防止ルール
 ## 1. 変更前チェック（必須）
 1. `git status --short` で未追跡/未コミットを確認する。
-2. 既存の未追跡レポート（例: `reports/weakness-report-*.md`）をコミット対象から除外する方針を明示する。
+2. 既存の未追跡レポート（例: `reports/answer-analysis-report-*.md`）をコミット対象から除外する方針を明示する。
 3. 作業対象が `E:\project\english-learning-app` の場合、リポジトリを誤らない。
 
 ## 2. 編集ルール（必須）

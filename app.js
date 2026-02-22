@@ -218,6 +218,16 @@ function shuffleChoiceOrder(length) {
   return shuffled;
 }
 
+function sanitizeReasonText(text) {
+  const raw = String(text ?? "");
+  // Keep logs parse-safe across environments by removing control chars/newlines.
+  return raw
+    .replace(/[\u0000-\u001f\u007f]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 120);
+}
+
 function containsJapanese(text) {
   return /[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
 }
@@ -606,7 +616,7 @@ function submitAnswer() {
   const isCorrect = selected === p.answer;
   const selectedDisplayIndex = currentChoiceOrder.indexOf(selected);
   const selectedLetter = String.fromCharCode(65 + (selectedDisplayIndex >= 0 ? selectedDisplayIndex : selected));
-  const reasonText = reasonInputEl ? reasonInputEl.value.trim().slice(0, 120) : "";
+  const reasonText = reasonInputEl ? sanitizeReasonText(reasonInputEl.value) : "";
   const answeredAt = new Date().toISOString();
   appendAnswerHistory({
     problem_id: p.problem_id,
@@ -698,7 +708,7 @@ function exportWrongHistory() {
     Object.keys(payload.wrong_logs).length > 0 ||
     payload.answer_history.length > 0;
   if (!hasAnyData) {
-    statusEl.textContent = "エクスポート対象の誤答履歴がありません。";
+    statusEl.textContent = "エクスポート対象の回答履歴がありません。";
     return;
   }
 
@@ -708,12 +718,12 @@ function exportWrongHistory() {
   const a = document.createElement("a");
   const stamp = new Date().toISOString().replace(/[:]/g, "-");
   a.href = url;
-  a.download = `wrong-history-${stamp}.json`;
+  a.download = `answer-history-${stamp}.json`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
-  statusEl.textContent = "誤答履歴をJSONでエクスポートしました。";
+  statusEl.textContent = "回答履歴をJSONでエクスポートしました。";
 }
 
 startBtn.addEventListener("click", startSession);
@@ -723,4 +733,6 @@ exportWrongBtn.addEventListener("click", exportWrongHistory);
 levelSelect.addEventListener("change", updateWrongStockInfo);
 
 loadProblems();
+
+
 

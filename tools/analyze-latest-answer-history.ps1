@@ -1,5 +1,5 @@
 ﻿param(
-  [string]$UploadDir = "E:\project\english-learning-app\reports\wrong-history",
+  [string]$UploadDir = "E:\project\english-learning-app\reports\answer-history",
   [string]$ProblemPath = "E:\project\english-learning-app\data\problems\initial_problems.json",
   [string]$OutputDir = "E:\project\english-learning-app\reports"
 )
@@ -19,10 +19,10 @@ if (-not $latest) {
 }
 
 $base = [System.IO.Path]::GetFileNameWithoutExtension($latest.Name)
-$outputPath = Join-Path $OutputDir ("weakness-report-" + $base + ".md")
+$outputPath = Join-Path $OutputDir ("answer-analysis-report-" + $base + ".md")
 
-$scriptPath = "E:\project\english-learning-app\tools\analyze-wrong-history.ps1"
-& powershell -ExecutionPolicy Bypass -File $scriptPath -WrongHistoryPath $latest.FullName -ProblemPath $ProblemPath -OutputPath $outputPath
+$scriptPath = "E:\project\english-learning-app\tools\analyze-answer-history.ps1"
+& powershell -ExecutionPolicy Bypass -File $scriptPath -AnswerHistoryPath $latest.FullName -ProblemPath $ProblemPath -OutputPath $outputPath
 
 Write-Host "Analyzed file:" $latest.FullName
 Write-Host "Output report:" $outputPath

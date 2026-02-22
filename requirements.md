@@ -91,18 +91,18 @@ A1/A2学習者がB1到達を目指して、4択中心の反復学習を行える
 ## 6. 誤答履歴運用（GitHub手動アップロード方式）
 ### 6.1 エクスポート
 - UIボタン: `誤答履歴 エクスポート`
-- 出力: `wrong-history-<timestamp>.json`
+- 出力: `answer-history-<timestamp>.json`
 
 ### 6.2 アップロード先
-- `reports/wrong-history/`
+- `reports/answer-history/`
 - 補助ファイル:
-  - `reports/wrong-history/README.md`
-  - `reports/wrong-history/.gitkeep`
+  - `reports/answer-history/README.md`
+  - `reports/answer-history/.gitkeep`
 
 ### 6.3 分析スクリプト
-- 単体分析: `tools/analyze-wrong-history.ps1`
-- 最新自動選択: `tools/analyze-latest-wrong-history.ps1`
-- 出力レポート: `reports/weakness-report-<json名>.md`
+- 単体分析: `tools/analyze-answer-history.ps1`
+- 最新自動選択: `tools/analyze-latest-answer-history.ps1`
+- 出力レポート: `reports/answer-analysis-report-<json名>.md`
 
 ## 7. Codex実行ワークフロー（Skill風運用）
 - 定義ファイル: `AGENTS.md`
@@ -129,6 +129,7 @@ A1/A2学習者がB1到達を目指して、4択中心の反復学習を行える
 2. `tools/quality-check.ps1` で検証
 3. ローカル確認（`python -m http.server 8000`）
 4. 誤答履歴をエクスポート
-5. GitHubへ `reports/wrong-history/*.json` を手動アップロード
+5. GitHubへ `reports/answer-history/*.json` を手動アップロード
 6. `誤答分析: 最新` でCodex分析
 7. Gitコミット・push・Pages確認
+
