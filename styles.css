@@ -52,7 +52,7 @@ body {
 .controls {
   display: grid;
   gap: 10px;
-  grid-template-columns: 64px 1fr 64px 1fr 96px 132px 160px;
+  grid-template-columns: 64px 1fr 64px 1fr 110px 170px;
   align-items: center;
 }
 
