@@ -7,6 +7,7 @@ const levelSelect = document.getElementById("levelSelect");
 const modeSelect = document.getElementById("modeSelect");
 const startBtn = document.getElementById("startBtn");
 const clearWrongBtn = document.getElementById("clearWrongBtn");
+const exportWrongBtn = document.getElementById("exportWrongBtn");
 const wrongStockInfoEl = document.getElementById("wrongStockInfo");
 const statusEl = document.getElementById("status");
 const quizPanel = document.getElementById("quizPanel");
@@ -184,6 +185,18 @@ function shuffle(array) {
   return copied;
 }
 
+function shuffleChoiceOrder(length) {
+  const base = Array.from({ length }, (_, idx) => idx);
+  let shuffled = shuffle(base);
+  let retry = 0;
+  // 体感上の偏りを避けるため、同一順序が出た場合は数回だけ再シャッフルする
+  while (retry < 3 && shuffled.every((v, i) => v === i)) {
+    shuffled = shuffle(base);
+    retry += 1;
+  }
+  return shuffled;
+}
+
 function containsJapanese(text) {
   return /[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
 }
@@ -299,7 +312,7 @@ function renderCurrentProblem() {
   questionTextEl.textContent = p.question_text;
 
   choicesForm.innerHTML = "";
-  currentChoiceOrder = shuffle(p.choices.map((_, idx) => idx));
+  currentChoiceOrder = shuffleChoiceOrder(p.choices.length);
   currentChoiceOrder.forEach((originalIndex, renderedIndex) => {
     const choice = p.choices[originalIndex];
     const item = document.createElement("div");
@@ -429,10 +442,39 @@ function clearWrongStock() {
   statusEl.textContent = "誤答ストックと誤答ログを削除しました。";
 }
 
+function exportWrongHistory() {
+  const payload = {
+    exported_at: new Date().toISOString(),
+    app_version: "v1-localstorage-export",
+    wrong_problem_ids: [...wrongStock],
+    wrong_logs: wrongLogs
+  };
+
+  const hasAnyData = payload.wrong_problem_ids.length > 0 || Object.keys(payload.wrong_logs).length > 0;
+  if (!hasAnyData) {
+    statusEl.textContent = "エクスポート対象の誤答履歴がありません。";
+    return;
+  }
+
+  const json = JSON.stringify(payload, null, 2);
+  const blob = new Blob([json], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const stamp = new Date().toISOString().replace(/[:]/g, "-");
+  a.href = url;
+  a.download = `wrong-history-${stamp}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  statusEl.textContent = "誤答履歴をJSONでエクスポートしました。";
+}
+
 startBtn.addEventListener("click", startSession);
 submitBtn.addEventListener("click", submitAnswer);
 nextBtn.addEventListener("click", nextProblem);
 clearWrongBtn.addEventListener("click", clearWrongStock);
+exportWrongBtn.addEventListener("click", exportWrongHistory);
 levelSelect.addEventListener("change", updateWrongStockInfo);
 
 loadProblems();
