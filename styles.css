@@ -148,6 +148,26 @@ button:disabled {
   font-size: 0.95rem;
 }
 
+.translations {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background: #f8fcfb;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.translations p {
+  margin: 0 0 4px;
+  color: var(--muted);
+}
+
+.translations ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
 .hidden {
   display: none;
 }

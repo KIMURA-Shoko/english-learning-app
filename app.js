@@ -18,6 +18,7 @@ const submitBtn = document.getElementById("submitBtn");
 const nextBtn = document.getElementById("nextBtn");
 const resultEl = document.getElementById("result");
 const explanationEl = document.getElementById("explanation");
+const choiceTranslationsEl = document.getElementById("choiceTranslations");
 const wrongLogInfoEl = document.getElementById("wrongLogInfo");
 
 let allProblems = [];
@@ -25,6 +26,7 @@ let sessionProblems = [];
 let currentIndex = 0;
 let correctCount = 0;
 let answered = false;
+let currentChoiceOrder = [];
 let wrongStock = new Set();
 let wrongLogs = {};
 
@@ -182,6 +184,80 @@ function shuffle(array) {
   return copied;
 }
 
+function containsJapanese(text) {
+  return /[\u3040-\u30ff\u4e00-\u9fff]/.test(text);
+}
+
+function isEnglishChoiceText(text) {
+  if (!text || containsJapanese(text)) return false;
+  return /[A-Za-z]/.test(text);
+}
+
+function translateEnglishChoiceToJa(text) {
+  const directMap = new Map([
+    ["I am fine, thank you.", "元気です、ありがとうございます。"],
+    ["My name is Ken.", "私の名前はケンです。"],
+    ["Yes, I do.", "はい、好きです。"],
+    ["I live in Osaka.", "大阪に住んでいます。"],
+    ["Sure, I'll help after lunch.", "もちろん、昼食後に手伝います。"],
+    ["For about three years.", "約3年間です。"],
+    ["Because the bus was delayed.", "バスが遅れたからです。"],
+    ["Yes, unless everyone can join on time.", "はい、全員が時間どおり参加できる場合を除いてです。"],
+    ["It went well after I adjusted the slides.", "スライドを調整した後、うまくいきました。"],
+    ["The one with fewer support requests.", "サポート依頼が少ない方です。"]
+  ]);
+  if (directMap.has(text)) return directMap.get(text);
+
+  let t = text;
+  const phraseRules = [
+    [/^Read:\s*/i, "本文: "],
+    [/What is their next goal\?/i, "彼らの次の目標は何ですか。"],
+    [/Why did they postpone it\?/i, "なぜそれを延期したのですか。"],
+    [/How are you\?/i, "お元気ですか。"],
+    [/What is your name\?/i, "名前は何ですか。"],
+    [/Do you like cats\?/i, "猫は好きですか。"],
+    [/Where do you live\?/i, "どこに住んでいますか。"],
+    [/because/gi, "なぜなら"],
+    [/every day/gi, "毎日"],
+    [/at home/gi, "家で"],
+    [/yesterday/gi, "昨日"],
+    [/before/gi, "〜の前に"],
+    [/after/gi, "〜の後に"],
+    [/team/gi, "チーム"],
+    [/meeting/gi, "会議"],
+    [/report/gi, "レポート"],
+    [/proposal/gi, "提案書"],
+    [/client/gi, "顧客"],
+    [/library/gi, "図書館"],
+    [/soccer/gi, "サッカー"],
+    [/English/gi, "英語"]
+  ];
+  phraseRules.forEach(([re, rep]) => {
+    t = t.replace(re, rep);
+  });
+
+  return `（参考訳）${t}`;
+}
+
+function renderChoiceTranslations(problem) {
+  const allEnglish = problem.choices.every((c) => isEnglishChoiceText(String(c)));
+  if (!allEnglish) {
+    choiceTranslationsEl.classList.add("hidden");
+    choiceTranslationsEl.innerHTML = "";
+    return;
+  }
+
+  const rows = currentChoiceOrder.map((originalIndex, renderedIndex) => {
+    const letter = String.fromCharCode(65 + renderedIndex);
+    const en = String(problem.choices[originalIndex]);
+    const ja = translateEnglishChoiceToJa(en);
+    return `<li><strong>${letter}.</strong> ${ja}</li>`;
+  });
+
+  choiceTranslationsEl.innerHTML = `<p>選択肢の日本語訳</p><ul>${rows.join("")}</ul>`;
+  choiceTranslationsEl.classList.remove("hidden");
+}
+
 function startSession() {
   const level = levelSelect.value;
   const mode = modeSelect.value;
@@ -223,7 +299,9 @@ function renderCurrentProblem() {
   questionTextEl.textContent = p.question_text;
 
   choicesForm.innerHTML = "";
-  p.choices.forEach((choice, index) => {
+  currentChoiceOrder = shuffle(p.choices.map((_, idx) => idx));
+  currentChoiceOrder.forEach((originalIndex, renderedIndex) => {
+    const choice = p.choices[originalIndex];
     const item = document.createElement("div");
     item.className = "choice-item";
 
@@ -231,10 +309,11 @@ function renderCurrentProblem() {
     const input = document.createElement("input");
     input.type = "radio";
     input.name = "choice";
-    input.value = String(index);
+    // value は「元の選択肢インデックス」を保持し、採点の整合を保つ
+    input.value = String(originalIndex);
 
     const text = document.createElement("span");
-    text.textContent = `${String.fromCharCode(65 + index)}. ${choice}`;
+    text.textContent = `${String.fromCharCode(65 + renderedIndex)}. ${choice}`;
 
     label.appendChild(input);
     label.appendChild(text);
@@ -246,6 +325,8 @@ function renderCurrentProblem() {
   resultEl.textContent = "";
   explanationEl.classList.add("hidden");
   explanationEl.textContent = "";
+  choiceTranslationsEl.classList.add("hidden");
+  choiceTranslationsEl.innerHTML = "";
 
   const log = getProblemWrongLog(p.problem_id);
   if (log.wrong_count > 0) {
@@ -303,12 +384,15 @@ function submitAnswer() {
   scoreEl.textContent = `正答: ${correctCount}`;
   resultEl.classList.remove("hidden");
   resultEl.classList.add(isCorrect ? "ok" : "ng");
+  const correctDisplayIndex = currentChoiceOrder.indexOf(p.answer);
+  const correctLetter = String.fromCharCode(65 + (correctDisplayIndex >= 0 ? correctDisplayIndex : p.answer));
   resultEl.textContent = isCorrect
     ? "正解です。"
-    : `不正解です。正解は ${String.fromCharCode(65 + p.answer)} です。誤答ストックに追加しました。`;
+    : `不正解です。正解は ${correctLetter} です。誤答ストックに追加しました。`;
 
   explanationEl.classList.remove("hidden");
   explanationEl.textContent = `解説: ${p.explanation_ja}`;
+  renderChoiceTranslations(p);
 
   submitBtn.disabled = true;
   nextBtn.classList.remove("hidden");
@@ -326,6 +410,8 @@ function nextProblem() {
   resultEl.className = "result";
   resultEl.textContent = `最終スコア: ${correctCount} / ${sessionProblems.length}`;
   explanationEl.classList.add("hidden");
+  choiceTranslationsEl.classList.add("hidden");
+  choiceTranslationsEl.innerHTML = "";
   wrongLogInfoEl.classList.add("hidden");
   submitBtn.disabled = true;
   nextBtn.classList.add("hidden");
