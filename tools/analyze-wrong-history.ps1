@@ -40,13 +40,13 @@ if ($wrongObj -and $wrongObj.PSObject.Properties.Name -contains "wrong_logs") {
 
 $entries = New-Object System.Collections.Generic.List[object]
 foreach ($prop in $wrongLogs.PSObject.Properties) {
-  $pid = [string]$prop.Name
+  $problemId = [string]$prop.Name
   $log = $prop.Value
   $count = if ($null -ne $log.wrong_count) { [int]$log.wrong_count } else { 0 }
   if ($count -le 0) { continue }
 
   $problem = $null
-  if ($problemMap.ContainsKey($pid)) { $problem = $problemMap[$pid] }
+  if ($problemMap.ContainsKey($problemId)) { $problem = $problemMap[$problemId] }
 
   $level = if ($problem) { [string]$problem.cefr_level } else { "UNKNOWN" }
   $qtype = if ($problem -and $problem.PSObject.Properties.Name -contains "question_type") { [string]$problem.question_type } else { "UNKNOWN" }
@@ -54,7 +54,7 @@ foreach ($prop in $wrongLogs.PSObject.Properties) {
   $lastWrong = if ($log.PSObject.Properties.Name -contains "last_wrong_at") { [string]$log.last_wrong_at } else { "" }
 
   $entries.Add([pscustomobject]@{
-    problem_id = $pid
+    problem_id = $problemId
     wrong_count = $count
     last_wrong_at = $lastWrong
     cefr_level = $level
@@ -76,7 +76,7 @@ $recentWrong = $entries | Where-Object { $_.last_wrong_at } | Sort-Object last_w
 $lines = New-Object System.Collections.Generic.List[string]
 $lines.Add("# Weakness Report") | Out-Null
 $lines.Add("") | Out-Null
-$lines.Add("- Generated at: $(Get-Date -Format \"yyyy-MM-dd HH:mm:ss\")") | Out-Null
+$lines.Add("- Generated at: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')") | Out-Null
 $lines.Add("- Source wrong history: $WrongHistoryPath") | Out-Null
 $lines.Add("- Total wrong problems: $($entries.Count)") | Out-Null
 $lines.Add("- Total wrong count (sum): $totalWrongCount") | Out-Null
@@ -130,3 +130,5 @@ if (-not (Test-Path $outputDir)) {
 
 $lines -join "`r`n" | Set-Content -Encoding UTF8 $OutputPath
 Write-Host "Report written:" $OutputPath
+
+
