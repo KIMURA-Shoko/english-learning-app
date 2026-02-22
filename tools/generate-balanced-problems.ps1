@@ -9,6 +9,26 @@ $items = New-Object System.Collections.Generic.List[object]
 $createdBase = [datetime]::Parse("2026-02-22T00:00:00Z")
 $globalIndex = 0
 
+$script:WrestlerRefs = @(
+  "Okada","Ospreay","Naito","Tanahashi","Moxley",
+  "Reigns","Rollins","Cody","Iyo Sky","Asuka",
+  "Omega","Takeshita","MJF","Swerve","Rhea Ripley",
+  "Gunther","Zack Sabre Jr.","Shingo","Mayu","Giulia"
+)
+
+$script:EventRefs = @(
+  "Wrestle Kingdom","Royal Rumble","WrestleMania","AEW Revolution","G1 Climax",
+  "Forbidden Door","SummerSlam","Dominion","All Out","Survivor Series",
+  "NJPW Cup","Elimination Chamber","King and Queen of the Ring","Money in the Bank","Fastlane",
+  "Power Struggle","Full Gear","Backlash","New Beginning","Grand Slam"
+)
+
+function Get-UniqueContext {
+  param([int]$Index)
+  $i = $Index - 1
+  return "$($script:WrestlerRefs[$i]) / $($script:EventRefs[$i])"
+}
+
 function Get-SkillLetter([string]$skillType) {
   switch ($skillType) {
     "grammar" { return "G" }
@@ -191,11 +211,13 @@ function Generate-FillBlank {
 
   for ($i = 1; $i -le 20; $i++) {
     $seq = $SeqStart + $i - 1
+    $ctx = Get-UniqueContext -Index $i
+    $ctx = Get-UniqueContext -Index $i
     if ($Level -eq "A1") {
       $subjects = @("I","You","He","She","We","They")
       $sub = $subjects[($i - 1) % $subjects.Count]
       if ($i % 2 -eq 1) {
-        $q = "$sub ___ happy today. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+        $q = "$sub ___ happy today during the $ctx review. (" + $Level + "-FB-" + $i.ToString("00") + ")"
         $ans = if ($sub -in @("I")) {0} elseif ($sub -in @("He","She")) {1} else {2}
         Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("am","is","are","be") -Answer $ans -Explanation "主語に合うbe動詞を選びます。" -KeyPhrase "穴埋め:be動詞"
       } else {
@@ -209,7 +231,7 @@ function Generate-FillBlank {
         $vp = $verbPhrases[($i - 1) % $verbPhrases.Count]
         $v = [string]$vp[0]
         $obj = [string]$vp[1]
-        $q = "$sub ___ $obj every day. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+        $q = "$sub ___ $obj every day for $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
         $ans = if ($sub -in @("He","She")) {1} else {0}
         Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($v, "$($v)s", "$($v)ed", "$($v)ing") -Answer $ans -Explanation "現在形の主語と動詞の形を確認します。" -KeyPhrase ("穴埋め:現在形 (" + $v + ")")
       }
@@ -220,21 +242,21 @@ function Generate-FillBlank {
       $sub = $subjects[($i - 1) % $subjects.Count]
       switch (($i - 1) % 4) {
         0 {
-          $q = "$sub ___ to the arena yesterday. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "$sub ___ to the arena yesterday for $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           $base = "go"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($base, "goes", "went", "going") -Answer 2 -Explanation "yesterday があるので過去形を使います。" -KeyPhrase "穴埋め:過去形"
         }
         1 {
-          $q = "$sub ___ lived here since 2020. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "$sub ___ lived here since 2020 while following $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           $ans2 = if ($sub -in @("He","She")) {1} else {0}
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("have", "has", "had", "having") -Answer $ans2 -Explanation "主語に合わせて have / has を使い分けます。" -KeyPhrase "穴埋め:現在完了"
         }
         2 {
-          $q = "This match is ___ than that one. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "This match is ___ than that one in $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("interesting", "more interesting", "most interesting", "interest") -Answer 1 -Explanation "than がある比較級文です。" -KeyPhrase "穴埋め:比較級"
         }
         3 {
-          $q = "If it rains, we ___ at home. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "If it rains, we ___ at home and watch $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("stay", "stayed", "will stay", "staying") -Answer 2 -Explanation "条件文の主節で will を使います。" -KeyPhrase "穴埋め:if文"
         }
       }
@@ -243,19 +265,19 @@ function Generate-FillBlank {
     if ($Level -eq "B1") {
       switch (($i - 1) % 4) {
         0 {
-          $q = "By the time we arrived, the main event ___ already started. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "By the time we arrived, the main event ___ already started at $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("has", "had", "was", "is") -Answer 1 -Explanation "過去のある時点より前の出来事なので過去完了です。" -KeyPhrase "穴埋め:過去完了"
         }
         1 {
-          $q = "The match card ___ by the producer before noon. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "The match card ___ by the producer before noon for $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("completed", "was completed", "has completing", "is complete") -Answer 1 -Explanation "提案が完了される側なので受動態です。" -KeyPhrase "穴埋め:受動態"
         }
         2 {
-          $q = "She is looking for a role ___ allows creative booking. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "She is looking for a role ___ allows creative booking in $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("who", "where", "that", "what") -Answer 2 -Explanation "先行詞 job を修飾する関係代名詞です。" -KeyPhrase "穴埋め:関係代名詞"
         }
         3 {
-          $q = "If I ___ more experience, I would apply for that producer role. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "If I ___ more experience, I would apply for that producer role in $ctx. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("have", "had", "will have", "am having") -Answer 1 -Explanation "仮定法過去では if 節に過去形を使います。" -KeyPhrase "穴埋め:仮定法"
         }
       }
@@ -289,17 +311,18 @@ function Generate-ResponseChoice {
 
   for ($i = 1; $i -le 20; $i++) {
     $seq = $SeqStart + $i - 1
+    $ctx = Get-UniqueContext -Index $i
     if ($Level -eq "A1") {
       $p = $a1Prompts[($i - 1) % $a1Prompts.Count]
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "response_choice" -QuestionText ($p[0] + " (A1-RC-" + $i.ToString("00") + ")") -Choices $p[1] -Answer $p[2] -Explanation "質問の意図に合う自然な応答を選びます。" -KeyPhrase "応答選択:A1"
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "response_choice" -QuestionText ($p[0] + " (A1-RC-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $p[1] -Answer $p[2] -Explanation "質問の意図に合う自然な応答を選びます。" -KeyPhrase "応答選択:A1"
     }
     if ($Level -eq "A2") {
       $p = $a2Prompts[($i - 1) % $a2Prompts.Count]
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "response_choice" -QuestionText ($p[0] + " (A2-RC-" + $i.ToString("00") + ")") -Choices $p[1] -Answer $p[2] -Explanation "文脈に合う応答を選びます。" -KeyPhrase "応答選択:A2"
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "response_choice" -QuestionText ($p[0] + " (A2-RC-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $p[1] -Answer $p[2] -Explanation "文脈に合う応答を選びます。" -KeyPhrase "応答選択:A2"
     }
     if ($Level -eq "B1") {
       $p = $b1Prompts[($i - 1) % $b1Prompts.Count]
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "response_choice" -QuestionText ($p[0] + " (B1-RC-" + $i.ToString("00") + ")") -Choices $p[1] -Answer $p[2] -Explanation "条件や理由を含む自然な返答を判断します。" -KeyPhrase "応答選択:B1"
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "response_choice" -QuestionText ($p[0] + " (B1-RC-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $p[1] -Answer $p[2] -Explanation "条件や理由を含む自然な返答を判断します。" -KeyPhrase "応答選択:B1"
     }
   }
 }
@@ -348,20 +371,21 @@ function Generate-ShortReading {
 
   for ($i = 1; $i -le 20; $i++) {
     $seq = $SeqStart + $i - 1
+    $ctx = Get-UniqueContext -Index $i
 
     if ($Level -eq "A1") {
       $p = $a1ReadingSet[($i - 1) % $a1ReadingSet.Count]
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (A1-SR-" + $i.ToString("00") + ")") -Choices $p[1] -Answer 0 -Explanation "本文の手がかり（行動や状況）から場所を推測します。" -KeyPhrase "短文読解:A1"
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (A1-SR-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $p[1] -Answer 0 -Explanation "本文の手がかり（行動や状況）から場所を推測します。" -KeyPhrase "短文読解:A1"
     }
 
     if ($Level -eq "A2") {
       $p = $a2ReadingSet[($i - 1) % $a2ReadingSet.Count]
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (A2-SR-" + $i.ToString("00") + ")") -Choices $p[1] -Answer 0 -Explanation "本文の手がかりを読み取り、最も適切な行動を選びます。" -KeyPhrase "短文読解:A2"
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (A2-SR-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $p[1] -Answer 0 -Explanation "本文の手がかりを読み取り、最も適切な行動を選びます。" -KeyPhrase "短文読解:A2"
     }
 
     if ($Level -eq "B1") {
       $p = $b1ReadingSet[$i - 1]
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (B1-SR-" + $i.ToString("00") + ")") -Choices $p[1] -Answer 0 -Explanation "本文の要点を根拠に最適な選択肢を判断します。" -KeyPhrase "短文読解:B1"
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (B1-SR-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $p[1] -Answer 0 -Explanation "本文の要点を根拠に最適な選択肢を判断します。" -KeyPhrase "短文読解:B1"
     }
   }
 }
@@ -371,6 +395,7 @@ function Generate-SentenceBuild {
 
   for ($i = 1; $i -le 20; $i++) {
     $seq = $SeqStart + $i - 1
+    $ctx = Get-UniqueContext -Index $i
 
     if ($Level -eq "A1") {
       $pairs = @(
@@ -383,7 +408,7 @@ function Generate-SentenceBuild {
       $p = $pairs[($i - 1) % $pairs.Count]
       $correct = $p[1]
       $choices = @($correct, "I am up get at seven every morning.", "He like soccer.", "We goes to park Sunday.")
-      Add-Problem -Level $Level -Seq $seq -SkillType "vocabulary" -QuestionType "sentence_build" -QuestionText ("次の日本語に最も近い英文を選んでください: 「" + $p[0] + "」 (A1-SB-" + $i.ToString("00") + ")") -Choices $choices -Answer 0 -Explanation "語順と基本文型が自然な英文を選びます。" -KeyPhrase "短文英作:A1"
+      Add-Problem -Level $Level -Seq $seq -SkillType "vocabulary" -QuestionType "sentence_build" -QuestionText ("次の日本語に最も近い英文を選んでください: 「" + $p[0] + "」 (A1-SB-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $choices -Answer 0 -Explanation "語順と基本文型が自然な英文を選びます。" -KeyPhrase "短文英作:A1"
     }
 
     if ($Level -eq "A2") {
@@ -397,7 +422,7 @@ function Generate-SentenceBuild {
       $p = $pairs[($i - 1) % $pairs.Count]
       $correct = $p[1]
       $choices = @($correct, "I have finish read the book yesterday.", "If sunny, we go walking will.", "She living this town for three years.")
-      Add-Problem -Level $Level -Seq $seq -SkillType "vocabulary" -QuestionType "sentence_build" -QuestionText ("次の日本語に最も近い英文を選んでください: 「" + $p[0] + "」 (A2-SB-" + $i.ToString("00") + ")") -Choices $choices -Answer 0 -Explanation "時制と語順が正しい文を選びます。" -KeyPhrase "短文英作:A2"
+      Add-Problem -Level $Level -Seq $seq -SkillType "vocabulary" -QuestionType "sentence_build" -QuestionText ("次の日本語に最も近い英文を選んでください: 「" + $p[0] + "」 (A2-SB-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $choices -Answer 0 -Explanation "時制と語順が正しい文を選びます。" -KeyPhrase "短文英作:A2"
     }
 
     if ($Level -eq "B1") {
@@ -411,7 +436,7 @@ function Generate-SentenceBuild {
       $p = $pairs[($i - 1) % $pairs.Count]
       $correct = $p[1]
       $choices = @($correct, "I will finished proposal when meeting end.", "Project more time took than we expected had.", "She understand what client need really.")
-      Add-Problem -Level $Level -Seq $seq -SkillType "vocabulary" -QuestionType "sentence_build" -QuestionText ("次の日本語に最も近い英文を選んでください: 「" + $p[0] + "」 (B1-SB-" + $i.ToString("00") + ")") -Choices $choices -Answer 0 -Explanation "複文の構造と時制の整合を確認します。" -KeyPhrase "短文英作:B1"
+      Add-Problem -Level $Level -Seq $seq -SkillType "vocabulary" -QuestionType "sentence_build" -QuestionText ("次の日本語に最も近い英文を選んでください: 「" + $p[0] + "」 (B1-SB-" + $i.ToString("00") + ") [Context: " + $ctx + "]") -Choices $choices -Answer 0 -Explanation "複文の構造と時制の整合を確認します。" -KeyPhrase "短文英作:B1"
     }
   }
 }
@@ -430,4 +455,6 @@ foreach ($level in $levels) {
 
 $items | ConvertTo-Json -Depth 6 | Set-Content -Encoding UTF8 $OutPath
 Write-Host "Generated problems:" $items.Count
+
+
 
