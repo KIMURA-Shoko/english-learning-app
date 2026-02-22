@@ -1,392 +1,1082 @@
 ﻿[
-  {
-    "problem_id": "A1_G_0001",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "I ___ a student.",
-    "choices": ["am", "is", "are", "be"],
-    "answer": 0,
-    "explanation_ja": "主語がIなのでbe動詞はamを使います。",
-    "key_phrase": "be動詞 am",
-    "status": "draft",
-    "created_at": "2026-02-22T00:00:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_G_0002",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "She ___ in Tokyo.",
-    "choices": ["live", "lives", "living", "to live"],
-    "answer": 1,
-    "explanation_ja": "三人称単数の現在形なので動詞に-sが必要です。",
-    "key_phrase": "三人称単数現在",
-    "status": "draft",
-    "created_at": "2026-02-22T00:01:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_G_0003",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "We ___ soccer every Sunday.",
-    "choices": ["plays", "play", "played", "playing"],
-    "answer": 1,
-    "explanation_ja": "主語がweの一般動詞現在形は原形playです。",
-    "key_phrase": "一般動詞現在形",
-    "status": "draft",
-    "created_at": "2026-02-22T00:02:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_V_0004",
-    "cefr_level": "A1",
-    "skill_type": "vocabulary",
-    "question_text": "I eat ___ for breakfast.",
-    "choices": ["homework", "bread", "classroom", "library"],
-    "answer": 1,
-    "explanation_ja": "breakfastと自然に結びつく語はbreadです。",
-    "key_phrase": "食べ物語彙",
-    "status": "draft",
-    "created_at": "2026-02-22T00:03:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_G_0005",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "___ this your bag?",
-    "choices": ["Do", "Is", "Are", "Does"],
-    "answer": 1,
-    "explanation_ja": "主語thisは単数なのでbe動詞はIsです。",
-    "key_phrase": "be動詞疑問文",
-    "status": "draft",
-    "created_at": "2026-02-22T00:04:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_V_0006",
-    "cefr_level": "A1",
-    "skill_type": "vocabulary",
-    "question_text": "My father is a ___. He works at a hospital.",
-    "choices": ["teacher", "driver", "doctor", "farmer"],
-    "answer": 2,
-    "explanation_ja": "hospitalで働く職業としてdoctorが最も自然です。",
-    "key_phrase": "職業語彙",
-    "status": "draft",
-    "created_at": "2026-02-22T00:05:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_G_0007",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "They ___ not from Canada.",
-    "choices": ["is", "am", "are", "be"],
-    "answer": 2,
-    "explanation_ja": "主語theyなのでbe動詞はareです。",
-    "key_phrase": "be動詞 are",
-    "status": "draft",
-    "created_at": "2026-02-22T00:06:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_R_0008",
-    "cefr_level": "A1",
-    "skill_type": "reading",
-    "question_text": "Tom has two cats. He loves ___ very much.",
-    "choices": ["it", "them", "us", "her"],
-    "answer": 1,
-    "explanation_ja": "catsは複数なので代名詞はthemを使います。",
-    "key_phrase": "目的格代名詞",
-    "status": "draft",
-    "created_at": "2026-02-22T00:07:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_G_0009",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "I have English class ___ Monday.",
-    "choices": ["in", "at", "on", "to"],
-    "answer": 2,
-    "explanation_ja": "曜日の前置詞はonを使います。",
-    "key_phrase": "前置詞 on",
-    "status": "draft",
-    "created_at": "2026-02-22T00:08:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A1_G_0010",
-    "cefr_level": "A1",
-    "skill_type": "grammar",
-    "question_text": "Can you ___ the window, please?",
-    "choices": ["to open", "opening", "open", "opened"],
-    "answer": 2,
-    "explanation_ja": "助動詞canの後ろは動詞の原形openです。",
-    "key_phrase": "助動詞+動詞原形",
-    "status": "draft",
-    "created_at": "2026-02-22T00:09:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0101",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "I was tired, so I ___ to bed early last night.",
-    "choices": ["go", "goes", "went", "going"],
-    "answer": 2,
-    "explanation_ja": "last nightがあるので過去形wentが適切です。",
-    "key_phrase": "過去形",
-    "status": "draft",
-    "created_at": "2026-02-22T00:10:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0102",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "This book is ___ than that one.",
-    "choices": ["interesting", "more interesting", "most interesting", "interest"],
-    "answer": 1,
-    "explanation_ja": "thanがある比較級文なのでmore interestingを使います。",
-    "key_phrase": "比較級",
-    "status": "draft",
-    "created_at": "2026-02-22T00:11:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0103",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "She has lived here ___ 2019.",
-    "choices": ["for", "since", "during", "from"],
-    "answer": 1,
-    "explanation_ja": "起点を表すのでsince 2019が正しいです。",
-    "key_phrase": "sinceとfor",
-    "status": "draft",
-    "created_at": "2026-02-22T00:12:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_R_0104",
-    "cefr_level": "A2",
-    "skill_type": "reading",
-    "question_text": "Emma is looking for her keys, but she cannot find ___ anywhere.",
-    "choices": ["it", "them", "their", "its"],
-    "answer": 1,
-    "explanation_ja": "keysは複数なので目的格代名詞themを使います。",
-    "key_phrase": "複数代名詞",
-    "status": "draft",
-    "created_at": "2026-02-22T00:13:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0105",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "If it rains tomorrow, we ___ at home.",
-    "choices": ["stay", "stayed", "will stay", "staying"],
-    "answer": 2,
-    "explanation_ja": "if節が現在形なので主節はwill stayが自然です。",
-    "key_phrase": "条件文 if",
-    "status": "draft",
-    "created_at": "2026-02-22T00:14:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_V_0106",
-    "cefr_level": "A2",
-    "skill_type": "vocabulary",
-    "question_text": "Please ___ your shoes before entering the room.",
-    "choices": ["take off", "turn on", "look after", "put up"],
-    "answer": 0,
-    "explanation_ja": "部屋に入る前に靴を脱ぐはtake offが適切です。",
-    "key_phrase": "句動詞 take off",
-    "status": "draft",
-    "created_at": "2026-02-22T00:15:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0107",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "How long ___ you study English every day?",
-    "choices": ["do", "does", "are", "did"],
-    "answer": 0,
-    "explanation_ja": "主語youの現在時制の疑問文はdoを使います。",
-    "key_phrase": "疑問文 do",
-    "status": "draft",
-    "created_at": "2026-02-22T00:16:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0108",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "My brother is good ___ playing the guitar.",
-    "choices": ["to", "for", "at", "with"],
-    "answer": 2,
-    "explanation_ja": "be good at 〜ing の形を使います。",
-    "key_phrase": "be good at",
-    "status": "draft",
-    "created_at": "2026-02-22T00:17:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_R_0109",
-    "cefr_level": "A2",
-    "skill_type": "reading",
-    "question_text": "Nina missed the bus, ___ she took a taxi to work.",
-    "choices": ["but", "so", "because", "although"],
-    "answer": 1,
-    "explanation_ja": "前半が原因、後半が結果なのでsoが適切です。",
-    "key_phrase": "接続詞 so",
-    "status": "draft",
-    "created_at": "2026-02-22T00:18:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "A2_G_0110",
-    "cefr_level": "A2",
-    "skill_type": "grammar",
-    "question_text": "There ___ many people in the park yesterday.",
-    "choices": ["is", "are", "was", "were"],
-    "answer": 3,
-    "explanation_ja": "many peopleは複数、yesterdayで過去なのでwereです。",
-    "key_phrase": "there were",
-    "status": "draft",
-    "created_at": "2026-02-22T00:19:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_G_0201",
-    "cefr_level": "B1",
-    "skill_type": "grammar",
-    "question_text": "By the time we arrived at the station, the train ___ already left.",
-    "choices": ["has", "had", "was", "is"],
-    "answer": 1,
-    "explanation_ja": "到着より前の出来事なので過去完了had leftを作るhadが必要です。",
-    "key_phrase": "過去完了",
-    "status": "draft",
-    "created_at": "2026-02-22T00:20:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_G_0202",
-    "cefr_level": "B1",
-    "skill_type": "grammar",
-    "question_text": "The report ___ by Ms. Sato before the meeting started.",
-    "choices": ["completed", "was completed", "has completing", "is complete"],
-    "answer": 1,
-    "explanation_ja": "reportが完了される側なので受動態was completedが適切です。",
-    "key_phrase": "受動態",
-    "status": "draft",
-    "created_at": "2026-02-22T00:21:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_R_0203",
-    "cefr_level": "B1",
-    "skill_type": "reading",
-    "question_text": "I spoke to the manager ___ recommended the new training program.",
-    "choices": ["which", "whose", "who", "whom"],
-    "answer": 2,
-    "explanation_ja": "先行詞managerに対し主格の関係代名詞なのでwhoです。",
-    "key_phrase": "関係代名詞 who",
-    "status": "draft",
-    "created_at": "2026-02-22T00:22:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_G_0204",
-    "cefr_level": "B1",
-    "skill_type": "grammar",
-    "question_text": "If I ___ more time, I would join the volunteer project.",
-    "choices": ["have", "had", "will have", "am having"],
-    "answer": 1,
-    "explanation_ja": "仮定法過去の形なのでif節はhadを使います。",
-    "key_phrase": "仮定法過去",
-    "status": "draft",
-    "created_at": "2026-02-22T00:23:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_V_0205",
-    "cefr_level": "B1",
-    "skill_type": "vocabulary",
-    "question_text": "We need to ___ a decision before Friday so the team can start working.",
-    "choices": ["do", "make", "create", "build"],
-    "answer": 1,
-    "explanation_ja": "decisionとよく結びつく動詞はmakeです。",
-    "key_phrase": "コロケーション make a decision",
-    "status": "draft",
-    "created_at": "2026-02-22T00:24:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_G_0206",
-    "cefr_level": "B1",
-    "skill_type": "grammar",
-    "question_text": "She is interested in jobs ___ allow her to work remotely.",
-    "choices": ["who", "where", "that", "what"],
-    "answer": 2,
-    "explanation_ja": "先行詞jobsを修飾する関係代名詞としてthatが使えます。",
-    "key_phrase": "関係代名詞 that",
-    "status": "draft",
-    "created_at": "2026-02-22T00:25:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_R_0207",
-    "cefr_level": "B1",
-    "skill_type": "reading",
-    "question_text": "The event was canceled ___ the weather forecast predicted heavy rain.",
-    "choices": ["despite", "because", "unless", "however"],
-    "answer": 1,
-    "explanation_ja": "理由を導くのでbecauseが適切です。",
-    "key_phrase": "理由の接続詞",
-    "status": "draft",
-    "created_at": "2026-02-22T00:26:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_G_0208",
-    "cefr_level": "B1",
-    "skill_type": "grammar",
-    "question_text": "He apologized for ___ late to the client meeting.",
-    "choices": ["be", "being", "to be", "been"],
-    "answer": 1,
-    "explanation_ja": "forの後ろは動名詞が必要なのでbeingが正解です。",
-    "key_phrase": "前置詞+動名詞",
-    "status": "draft",
-    "created_at": "2026-02-22T00:27:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_G_0209",
-    "cefr_level": "B1",
-    "skill_type": "grammar",
-    "question_text": "This is the first time I ___ a presentation in English.",
-    "choices": ["give", "gave", "have given", "am giving"],
-    "answer": 2,
-    "explanation_ja": "This is the first timeの後は現在完了が自然です。",
-    "key_phrase": "現在完了",
-    "status": "draft",
-    "created_at": "2026-02-22T00:28:00Z",
-    "source": "codex_pre_generated"
-  },
-  {
-    "problem_id": "B1_V_0210",
-    "cefr_level": "B1",
-    "skill_type": "vocabulary",
-    "question_text": "Could you ___ the lights when you leave the office?",
-    "choices": ["turn off", "put out", "take down", "go off"],
-    "answer": 0,
-    "explanation_ja": "電気を消すはturn offが一般的です。",
-    "key_phrase": "句動詞 turn off",
-    "status": "draft",
-    "created_at": "2026-02-22T00:29:00Z",
-    "source": "codex_pre_generated"
-  }
+    {
+        "problem_id":  "A1_G_0001",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "I ___ a student.",
+        "choices":  [
+                        "am",
+                        "is",
+                        "are",
+                        "be"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "主語がIなのでbe動詞はamを使います。",
+        "key_phrase":  "be動詞 am",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:00:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0002",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "She ___ in Tokyo.",
+        "choices":  [
+                        "live",
+                        "lives",
+                        "living",
+                        "to live"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "三人称単数の現在形なので動詞に-sが必要です。",
+        "key_phrase":  "三人称単数現在",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:01:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0003",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "We ___ soccer every Sunday.",
+        "choices":  [
+                        "plays",
+                        "play",
+                        "played",
+                        "playing"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語がweの一般動詞現在形は原形playです。",
+        "key_phrase":  "一般動詞現在形",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:02:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0004",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "I eat ___ for breakfast.",
+        "choices":  [
+                        "homework",
+                        "bread",
+                        "classroom",
+                        "library"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "breakfastと自然に結びつく語はbreadです。",
+        "key_phrase":  "食べ物語彙",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:03:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0005",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "___ this your bag?",
+        "choices":  [
+                        "Do",
+                        "Is",
+                        "Are",
+                        "Does"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語thisは単数なのでbe動詞はIsです。",
+        "key_phrase":  "be動詞疑問文",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:04:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0006",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "My father is a ___. He works at a hospital.",
+        "choices":  [
+                        "teacher",
+                        "driver",
+                        "doctor",
+                        "farmer"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "hospitalで働く職業としてdoctorが最も自然です。",
+        "key_phrase":  "職業語彙",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:05:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0007",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "They ___ not from Canada.",
+        "choices":  [
+                        "is",
+                        "am",
+                        "are",
+                        "be"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "主語theyなのでbe動詞はareです。",
+        "key_phrase":  "be動詞 are",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:06:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_R_0008",
+        "cefr_level":  "A1",
+        "skill_type":  "reading",
+        "question_text":  "Tom has two cats. He loves ___ very much.",
+        "choices":  [
+                        "it",
+                        "them",
+                        "us",
+                        "her"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "catsは複数なので代名詞はthemを使います。",
+        "key_phrase":  "目的格代名詞",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:07:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0009",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "I have English class ___ Monday.",
+        "choices":  [
+                        "in",
+                        "at",
+                        "on",
+                        "to"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "曜日の前置詞はonを使います。",
+        "key_phrase":  "前置詞 on",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:08:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0010",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "Can you ___ the window, please?",
+        "choices":  [
+                        "to open",
+                        "opening",
+                        "open",
+                        "opened"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "助動詞canの後ろは動詞の原形openです。",
+        "key_phrase":  "助動詞+動詞原形",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:09:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0101",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "I was tired, so I ___ to bed early last night.",
+        "choices":  [
+                        "go",
+                        "goes",
+                        "went",
+                        "going"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "last nightがあるので過去形wentが適切です。",
+        "key_phrase":  "過去形",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:10:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0102",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "This book is ___ than that one.",
+        "choices":  [
+                        "interesting",
+                        "more interesting",
+                        "most interesting",
+                        "interest"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "thanがある比較級文なのでmore interestingを使います。",
+        "key_phrase":  "比較級",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:11:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0103",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "She has lived here ___ 2019.",
+        "choices":  [
+                        "for",
+                        "since",
+                        "during",
+                        "from"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "起点を表すのでsince 2019が正しいです。",
+        "key_phrase":  "sinceとfor",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:12:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_R_0104",
+        "cefr_level":  "A2",
+        "skill_type":  "reading",
+        "question_text":  "Emma is looking for her keys, but she cannot find ___ anywhere.",
+        "choices":  [
+                        "it",
+                        "them",
+                        "their",
+                        "its"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "keysは複数なので目的格代名詞themを使います。",
+        "key_phrase":  "複数代名詞",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:13:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0105",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "If it rains tomorrow, we ___ at home.",
+        "choices":  [
+                        "stay",
+                        "stayed",
+                        "will stay",
+                        "staying"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "if節が現在形なので主節はwill stayが自然です。",
+        "key_phrase":  "条件文 if",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:14:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_V_0106",
+        "cefr_level":  "A2",
+        "skill_type":  "vocabulary",
+        "question_text":  "Please ___ your shoes before entering the room.",
+        "choices":  [
+                        "take off",
+                        "turn on",
+                        "look after",
+                        "put up"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "部屋に入る前に靴を脱ぐはtake offが適切です。",
+        "key_phrase":  "句動詞 take off",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:15:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0107",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "How long ___ you study English every day?",
+        "choices":  [
+                        "do",
+                        "does",
+                        "are",
+                        "did"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "主語youの現在時制の疑問文はdoを使います。",
+        "key_phrase":  "疑問文 do",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:16:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0108",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "My brother is good ___ playing the guitar.",
+        "choices":  [
+                        "to",
+                        "for",
+                        "at",
+                        "with"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "be good at 〜ing の形を使います。",
+        "key_phrase":  "be good at",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:17:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_R_0109",
+        "cefr_level":  "A2",
+        "skill_type":  "reading",
+        "question_text":  "Nina missed the bus, ___ she took a taxi to work.",
+        "choices":  [
+                        "but",
+                        "so",
+                        "because",
+                        "although"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "前半が原因、後半が結果なのでsoが適切です。",
+        "key_phrase":  "接続詞 so",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:18:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A2_G_0110",
+        "cefr_level":  "A2",
+        "skill_type":  "grammar",
+        "question_text":  "There ___ many people in the park yesterday.",
+        "choices":  [
+                        "is",
+                        "are",
+                        "was",
+                        "were"
+                    ],
+        "answer":  3,
+        "explanation_ja":  "many peopleは複数、yesterdayで過去なのでwereです。",
+        "key_phrase":  "there were",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:19:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_G_0201",
+        "cefr_level":  "B1",
+        "skill_type":  "grammar",
+        "question_text":  "By the time we arrived at the station, the train ___ already left.",
+        "choices":  [
+                        "has",
+                        "had",
+                        "was",
+                        "is"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "到着より前の出来事なので過去完了had leftを作るhadが必要です。",
+        "key_phrase":  "過去完了",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:20:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_G_0202",
+        "cefr_level":  "B1",
+        "skill_type":  "grammar",
+        "question_text":  "The report ___ by Ms. Sato before the meeting started.",
+        "choices":  [
+                        "completed",
+                        "was completed",
+                        "has completing",
+                        "is complete"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "reportが完了される側なので受動態was completedが適切です。",
+        "key_phrase":  "受動態",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:21:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_R_0203",
+        "cefr_level":  "B1",
+        "skill_type":  "reading",
+        "question_text":  "I spoke to the manager ___ recommended the new training program.",
+        "choices":  [
+                        "which",
+                        "whose",
+                        "who",
+                        "whom"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "先行詞managerに対し主格の関係代名詞なのでwhoです。",
+        "key_phrase":  "関係代名詞 who",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:22:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_G_0204",
+        "cefr_level":  "B1",
+        "skill_type":  "grammar",
+        "question_text":  "If I ___ more time, I would join the volunteer project.",
+        "choices":  [
+                        "have",
+                        "had",
+                        "will have",
+                        "am having"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "仮定法過去の形なのでif節はhadを使います。",
+        "key_phrase":  "仮定法過去",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:23:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_V_0205",
+        "cefr_level":  "B1",
+        "skill_type":  "vocabulary",
+        "question_text":  "We need to ___ a decision before Friday so the team can start working.",
+        "choices":  [
+                        "do",
+                        "make",
+                        "create",
+                        "build"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "decisionとよく結びつく動詞はmakeです。",
+        "key_phrase":  "コロケーション make a decision",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:24:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_G_0206",
+        "cefr_level":  "B1",
+        "skill_type":  "grammar",
+        "question_text":  "She is interested in jobs ___ allow her to work remotely.",
+        "choices":  [
+                        "who",
+                        "where",
+                        "that",
+                        "what"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "先行詞jobsを修飾する関係代名詞としてthatが使えます。",
+        "key_phrase":  "関係代名詞 that",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:25:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_R_0207",
+        "cefr_level":  "B1",
+        "skill_type":  "reading",
+        "question_text":  "The event was canceled ___ the weather forecast predicted heavy rain.",
+        "choices":  [
+                        "despite",
+                        "because",
+                        "unless",
+                        "however"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "理由を導くのでbecauseが適切です。",
+        "key_phrase":  "理由の接続詞",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:26:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_G_0208",
+        "cefr_level":  "B1",
+        "skill_type":  "grammar",
+        "question_text":  "He apologized for ___ late to the client meeting.",
+        "choices":  [
+                        "be",
+                        "being",
+                        "to be",
+                        "been"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "forの後ろは動名詞が必要なのでbeingが正解です。",
+        "key_phrase":  "前置詞+動名詞",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:27:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_G_0209",
+        "cefr_level":  "B1",
+        "skill_type":  "grammar",
+        "question_text":  "This is the first time I ___ a presentation in English.",
+        "choices":  [
+                        "give",
+                        "gave",
+                        "have given",
+                        "am giving"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "This is the first timeの後は現在完了が自然です。",
+        "key_phrase":  "現在完了",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:28:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "B1_V_0210",
+        "cefr_level":  "B1",
+        "skill_type":  "vocabulary",
+        "question_text":  "Could you ___ the lights when you leave the office?",
+        "choices":  [
+                        "turn off",
+                        "put out",
+                        "take down",
+                        "go off"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "電気を消すはturn offが一般的です。",
+        "key_phrase":  "句動詞 turn off",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:29:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0011",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "He ___ my brother.",
+        "choices":  [
+                        "are",
+                        "is",
+                        "am",
+                        "be"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語Heなのでbe動詞はisです。",
+        "key_phrase":  "be動詞 is",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:30:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0012",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "I ___ coffee in the morning.",
+        "choices":  [
+                        "drink",
+                        "drinks",
+                        "drank",
+                        "drinking"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "主語Iの現在形は動詞原形drinkです。",
+        "key_phrase":  "一般動詞現在形",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:31:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0013",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "___ you from Japan?",
+        "choices":  [
+                        "Is",
+                        "Am",
+                        "Are",
+                        "Do"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "主語youのbe動詞疑問文はAre you ...?です。",
+        "key_phrase":  "be動詞疑問文",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:32:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0014",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "Please sit on the ___.",
+        "choices":  [
+                        "chair",
+                        "cloud",
+                        "river",
+                        "phone"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "sit on と自然に組み合わさるのはchairです。",
+        "key_phrase":  "日常語彙",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:33:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0015",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "They ___ TV after dinner.",
+        "choices":  [
+                        "watches",
+                        "watch",
+                        "watched",
+                        "watching"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語Theyの現在形はwatchです。",
+        "key_phrase":  "主語と動詞",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:34:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_R_0016",
+        "cefr_level":  "A1",
+        "skill_type":  "reading",
+        "question_text":  "Mika has a dog. ___ name is Pochi.",
+        "choices":  [
+                        "He",
+                        "She",
+                        "Its",
+                        "Their"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "dogを受ける所有格はItsです。",
+        "key_phrase":  "所有格 its",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:35:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0017",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "We go to school ___ bus.",
+        "choices":  [
+                        "in",
+                        "on",
+                        "by",
+                        "at"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "交通手段はby busを使います。",
+        "key_phrase":  "by + 交通手段",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:36:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0018",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "My mother can ___ very well.",
+        "choices":  [
+                        "cook",
+                        "book",
+                        "park",
+                        "desk"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "canの後ろは動詞原形で、意味的にもcookが適切です。",
+        "key_phrase":  "動詞語彙",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:37:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0019",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "This ___ my notebook.",
+        "choices":  [
+                        "are",
+                        "is",
+                        "am",
+                        "do"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語Thisは単数なのでisを使います。",
+        "key_phrase":  "this is",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:38:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0020",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "Do you ___ English every day?",
+        "choices":  [
+                        "study",
+                        "studies",
+                        "studied",
+                        "studying"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "Do疑問文の動詞は原形studyです。",
+        "key_phrase":  "Do疑問文",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:39:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_R_0021",
+        "cefr_level":  "A1",
+        "skill_type":  "reading",
+        "question_text":  "Ken and I are friends. ___ play soccer together.",
+        "choices":  [
+                        "He",
+                        "She",
+                        "We",
+                        "It"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "Ken and Iを受ける主語はWeです。",
+        "key_phrase":  "代名詞 we",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:40:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0022",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "She ___ not busy today.",
+        "choices":  [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "主語Sheなのでis notが正しいです。",
+        "key_phrase":  "be動詞否定",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:41:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0023",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "I have two ___.",
+        "choices":  [
+                        "brothers",
+                        "water",
+                        "music",
+                        "snow"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "twoの後ろは可算名詞複数形が自然でbrothersが適切です。",
+        "key_phrase":  "複数名詞",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:42:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0024",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "Open your book ___ page ten.",
+        "choices":  [
+                        "in",
+                        "at",
+                        "on",
+                        "to"
+                    ],
+        "answer":  3,
+        "explanation_ja":  "ページを開く表現はopen ... to page tenです。",
+        "key_phrase":  "前置詞 to",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:43:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0025",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "My sister ___ a new bike.",
+        "choices":  [
+                        "have",
+                        "has",
+                        "had",
+                        "having"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語My sisterは三人称単数なのでhasです。",
+        "key_phrase":  "have/has",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:44:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_R_0026",
+        "cefr_level":  "A1",
+        "skill_type":  "reading",
+        "question_text":  "It is rainy. Please take ___ umbrella.",
+        "choices":  [
+                        "you",
+                        "your",
+                        "yours",
+                        "yourself"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "umbrellaを修飾する所有格はyourです。",
+        "key_phrase":  "所有格 your",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:45:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0027",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "___ your father a teacher?",
+        "choices":  [
+                        "Do",
+                        "Is",
+                        "Are",
+                        "Does"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "your fatherは単数なのでIsを使います。",
+        "key_phrase":  "be動詞疑問文",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:46:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0028",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "The opposite of \u0027small\u0027 is ___.",
+        "choices":  [
+                        "short",
+                        "big",
+                        "young",
+                        "cold"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "smallの反対語はbigです。",
+        "key_phrase":  "反対語",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:47:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0029",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "We ___ lunch at noon.",
+        "choices":  [
+                        "has",
+                        "have",
+                        "had",
+                        "having"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語Weなのでhave lunchが正しいです。",
+        "key_phrase":  "have lunch",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:48:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0030",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "Can I ___ your pen?",
+        "choices":  [
+                        "to use",
+                        "use",
+                        "used",
+                        "using"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "助動詞Canの後は動詞原形useです。",
+        "key_phrase":  "can + 動詞原形",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:49:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_R_0031",
+        "cefr_level":  "A1",
+        "skill_type":  "reading",
+        "question_text":  "I like apples, but my brother likes ___.",
+        "choices":  [
+                        "banana",
+                        "bananas",
+                        "a bananas",
+                        "the banana"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "likesの目的語として一般的な複数名詞bananasが自然です。",
+        "key_phrase":  "名詞の数",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:50:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0032",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "There ___ a book on the desk.",
+        "choices":  [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "a bookは単数なのでThere isが正しいです。",
+        "key_phrase":  "there is",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:51:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0033",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "I go to bed at ten ___ night.",
+        "choices":  [
+                        "in",
+                        "on",
+                        "at",
+                        "for"
+                    ],
+        "answer":  2,
+        "explanation_ja":  "at night の形を使うので at が正しいです。",
+        "key_phrase":  "at night",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:52:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0034",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "My friends ___ kind.",
+        "choices":  [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "friendsは複数なのでareです。",
+        "key_phrase":  "be動詞 are",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:53:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0035",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "He ___ to school at 8:00.",
+        "choices":  [
+                        "go",
+                        "goes",
+                        "going",
+                        "went"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "三人称単数現在なのでgoesです。",
+        "key_phrase":  "三単現",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:54:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_R_0036",
+        "cefr_level":  "A1",
+        "skill_type":  "reading",
+        "question_text":  "A: Is this your pen? B: Yes, it is ___.",
+        "choices":  [
+                        "my",
+                        "mine",
+                        "me",
+                        "I"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "所有代名詞はmineを使います。",
+        "key_phrase":  "所有代名詞 mine",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:55:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0037",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "What ___ your name?",
+        "choices":  [
+                        "are",
+                        "is",
+                        "am",
+                        "do"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "your nameは単数なのでisです。",
+        "key_phrase":  "What is ...?",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:56:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0038",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "I can see many stars in the ___.",
+        "choices":  [
+                        "kitchen",
+                        "sky",
+                        "desk",
+                        "shoe"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "starsが見える場所はskyが自然です。",
+        "key_phrase":  "自然語彙",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:57:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_G_0039",
+        "cefr_level":  "A1",
+        "skill_type":  "grammar",
+        "question_text":  "We ___ not late for class.",
+        "choices":  [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+        "answer":  1,
+        "explanation_ja":  "主語Weなのでare notです。",
+        "key_phrase":  "be動詞否定",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:58:00Z",
+        "source":  "codex_pre_generated"
+    },
+    {
+        "problem_id":  "A1_V_0040",
+        "cefr_level":  "A1",
+        "skill_type":  "vocabulary",
+        "question_text":  "Please close the ___. It is cold.",
+        "choices":  [
+                        "window",
+                        "apple",
+                        "bag",
+                        "paper"
+                    ],
+        "answer":  0,
+        "explanation_ja":  "寒いので閉める対象としてwindowが自然です。",
+        "key_phrase":  "日常語彙",
+        "status":  "draft",
+        "created_at":  "2026-02-22T00:59:00Z",
+        "source":  "codex_pre_generated"
+    }
 ]
