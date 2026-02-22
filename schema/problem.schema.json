@@ -1,0 +1,129 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/problem.schema.json",
+  "title": "CEFR Problem",
+  "description": "A1/A2/B1向け事前生成問題データ（1問）",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "problem_id",
+    "cefr_level",
+    "skill_type",
+    "question_text",
+    "choices",
+    "answer",
+    "explanation_ja",
+    "key_phrase",
+    "status",
+    "created_at"
+  ],
+  "properties": {
+    "problem_id": {
+      "type": "string",
+      "description": "問題ID。例: A1_G_0001",
+      "pattern": "^(A1|A2|B1)_[GRV]_[0-9]{4}$"
+    },
+    "cefr_level": {
+      "type": "string",
+      "enum": ["A1", "A2", "B1"]
+    },
+    "skill_type": {
+      "type": "string",
+      "enum": ["grammar", "reading", "vocabulary"]
+    },
+    "question_text": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 500
+    },
+    "choices": {
+      "type": "array",
+      "description": "4択の選択肢。重複不可。",
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 200
+      }
+    },
+    "answer": {
+      "type": "integer",
+      "description": "正答のインデックス（0-3）",
+      "minimum": 0,
+      "maximum": 3
+    },
+    "explanation_ja": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 1200
+    },
+    "key_phrase": {
+      "type": "string",
+      "description": "この問題で押さえる語句・文法ポイント",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published"]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string",
+      "description": "問題作成元の識別子",
+      "default": "codex_pre_generated"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "cefr_level": { "const": "A1" }
+        },
+        "required": ["cefr_level"]
+      },
+      "then": {
+        "properties": {
+          "question_text": {
+            "maxLength": 180
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "cefr_level": { "const": "A2" }
+        },
+        "required": ["cefr_level"]
+      },
+      "then": {
+        "properties": {
+          "question_text": {
+            "maxLength": 260
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "cefr_level": { "const": "B1" }
+        },
+        "required": ["cefr_level"]
+      },
+      "then": {
+        "properties": {
+          "question_text": {
+            "maxLength": 360
+          }
+        }
+      }
+    }
+  ]
+}

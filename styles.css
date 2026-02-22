@@ -1,0 +1,163 @@
+﻿:root {
+  --bg1: #f6f9ff;
+  --bg2: #eaf4f2;
+  --card: #ffffff;
+  --ink: #1e2a39;
+  --muted: #5a6a7f;
+  --accent: #0f8b8d;
+  --accent-2: #136f63;
+  --ok: #1f9d55;
+  --ng: #d64545;
+  --border: #d7e3ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "BIZ UDPGothic", "Yu Gothic UI", "Hiragino Kaku Gothic ProN", sans-serif;
+  color: var(--ink);
+  background: radial-gradient(circle at 10% 20%, var(--bg1), var(--bg2));
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+.hero p {
+  margin: 8px 0 20px;
+  color: var(--muted);
+}
+
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 12px 30px rgba(20, 40, 80, 0.07);
+  margin-bottom: 14px;
+}
+
+.controls {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 64px 1fr 64px 1fr 110px 150px;
+  align-items: center;
+}
+
+select,
+button {
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+button {
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.status {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+}
+
+.stock {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+}
+
+.meta {
+  display: flex;
+  gap: 10px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+#questionText {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.choices {
+  display: grid;
+  gap: 8px;
+}
+
+.choice-item {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.choice-item label {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.result {
+  margin-top: 14px;
+  font-weight: 700;
+}
+
+.result.ok {
+  color: var(--ok);
+}
+
+.result.ng {
+  color: var(--ng);
+}
+
+.explanation {
+  margin: 8px 0 0;
+  line-height: 1.6;
+}
+
+.log {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 1.65rem;
+  }
+}
