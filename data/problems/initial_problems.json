@@ -1004,21 +1004,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Tom goes to the park after school. What place does Tom go to? (A1-SR-01)",
+        "question_text":  "Read: Tom goes there after school to use a slide and a swing. Where does Tom go? (A1-SR-01)",
         "choices":  [
                         "park",
-                        "hospital",
+                        "library",
                         "bank",
                         "museum"
                     ],
         "choices_ja":  [
                            "公園",
-                           "病院",
+                           "図書館",
                            "銀行",
                            "博物館"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:41:00Z",
@@ -1029,21 +1029,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Mika goes to the library after school. What place does Mika go to? (A1-SR-02)",
+        "question_text":  "Read: Mika borrows picture books there every Saturday. Where does Mika go? (A1-SR-02)",
         "choices":  [
                         "library",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "school",
+                        "station",
+                        "store"
                     ],
         "choices_ja":  [
                            "図書館",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "学校",
+                           "駅",
+                           "店"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:42:00Z",
@@ -1054,21 +1054,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ken goes to the school after school. What place does Ken go to? (A1-SR-03)",
+        "question_text":  "Read: Ken studies in classrooms and meets his teacher there every weekday. Where does Ken go? (A1-SR-03)",
         "choices":  [
                         "school",
                         "hospital",
-                        "bank",
-                        "museum"
+                        "park",
+                        "bank"
                     ],
         "choices_ja":  [
                            "学校",
                            "病院",
-                           "銀行",
-                           "博物館"
+                           "公園",
+                           "銀行"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:43:00Z",
@@ -1079,21 +1079,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Sara goes to the store after school. What place does Sara go to? (A1-SR-04)",
+        "question_text":  "Read: Sara buys fruit and milk there on her way home. Where does Sara go? (A1-SR-04)",
         "choices":  [
                         "store",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "library",
+                        "museum",
+                        "station"
                     ],
         "choices_ja":  [
                            "店",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "図書館",
+                           "博物館",
+                           "駅"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:44:00Z",
@@ -1104,21 +1104,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Yui goes to the station after school. What place does Yui go to? (A1-SR-05)",
+        "question_text":  "Read: Yui waits for the train there in the morning. Where does Yui go? (A1-SR-05)",
         "choices":  [
                         "station",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "store",
+                        "school",
+                        "park"
                     ],
         "choices_ja":  [
                            "駅",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "店",
+                           "学校",
+                           "公園"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:45:00Z",
@@ -1129,21 +1129,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Tom goes to the park after school. What place does Tom go to? (A1-SR-06)",
+        "question_text":  "Read: Tom goes there after school to use a slide and a swing. Where does Tom go? (A1-SR-06)",
         "choices":  [
                         "park",
-                        "hospital",
+                        "library",
                         "bank",
                         "museum"
                     ],
         "choices_ja":  [
                            "公園",
-                           "病院",
+                           "図書館",
                            "銀行",
                            "博物館"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:46:00Z",
@@ -1154,21 +1154,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Mika goes to the library after school. What place does Mika go to? (A1-SR-07)",
+        "question_text":  "Read: Mika borrows picture books there every Saturday. Where does Mika go? (A1-SR-07)",
         "choices":  [
                         "library",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "school",
+                        "station",
+                        "store"
                     ],
         "choices_ja":  [
                            "図書館",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "学校",
+                           "駅",
+                           "店"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:47:00Z",
@@ -1179,21 +1179,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ken goes to the school after school. What place does Ken go to? (A1-SR-08)",
+        "question_text":  "Read: Ken studies in classrooms and meets his teacher there every weekday. Where does Ken go? (A1-SR-08)",
         "choices":  [
                         "school",
                         "hospital",
-                        "bank",
-                        "museum"
+                        "park",
+                        "bank"
                     ],
         "choices_ja":  [
                            "学校",
                            "病院",
-                           "銀行",
-                           "博物館"
+                           "公園",
+                           "銀行"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:48:00Z",
@@ -1204,21 +1204,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Sara goes to the store after school. What place does Sara go to? (A1-SR-09)",
+        "question_text":  "Read: Sara buys fruit and milk there on her way home. Where does Sara go? (A1-SR-09)",
         "choices":  [
                         "store",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "library",
+                        "museum",
+                        "station"
                     ],
         "choices_ja":  [
                            "店",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "図書館",
+                           "博物館",
+                           "駅"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:49:00Z",
@@ -1229,21 +1229,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Yui goes to the station after school. What place does Yui go to? (A1-SR-10)",
+        "question_text":  "Read: Yui waits for the train there in the morning. Where does Yui go? (A1-SR-10)",
         "choices":  [
                         "station",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "store",
+                        "school",
+                        "park"
                     ],
         "choices_ja":  [
                            "駅",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "店",
+                           "学校",
+                           "公園"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:50:00Z",
@@ -1254,21 +1254,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Tom goes to the park after school. What place does Tom go to? (A1-SR-11)",
+        "question_text":  "Read: Tom goes there after school to use a slide and a swing. Where does Tom go? (A1-SR-11)",
         "choices":  [
                         "park",
-                        "hospital",
+                        "library",
                         "bank",
                         "museum"
                     ],
         "choices_ja":  [
                            "公園",
-                           "病院",
+                           "図書館",
                            "銀行",
                            "博物館"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:51:00Z",
@@ -1279,21 +1279,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Mika goes to the library after school. What place does Mika go to? (A1-SR-12)",
+        "question_text":  "Read: Mika borrows picture books there every Saturday. Where does Mika go? (A1-SR-12)",
         "choices":  [
                         "library",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "school",
+                        "station",
+                        "store"
                     ],
         "choices_ja":  [
                            "図書館",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "学校",
+                           "駅",
+                           "店"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:52:00Z",
@@ -1304,21 +1304,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ken goes to the school after school. What place does Ken go to? (A1-SR-13)",
+        "question_text":  "Read: Ken studies in classrooms and meets his teacher there every weekday. Where does Ken go? (A1-SR-13)",
         "choices":  [
                         "school",
                         "hospital",
-                        "bank",
-                        "museum"
+                        "park",
+                        "bank"
                     ],
         "choices_ja":  [
                            "学校",
                            "病院",
-                           "銀行",
-                           "博物館"
+                           "公園",
+                           "銀行"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:53:00Z",
@@ -1329,21 +1329,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Sara goes to the store after school. What place does Sara go to? (A1-SR-14)",
+        "question_text":  "Read: Sara buys fruit and milk there on her way home. Where does Sara go? (A1-SR-14)",
         "choices":  [
                         "store",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "library",
+                        "museum",
+                        "station"
                     ],
         "choices_ja":  [
                            "店",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "図書館",
+                           "博物館",
+                           "駅"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:54:00Z",
@@ -1354,21 +1354,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Yui goes to the station after school. What place does Yui go to? (A1-SR-15)",
+        "question_text":  "Read: Yui waits for the train there in the morning. Where does Yui go? (A1-SR-15)",
         "choices":  [
                         "station",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "store",
+                        "school",
+                        "park"
                     ],
         "choices_ja":  [
                            "駅",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "店",
+                           "学校",
+                           "公園"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:55:00Z",
@@ -1379,21 +1379,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Tom goes to the park after school. What place does Tom go to? (A1-SR-16)",
+        "question_text":  "Read: Tom goes there after school to use a slide and a swing. Where does Tom go? (A1-SR-16)",
         "choices":  [
                         "park",
-                        "hospital",
+                        "library",
                         "bank",
                         "museum"
                     ],
         "choices_ja":  [
                            "公園",
-                           "病院",
+                           "図書館",
                            "銀行",
                            "博物館"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:56:00Z",
@@ -1404,21 +1404,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Mika goes to the library after school. What place does Mika go to? (A1-SR-17)",
+        "question_text":  "Read: Mika borrows picture books there every Saturday. Where does Mika go? (A1-SR-17)",
         "choices":  [
                         "library",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "school",
+                        "station",
+                        "store"
                     ],
         "choices_ja":  [
                            "図書館",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "学校",
+                           "駅",
+                           "店"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:57:00Z",
@@ -1429,21 +1429,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ken goes to the school after school. What place does Ken go to? (A1-SR-18)",
+        "question_text":  "Read: Ken studies in classrooms and meets his teacher there every weekday. Where does Ken go? (A1-SR-18)",
         "choices":  [
                         "school",
                         "hospital",
-                        "bank",
-                        "museum"
+                        "park",
+                        "bank"
                     ],
         "choices_ja":  [
                            "学校",
                            "病院",
-                           "銀行",
-                           "博物館"
+                           "公園",
+                           "銀行"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:58:00Z",
@@ -1454,21 +1454,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Sara goes to the store after school. What place does Sara go to? (A1-SR-19)",
+        "question_text":  "Read: Sara buys fruit and milk there on her way home. Where does Sara go? (A1-SR-19)",
         "choices":  [
                         "store",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "library",
+                        "museum",
+                        "station"
                     ],
         "choices_ja":  [
                            "店",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "図書館",
+                           "博物館",
+                           "駅"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T09:59:00Z",
@@ -1479,21 +1479,21 @@
         "cefr_level":  "A1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Yui goes to the station after school. What place does Yui go to? (A1-SR-20)",
+        "question_text":  "Read: Yui waits for the train there in the morning. Where does Yui go? (A1-SR-20)",
         "choices":  [
                         "station",
-                        "hospital",
-                        "bank",
-                        "museum"
+                        "store",
+                        "school",
+                        "park"
                     ],
         "choices_ja":  [
                            "駅",
-                           "病院",
-                           "銀行",
-                           "博物館"
+                           "店",
+                           "学校",
+                           "公園"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文中の場所情報を確認します。",
+        "explanation_ja":  "本文の手がかり（行動や状況）から場所を推測します。",
         "key_phrase":  "短文読解:A1",
         "status":  "draft",
         "created_at":  "2026-02-22T10:00:00Z",
@@ -3004,21 +3004,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Emma usually visit her grandmother on Monday evenings. What does Emma usually do on Monday evenings? (A2-SR-01)",
+        "question_text":  "Read: Emma has music practice on Tuesday evenings. She sits at a keyboard and follows her teacher\u0027s notes. What does Emma usually do? (A2-SR-01)",
         "choices":  [
+                        "take a piano lesson",
                         "visit her grandmother",
                         "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "takes a flight"
                     ],
         "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
                            "（参考訳）visit 彼女の grandmother",
                            "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:01:00Z",
@@ -3029,21 +3029,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Nina usually take a piano lesson on Tuesday evenings. What does Nina usually do on Tuesday evenings? (A2-SR-02)",
+        "question_text":  "Read: Nina carries a racket to the court on Wednesday evenings and practices with her friend. What does Nina usually do? (A2-SR-02)",
         "choices":  [
-                        "take a piano lesson",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "play tennis",
+                        "study at the cafe",
+                        "watches a movie at noon",
+                        "help at home"
                     ],
         "choices_ja":  [
-                           "（参考訳）take 1つの piano lesson",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（訳未整備）play tennis",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）watches 1つの movie 〜で noon",
+                           "（参考訳）help 〜で home"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:02:00Z",
@@ -3054,21 +3054,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ryo usually play tennis on Wednesday evenings. What does Ryo usually do on Wednesday evenings? (A2-SR-03)",
+        "question_text":  "Read: Ryo opens his laptop at a quiet cafe after dinner and reviews vocabulary for an hour. What does Ryo usually do? (A2-SR-03)",
         "choices":  [
-                        "play tennis",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "visit her grandmother",
+                        "goes camping"
                     ],
         "choices_ja":  [
-                           "（訳未整備）play tennis",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:03:00Z",
@@ -3079,21 +3079,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Luis usually study at the cafe on Thursday evenings. What does Luis usually do on Thursday evenings? (A2-SR-04)",
+        "question_text":  "Read: Luis helps his parents wash dishes and clean the living room every Friday evening. What does Luis usually do? (A2-SR-04)",
         "choices":  [
-                        "study at the cafe",
-                        "goes camping",
+                        "help at home",
                         "takes a flight",
+                        "play tennis",
                         "watches a movie at noon"
                     ],
         "choices_ja":  [
-                           "（参考訳）study 〜で その cafe",
-                           "（訳未整備）goes camping",
+                           "（参考訳）help 〜で home",
                            "（参考訳）takes 1つの flight",
+                           "（訳未整備）play tennis",
                            "（参考訳）watches 1つの movie 〜で noon"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:04:00Z",
@@ -3104,21 +3104,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Aki usually help at home on Friday evenings. What does Aki usually do on Friday evenings? (A2-SR-05)",
+        "question_text":  "Read: Aki visits an older family member on Sunday evenings and brings some snacks. What does Aki usually do? (A2-SR-05)",
         "choices":  [
-                        "help at home",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "visit her grandmother",
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "takes a flight"
                     ],
         "choices_ja":  [
-                           "（参考訳）help 〜で home",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）visit 彼女の grandmother",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:05:00Z",
@@ -3129,21 +3129,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Emma usually visit her grandmother on Monday evenings. What does Emma usually do on Monday evenings? (A2-SR-06)",
+        "question_text":  "Read: Emma has music practice on Tuesday evenings. She sits at a keyboard and follows her teacher\u0027s notes. What does Emma usually do? (A2-SR-06)",
         "choices":  [
+                        "take a piano lesson",
                         "visit her grandmother",
                         "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "takes a flight"
                     ],
         "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
                            "（参考訳）visit 彼女の grandmother",
                            "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:06:00Z",
@@ -3154,21 +3154,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Nina usually take a piano lesson on Tuesday evenings. What does Nina usually do on Tuesday evenings? (A2-SR-07)",
+        "question_text":  "Read: Nina carries a racket to the court on Wednesday evenings and practices with her friend. What does Nina usually do? (A2-SR-07)",
         "choices":  [
-                        "take a piano lesson",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "play tennis",
+                        "study at the cafe",
+                        "watches a movie at noon",
+                        "help at home"
                     ],
         "choices_ja":  [
-                           "（参考訳）take 1つの piano lesson",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（訳未整備）play tennis",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）watches 1つの movie 〜で noon",
+                           "（参考訳）help 〜で home"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:07:00Z",
@@ -3179,21 +3179,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ryo usually play tennis on Wednesday evenings. What does Ryo usually do on Wednesday evenings? (A2-SR-08)",
+        "question_text":  "Read: Ryo opens his laptop at a quiet cafe after dinner and reviews vocabulary for an hour. What does Ryo usually do? (A2-SR-08)",
         "choices":  [
-                        "play tennis",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "visit her grandmother",
+                        "goes camping"
                     ],
         "choices_ja":  [
-                           "（訳未整備）play tennis",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:08:00Z",
@@ -3204,21 +3204,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Luis usually study at the cafe on Thursday evenings. What does Luis usually do on Thursday evenings? (A2-SR-09)",
+        "question_text":  "Read: Luis helps his parents wash dishes and clean the living room every Friday evening. What does Luis usually do? (A2-SR-09)",
         "choices":  [
-                        "study at the cafe",
-                        "goes camping",
+                        "help at home",
                         "takes a flight",
+                        "play tennis",
                         "watches a movie at noon"
                     ],
         "choices_ja":  [
-                           "（参考訳）study 〜で その cafe",
-                           "（訳未整備）goes camping",
+                           "（参考訳）help 〜で home",
                            "（参考訳）takes 1つの flight",
+                           "（訳未整備）play tennis",
                            "（参考訳）watches 1つの movie 〜で noon"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:09:00Z",
@@ -3229,21 +3229,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Aki usually help at home on Friday evenings. What does Aki usually do on Friday evenings? (A2-SR-10)",
+        "question_text":  "Read: Aki visits an older family member on Sunday evenings and brings some snacks. What does Aki usually do? (A2-SR-10)",
         "choices":  [
-                        "help at home",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "visit her grandmother",
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "takes a flight"
                     ],
         "choices_ja":  [
-                           "（参考訳）help 〜で home",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）visit 彼女の grandmother",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:10:00Z",
@@ -3254,21 +3254,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Emma usually visit her grandmother on Monday evenings. What does Emma usually do on Monday evenings? (A2-SR-11)",
+        "question_text":  "Read: Emma has music practice on Tuesday evenings. She sits at a keyboard and follows her teacher\u0027s notes. What does Emma usually do? (A2-SR-11)",
         "choices":  [
+                        "take a piano lesson",
                         "visit her grandmother",
                         "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "takes a flight"
                     ],
         "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
                            "（参考訳）visit 彼女の grandmother",
                            "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:11:00Z",
@@ -3279,21 +3279,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Nina usually take a piano lesson on Tuesday evenings. What does Nina usually do on Tuesday evenings? (A2-SR-12)",
+        "question_text":  "Read: Nina carries a racket to the court on Wednesday evenings and practices with her friend. What does Nina usually do? (A2-SR-12)",
         "choices":  [
-                        "take a piano lesson",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "play tennis",
+                        "study at the cafe",
+                        "watches a movie at noon",
+                        "help at home"
                     ],
         "choices_ja":  [
-                           "（参考訳）take 1つの piano lesson",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（訳未整備）play tennis",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）watches 1つの movie 〜で noon",
+                           "（参考訳）help 〜で home"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:12:00Z",
@@ -3304,21 +3304,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ryo usually play tennis on Wednesday evenings. What does Ryo usually do on Wednesday evenings? (A2-SR-13)",
+        "question_text":  "Read: Ryo opens his laptop at a quiet cafe after dinner and reviews vocabulary for an hour. What does Ryo usually do? (A2-SR-13)",
         "choices":  [
-                        "play tennis",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "visit her grandmother",
+                        "goes camping"
                     ],
         "choices_ja":  [
-                           "（訳未整備）play tennis",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:13:00Z",
@@ -3329,21 +3329,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Luis usually study at the cafe on Thursday evenings. What does Luis usually do on Thursday evenings? (A2-SR-14)",
+        "question_text":  "Read: Luis helps his parents wash dishes and clean the living room every Friday evening. What does Luis usually do? (A2-SR-14)",
         "choices":  [
-                        "study at the cafe",
-                        "goes camping",
+                        "help at home",
                         "takes a flight",
+                        "play tennis",
                         "watches a movie at noon"
                     ],
         "choices_ja":  [
-                           "（参考訳）study 〜で その cafe",
-                           "（訳未整備）goes camping",
+                           "（参考訳）help 〜で home",
                            "（参考訳）takes 1つの flight",
+                           "（訳未整備）play tennis",
                            "（参考訳）watches 1つの movie 〜で noon"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:14:00Z",
@@ -3354,21 +3354,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Aki usually help at home on Friday evenings. What does Aki usually do on Friday evenings? (A2-SR-15)",
+        "question_text":  "Read: Aki visits an older family member on Sunday evenings and brings some snacks. What does Aki usually do? (A2-SR-15)",
         "choices":  [
-                        "help at home",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "visit her grandmother",
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "takes a flight"
                     ],
         "choices_ja":  [
-                           "（参考訳）help 〜で home",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）visit 彼女の grandmother",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:15:00Z",
@@ -3379,21 +3379,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Emma usually visit her grandmother on Monday evenings. What does Emma usually do on Monday evenings? (A2-SR-16)",
+        "question_text":  "Read: Emma has music practice on Tuesday evenings. She sits at a keyboard and follows her teacher\u0027s notes. What does Emma usually do? (A2-SR-16)",
         "choices":  [
+                        "take a piano lesson",
                         "visit her grandmother",
                         "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "takes a flight"
                     ],
         "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
                            "（参考訳）visit 彼女の grandmother",
                            "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:16:00Z",
@@ -3404,21 +3404,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Nina usually take a piano lesson on Tuesday evenings. What does Nina usually do on Tuesday evenings? (A2-SR-17)",
+        "question_text":  "Read: Nina carries a racket to the court on Wednesday evenings and practices with her friend. What does Nina usually do? (A2-SR-17)",
         "choices":  [
-                        "take a piano lesson",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "play tennis",
+                        "study at the cafe",
+                        "watches a movie at noon",
+                        "help at home"
                     ],
         "choices_ja":  [
-                           "（参考訳）take 1つの piano lesson",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（訳未整備）play tennis",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）watches 1つの movie 〜で noon",
+                           "（参考訳）help 〜で home"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:17:00Z",
@@ -3429,21 +3429,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Ryo usually play tennis on Wednesday evenings. What does Ryo usually do on Wednesday evenings? (A2-SR-18)",
+        "question_text":  "Read: Ryo opens his laptop at a quiet cafe after dinner and reviews vocabulary for an hour. What does Ryo usually do? (A2-SR-18)",
         "choices":  [
-                        "play tennis",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "visit her grandmother",
+                        "goes camping"
                     ],
         "choices_ja":  [
-                           "（訳未整備）play tennis",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:18:00Z",
@@ -3454,21 +3454,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Luis usually study at the cafe on Thursday evenings. What does Luis usually do on Thursday evenings? (A2-SR-19)",
+        "question_text":  "Read: Luis helps his parents wash dishes and clean the living room every Friday evening. What does Luis usually do? (A2-SR-19)",
         "choices":  [
-                        "study at the cafe",
-                        "goes camping",
+                        "help at home",
                         "takes a flight",
+                        "play tennis",
                         "watches a movie at noon"
                     ],
         "choices_ja":  [
-                           "（参考訳）study 〜で その cafe",
-                           "（訳未整備）goes camping",
+                           "（参考訳）help 〜で home",
                            "（参考訳）takes 1つの flight",
+                           "（訳未整備）play tennis",
                            "（参考訳）watches 1つの movie 〜で noon"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:19:00Z",
@@ -3479,21 +3479,21 @@
         "cefr_level":  "A2",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: Aki usually help at home on Friday evenings. What does Aki usually do on Friday evenings? (A2-SR-20)",
+        "question_text":  "Read: Aki visits an older family member on Sunday evenings and brings some snacks. What does Aki usually do? (A2-SR-20)",
         "choices":  [
-                        "help at home",
-                        "goes camping",
-                        "takes a flight",
-                        "watches a movie at noon"
+                        "visit her grandmother",
+                        "study at the cafe",
+                        "take a piano lesson",
+                        "takes a flight"
                     ],
         "choices_ja":  [
-                           "（参考訳）help 〜で home",
-                           "（訳未整備）goes camping",
-                           "（参考訳）takes 1つの flight",
-                           "（参考訳）watches 1つの movie 〜で noon"
+                           "（参考訳）visit 彼女の grandmother",
+                           "（参考訳）study 〜で その cafe",
+                           "（参考訳）take 1つの piano lesson",
+                           "（参考訳）takes 1つの flight"
                        ],
         "answer":  0,
-        "explanation_ja":  "本文の行動情報をそのまま対応させます。",
+        "explanation_ja":  "本文の手がかりを読み取り、最も適切な行動を選びます。",
         "key_phrase":  "短文読解:A2",
         "status":  "draft",
         "created_at":  "2026-02-22T11:20:00Z",
@@ -5004,15 +5004,15 @@
         "cefr_level":  "B1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: The design team compared user feedback from two prototypes and chose the one with fewer support requests. Which prototype did they choose? (B1-SR-01)",
+        "question_text":  "Read: The design team compared user feedback from two prototypes and chose the option that triggered fewer support requests. Which prototype did they choose? (B1-SR-01)",
         "choices":  [
-                        "The one with fewer support requests.",
+                        "The prototype that generated fewer support tickets.",
                         "The one with lower price.",
                         "The one launched first.",
                         "The one with more screens."
                     ],
         "choices_ja":  [
-                           "（参考訳）その one with fewer support requests.",
+                           "（参考訳）その prototype that generated fewer support tickets.",
                            "（参考訳）その one with lower price.",
                            "（参考訳）その one 公開した first.",
                            "（参考訳）その one with more screens."
@@ -5204,15 +5204,15 @@
         "cefr_level":  "B1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: To prevent repeated mistakes, the manager added a checklist before each release. What was the checklist for? (B1-SR-09)",
+        "question_text":  "Read: The manager added a checklist before each release so the team would not repeat the same errors. What was the checklist for? (B1-SR-09)",
         "choices":  [
-                        "To prevent repeated mistakes.",
+                        "To reduce recurring errors.",
                         "To shorten lunch breaks.",
                         "To increase meeting length.",
                         "To reduce testing scope."
                     ],
         "choices_ja":  [
-                           "（参考訳）〜へ/〜するため prevent repeated mistakes.",
+                           "（参考訳）〜へ/〜するため reduce recurring errors.",
                            "（参考訳）〜へ/〜するため shorten lunch breaks.",
                            "（参考訳）〜へ/〜するため increase 会議 length.",
                            "（参考訳）〜へ/〜するため reduce testing scope."
@@ -5354,15 +5354,15 @@
         "cefr_level":  "B1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: The team recorded a short demo video so remote members could review the workflow before discussion. Why was the video recorded? (B1-SR-15)",
+        "question_text":  "Read: The team recorded a short demo video to help remote members understand the workflow before discussion. Why was the video recorded? (B1-SR-15)",
         "choices":  [
-                        "So remote members could review the workflow.",
+                        "To help remote members review the process in advance.",
                         "So the product could launch immediately.",
                         "So meetings could be canceled forever.",
                         "So customers could edit the script."
                     ],
         "choices_ja":  [
-                           "（参考訳）だから remote members 〜できるだろう review その workflow.",
+                           "（参考訳）〜へ/〜するため help remote members review その process 〜で advance.",
                            "（参考訳）だから その product 〜できるだろう launch immediately.",
                            "（参考訳）だから meetings 〜できるだろう be 中止された forever.",
                            "（参考訳）だから customers 〜できるだろう edit その script."
@@ -5379,15 +5379,15 @@
         "cefr_level":  "B1",
         "skill_type":  "reading",
         "question_type":  "short_reading",
-        "question_text":  "Read: After two weeks, the pilot group reported fewer handover errors and faster onboarding. What result was reported? (B1-SR-16)",
+        "question_text":  "Read: After two weeks, the pilot group said handover mistakes dropped and new members adapted more quickly. What result was reported? (B1-SR-16)",
         "choices":  [
-                        "Fewer handover errors and faster onboarding.",
+                        "Mistakes decreased and onboarding became faster.",
                         "Lower salaries and longer shifts.",
                         "More complaints and slower training.",
                         "No measurable change at all."
                     ],
         "choices_ja":  [
-                           "（参考訳）Fewer handover errors そして faster onboarding.",
+                           "（参考訳）Mistakes decreased そして onboarding became faster.",
                            "（参考訳）Lower salaries そして longer shifts.",
                            "（参考訳）More complaints そして slower training.",
                            "（参考訳）いいえ measurable change 〜で すべて."

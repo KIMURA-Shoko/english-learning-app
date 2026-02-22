@@ -87,6 +87,18 @@ function Test-NaturalFilledSentence {
   return $true
 }
 
+function Contains-LiteralAnswerLeak {
+  param(
+    [string]$QuestionText,
+    [string]$CorrectChoice
+  )
+  if ([string]::IsNullOrWhiteSpace($QuestionText) -or [string]::IsNullOrWhiteSpace($CorrectChoice)) { return $false }
+  $q = Normalize-Text $QuestionText
+  $a = Normalize-Text $CorrectChoice
+  if (-not $q -or -not $a) { return $false }
+  return $q.Contains($a)
+}
+
 $jsonRaw = Get-Content -Raw -Encoding UTF8 $InputPath
 $problems = $jsonRaw | ConvertFrom-Json
 
@@ -174,8 +186,21 @@ for ($i = 0; $i -lt $problems.Count; $i++) {
       } else {
         $correctChoice = [string]$p.choices[$ans]
 
-        # fill_blank は正答埋め込み後の自然さを必須チェック
         $qType = if ($p.PSObject.Properties.Name -contains "question_type") { [string]$p.question_type } else { "" }
+
+        # short_reading は「正答が問題文にそのまま出る」出題を禁止
+        if ($qType -eq "short_reading") {
+          $hasLeak = Contains-LiteralAnswerLeak -QuestionText ([string]$p.question_text) -CorrectChoice $correctChoice
+          if ($hasLeak) {
+            $errors.Add([pscustomobject]@{
+              problem_id = $problemId
+              type = "literal_answer_leak"
+              message = "Correct choice appears verbatim in question_text."
+            })
+          }
+        }
+
+        # fill_blank は正答埋め込み後の自然さを必須チェック
         if ($qType -eq "fill_blank") {
           $filled = Get-FilledSentence -QuestionText ([string]$p.question_text) -CorrectChoice $correctChoice
           if (-not (Test-NaturalFilledSentence -Sentence $filled)) {

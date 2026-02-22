@@ -307,8 +307,24 @@ function Generate-ResponseChoice {
 function Generate-ShortReading {
   param([string]$Level, [int]$SeqStart)
 
+  $a1ReadingSet = @(
+    @("Read: Tom goes there after school to use a slide and a swing. Where does Tom go?", @("park", "library", "bank", "museum")),
+    @("Read: Mika borrows picture books there every Saturday. Where does Mika go?", @("library", "school", "station", "store")),
+    @("Read: Ken studies in classrooms and meets his teacher there every weekday. Where does Ken go?", @("school", "hospital", "park", "bank")),
+    @("Read: Sara buys fruit and milk there on her way home. Where does Sara go?", @("store", "library", "museum", "station")),
+    @("Read: Yui waits for the train there in the morning. Where does Yui go?", @("station", "store", "school", "park"))
+  )
+
+  $a2ReadingSet = @(
+    @("Read: Emma has music practice on Tuesday evenings. She sits at a keyboard and follows her teacher's notes. What does Emma usually do?", @("take a piano lesson", "visit her grandmother", "goes camping", "takes a flight")),
+    @("Read: Nina carries a racket to the court on Wednesday evenings and practices with her friend. What does Nina usually do?", @("play tennis", "study at the cafe", "watches a movie at noon", "help at home")),
+    @("Read: Ryo opens his laptop at a quiet cafe after dinner and reviews vocabulary for an hour. What does Ryo usually do?", @("study at the cafe", "take a piano lesson", "visit her grandmother", "goes camping")),
+    @("Read: Luis helps his parents wash dishes and clean the living room every Friday evening. What does Luis usually do?", @("help at home", "takes a flight", "play tennis", "watches a movie at noon")),
+    @("Read: Aki visits an older family member on Sunday evenings and brings some snacks. What does Aki usually do?", @("visit her grandmother", "study at the cafe", "take a piano lesson", "takes a flight"))
+  )
+
   $b1ReadingSet = @(
-    @("Read: The design team compared user feedback from two prototypes and chose the one with fewer support requests. Which prototype did they choose?", @("The one with fewer support requests.", "The one with lower price.", "The one launched first.", "The one with more screens.")),
+    @("Read: The design team compared user feedback from two prototypes and chose the option that triggered fewer support requests. Which prototype did they choose?", @("The prototype that generated fewer support tickets.", "The one with lower price.", "The one launched first.", "The one with more screens.")),
     @("Read: Aya revised the proposal after the client asked for a shorter timeline and clearer milestones. Why did Aya revise it?", @("Because the client requested changes.", "Because the printer broke.", "Because the budget doubled.", "Because the meeting was canceled.")),
     @("Read: During the trial week, the support team answered chats first and emails later, which reduced waiting time. What reduced waiting time?", @("Prioritizing chats before emails.", "Hiring ten new agents.", "Closing the help center.", "Sending fewer replies.")),
     @("Read: Ken shared weekly progress notes so new members could understand decisions quickly. What was the purpose of the notes?", @("To help new members understand decisions.", "To replace all meetings.", "To reduce product features.", "To avoid customer interviews.")),
@@ -316,14 +332,14 @@ function Generate-ShortReading {
     @("Read: Mei tested three headlines and selected the one that produced the highest click-through rate. Which headline was selected?", @("The headline with the highest click-through rate.", "The longest headline.", "The first headline written.", "The least formal headline.")),
     @("Read: The team moved the deadline by two days because a key vendor delivered materials late. Why was the deadline moved?", @("A vendor delivered materials late.", "The team finished too early.", "The budget was increased.", "The office was closed for holidays.")),
     @("Read: Riku summarized customer interviews and grouped comments into usability, pricing, and reliability. What did Riku do with the comments?", @("He grouped them by theme.", "He deleted negative comments.", "He translated all comments.", "He sent them only to sales.")),
-    @("Read: To prevent repeated mistakes, the manager added a checklist before each release. What was the checklist for?", @("To prevent repeated mistakes.", "To shorten lunch breaks.", "To increase meeting length.", "To reduce testing scope.")),
+    @("Read: The manager added a checklist before each release so the team would not repeat the same errors. What was the checklist for?", @("To reduce recurring errors.", "To shorten lunch breaks.", "To increase meeting length.", "To reduce testing scope.")),
     @("Read: After reviewing error logs, the engineer fixed the login bug and monitored reports for three days. What happened after the fix?", @("Reports were monitored for three days.", "All logs were removed immediately.", "The app was redesigned.", "User accounts were reset.")),
     @("Read: The HR team introduced a mentoring program so junior staff could ask questions more easily. Why was the program introduced?", @("To make it easier for junior staff to ask questions.", "To reduce training materials.", "To evaluate only senior staff.", "To cancel one-on-one meetings.")),
     @("Read: Because survey responses were low, the team shortened the form and clarified each question. What change was made to improve responses?", @("The form was shortened and clarified.", "The survey was translated into five languages.", "The deadline was removed.", "The audience was narrowed to managers only.")),
     @("Read: Lina prepared a comparison chart to explain why one supplier was more reliable despite a higher price. What did the chart explain?", @("Why a higher-priced supplier was more reliable.", "Why all suppliers should be replaced.", "Why price should be ignored completely.", "Why delivery speed was unknown.")),
     @("Read: The project lead asked everyone to update task status every evening to spot delays early. Why was daily status updating required?", @("To detect delays early.", "To increase overtime hours.", "To reduce team communication.", "To skip weekly planning.")),
-    @("Read: The team recorded a short demo video so remote members could review the workflow before discussion. Why was the video recorded?", @("So remote members could review the workflow.", "So the product could launch immediately.", "So meetings could be canceled forever.", "So customers could edit the script.")),
-    @("Read: After two weeks, the pilot group reported fewer handover errors and faster onboarding. What result was reported?", @("Fewer handover errors and faster onboarding.", "Lower salaries and longer shifts.", "More complaints and slower training.", "No measurable change at all.")),
+    @("Read: The team recorded a short demo video to help remote members understand the workflow before discussion. Why was the video recorded?", @("To help remote members review the process in advance.", "So the product could launch immediately.", "So meetings could be canceled forever.", "So customers could edit the script.")),
+    @("Read: After two weeks, the pilot group said handover mistakes dropped and new members adapted more quickly. What result was reported?", @("Mistakes decreased and onboarding became faster.", "Lower salaries and longer shifts.", "More complaints and slower training.", "No measurable change at all.")),
     @("Read: Nao changed the meeting agenda to focus on blockers first, which made decisions faster. What made decisions faster?", @("Focusing on blockers first.", "Adding more presentation slides.", "Inviting external speakers.", "Shortening the budget report.")),
     @("Read: The operations team created a backup plan in case the main server failed during peak hours. Why did they create it?", @("To prepare for server failure during peak hours.", "To lower internet speed intentionally.", "To avoid data backups.", "To stop monitoring system health.")),
     @("Read: Yuta documented common customer questions and shared sample answers with the support team. What did Yuta share?", @("Sample answers to common questions.", "A list of canceled products.", "Only unresolved tickets.", "A new pricing contract.")),
@@ -334,20 +350,13 @@ function Generate-ShortReading {
     $seq = $SeqStart + $i - 1
 
     if ($Level -eq "A1") {
-      $name = @("Tom","Mika","Ken","Sara","Yui")[(($i-1) % 5)]
-      $place = @("park","library","school","store","station")[(($i-1) % 5)]
-      $q = "Read: $name goes to the $place after school. What place does $name go to?"
-      $choices = @($place, "hospital", "bank", "museum")
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($q + " (A1-SR-" + $i.ToString("00") + ")") -Choices $choices -Answer 0 -Explanation "本文中の場所情報を確認します。" -KeyPhrase "短文読解:A1"
+      $p = $a1ReadingSet[($i - 1) % $a1ReadingSet.Count]
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (A1-SR-" + $i.ToString("00") + ")") -Choices $p[1] -Answer 0 -Explanation "本文の手がかり（行動や状況）から場所を推測します。" -KeyPhrase "短文読解:A1"
     }
 
     if ($Level -eq "A2") {
-      $person = @("Emma","Nina","Ryo","Luis","Aki")[(($i-1) % 5)]
-      $day = @("Monday","Tuesday","Wednesday","Thursday","Friday")[(($i-1) % 5)]
-      $act = @("visit her grandmother","take a piano lesson","play tennis","study at the cafe","help at home")[(($i-1) % 5)]
-      $q = "Read: $person usually $act on $day evenings. What does $person usually do on $day evenings?"
-      $choices = @($act, "goes camping", "takes a flight", "watches a movie at noon")
-      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($q + " (A2-SR-" + $i.ToString("00") + ")") -Choices $choices -Answer 0 -Explanation "本文の行動情報をそのまま対応させます。" -KeyPhrase "短文読解:A2"
+      $p = $a2ReadingSet[($i - 1) % $a2ReadingSet.Count]
+      Add-Problem -Level $Level -Seq $seq -SkillType "reading" -QuestionType "short_reading" -QuestionText ($p[0] + " (A2-SR-" + $i.ToString("00") + ")") -Choices $p[1] -Answer 0 -Explanation "本文の手がかりを読み取り、最も適切な行動を選びます。" -KeyPhrase "短文読解:A2"
     }
 
     if ($Level -eq "B1") {
