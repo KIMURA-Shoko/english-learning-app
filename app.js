@@ -1,6 +1,7 @@
 ﻿const DATA_PATH = "./data/problems/initial_problems.json";
 const WRONG_STOCK_KEY = "cefr_wrong_problem_ids_v1";
 const WRONG_LOG_KEY = "cefr_wrong_logs_v1";
+const ANSWER_HISTORY_KEY = "cefr_answer_history_v1";
 const RECOVERY_CORRECT_TARGET = 3;
 
 const levelSelect = document.getElementById("levelSelect");
@@ -20,6 +21,7 @@ const resultEl = document.getElementById("result");
 const explanationEl = document.getElementById("explanation");
 const choiceTranslationsEl = document.getElementById("choiceTranslations");
 const wrongLogInfoEl = document.getElementById("wrongLogInfo");
+const reasonInputEl = document.getElementById("reasonInput");
 
 let allProblems = [];
 let sessionProblems = [];
@@ -29,6 +31,7 @@ let answered = false;
 let currentChoiceOrder = [];
 let wrongStock = new Set();
 let wrongLogs = {};
+let answerHistory = [];
 
 function loadWrongStock() {
   try {
@@ -62,6 +65,25 @@ function loadWrongLogs() {
 
 function saveWrongLogs() {
   localStorage.setItem(WRONG_LOG_KEY, JSON.stringify(wrongLogs));
+}
+function loadAnswerHistory() {
+  try {
+    const raw = localStorage.getItem(ANSWER_HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed;
+  } catch (err) {
+    console.error(err);
+    return [];
+  }
+}
+function saveAnswerHistory() {
+  localStorage.setItem(ANSWER_HISTORY_KEY, JSON.stringify(answerHistory));
+}
+function appendAnswerHistory(entry) {
+  answerHistory.push(entry);
+  saveAnswerHistory();
 }
 
 function formatDateTime(isoString) {
@@ -165,6 +187,7 @@ async function loadProblems() {
     allProblems = data.filter((p) => p.status === "draft" || p.status === "published");
     wrongStock = loadWrongStock();
     wrongLogs = loadWrongLogs();
+    answerHistory = loadAnswerHistory();
     statusEl.textContent = `読込完了: ${allProblems.length}問`;
     updateWrongStockInfo();
   } catch (err) {
@@ -549,6 +572,9 @@ function renderCurrentProblem() {
   explanationEl.textContent = "";
   choiceTranslationsEl.classList.add("hidden");
   choiceTranslationsEl.innerHTML = "";
+  if (reasonInputEl) {
+    reasonInputEl.value = "";
+  }
 
   const log = getProblemWrongLog(p.problem_id);
   if (log.wrong_count > 0) {
@@ -578,6 +604,21 @@ function submitAnswer() {
 
   const selected = Number(checked.value);
   const isCorrect = selected === p.answer;
+  const selectedDisplayIndex = currentChoiceOrder.indexOf(selected);
+  const selectedLetter = String.fromCharCode(65 + (selectedDisplayIndex >= 0 ? selectedDisplayIndex : selected));
+  const reasonText = reasonInputEl ? reasonInputEl.value.trim().slice(0, 120) : "";
+  const answeredAt = new Date().toISOString();
+  appendAnswerHistory({
+    problem_id: p.problem_id,
+    answered_at: answeredAt,
+    cefr_level: p.cefr_level,
+    question_type: p.question_type,
+    mode: modeSelect.value,
+    selected_choice_index: selected,
+    selected_choice_label: selectedLetter,
+    is_correct: isCorrect,
+    reason_text: reasonText
+  });
   answered = true;
 
   if (isCorrect) {
@@ -634,6 +675,9 @@ function nextProblem() {
   explanationEl.classList.add("hidden");
   choiceTranslationsEl.classList.add("hidden");
   choiceTranslationsEl.innerHTML = "";
+  if (reasonInputEl) {
+    reasonInputEl.value = "";
+  }
   wrongLogInfoEl.classList.add("hidden");
   submitBtn.disabled = true;
   nextBtn.classList.add("hidden");
@@ -643,12 +687,16 @@ function nextProblem() {
 function exportWrongHistory() {
   const payload = {
     exported_at: new Date().toISOString(),
-    app_version: "v1-localstorage-export",
+    app_version: "v2-reason-and-answer-history",
     wrong_problem_ids: [...wrongStock],
-    wrong_logs: wrongLogs
+    wrong_logs: wrongLogs,
+    answer_history: answerHistory
   };
 
-  const hasAnyData = payload.wrong_problem_ids.length > 0 || Object.keys(payload.wrong_logs).length > 0;
+  const hasAnyData =
+    payload.wrong_problem_ids.length > 0 ||
+    Object.keys(payload.wrong_logs).length > 0 ||
+    payload.answer_history.length > 0;
   if (!hasAnyData) {
     statusEl.textContent = "エクスポート対象の誤答履歴がありません。";
     return;
@@ -675,3 +723,4 @@ exportWrongBtn.addEventListener("click", exportWrongHistory);
 levelSelect.addEventListener("change", updateWrongStockInfo);
 
 loadProblems();
+

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CEFR Practice (A1/A2/B1)</title>
-  <link rel="stylesheet" href="./styles.css?v=20260222a" />
+  <link rel="stylesheet" href="./styles.css?v=20260222b" />
 </head>
 <body>
   <main class="app">
@@ -41,6 +41,10 @@
 
       <h2 id="questionText">問題文</h2>
       <form id="choicesForm" class="choices"></form>
+      <div class="reason-box">
+        <label for="reasonInput">なぜその選択肢を選んだか（任意）</label>
+        <textarea id="reasonInput" maxlength="120" placeholder="例: 勘 / 消去法で判断 / 文法で判断"></textarea>
+      </div>
 
       <div class="actions">
         <button id="submitBtn" type="button">回答する</button>
@@ -54,6 +58,6 @@
     </section>
   </main>
 
-  <script src="./app.js?v=20260222a"></script>
+  <script src="./app.js?v=20260222b"></script>
 </body>
 </html>

@@ -118,6 +118,28 @@ button:disabled {
   align-items: flex-start;
 }
 
+.reason-box {
+  margin-top: 10px;
+}
+
+.reason-box label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.reason-box textarea {
+  width: 100%;
+  min-height: 72px;
+  resize: vertical;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
 .actions {
   margin-top: 12px;
   display: flex;
@@ -181,3 +203,4 @@ button:disabled {
     font-size: 1.65rem;
   }
 }
+

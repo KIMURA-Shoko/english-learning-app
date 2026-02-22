@@ -200,11 +200,11 @@ function Generate-FillBlank {
         Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("am","is","are","be") -Answer $ans -Explanation "主語に合うbe動詞を選びます。" -KeyPhrase "穴埋め:be動詞"
       } else {
         $verbPhrases = @(
-          @("play", "soccer"),
-          @("study", "English"),
-          @("watch", "TV"),
-          @("cook", "dinner"),
-          @("read", "books")
+          @("play", "wrestling games"),
+          @("study", "match notes"),
+          @("watch", "wrestling videos"),
+          @("cook", "team dinner"),
+          @("read", "show reports")
         )
         $vp = $verbPhrases[($i - 1) % $verbPhrases.Count]
         $v = [string]$vp[0]
@@ -220,7 +220,7 @@ function Generate-FillBlank {
       $sub = $subjects[($i - 1) % $subjects.Count]
       switch (($i - 1) % 4) {
         0 {
-          $q = "$sub ___ to the library yesterday. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "$sub ___ to the arena yesterday. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           $base = "go"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($base, "goes", "went", "going") -Answer 2 -Explanation "yesterday があるので過去形を使います。" -KeyPhrase "穴埋め:過去形"
         }
@@ -230,7 +230,7 @@ function Generate-FillBlank {
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("have", "has", "had", "having") -Answer $ans2 -Explanation "主語に合わせて have / has を使い分けます。" -KeyPhrase "穴埋め:現在完了"
         }
         2 {
-          $q = "This book is ___ than that one. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "This match is ___ than that one. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("interesting", "more interesting", "most interesting", "interest") -Answer 1 -Explanation "than がある比較級文です。" -KeyPhrase "穴埋め:比較級"
         }
         3 {
@@ -243,19 +243,19 @@ function Generate-FillBlank {
     if ($Level -eq "B1") {
       switch (($i - 1) % 4) {
         0 {
-          $q = "By the time we arrived, the movie ___ already started. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "By the time we arrived, the main event ___ already started. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("has", "had", "was", "is") -Answer 1 -Explanation "過去のある時点より前の出来事なので過去完了です。" -KeyPhrase "穴埋め:過去完了"
         }
         1 {
-          $q = "The proposal ___ by the team leader before noon. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "The match card ___ by the producer before noon. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("completed", "was completed", "has completing", "is complete") -Answer 1 -Explanation "提案が完了される側なので受動態です。" -KeyPhrase "穴埋め:受動態"
         }
         2 {
-          $q = "She is looking for a job ___ allows remote work. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "She is looking for a role ___ allows creative booking. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("who", "where", "that", "what") -Answer 2 -Explanation "先行詞 job を修飾する関係代名詞です。" -KeyPhrase "穴埋め:関係代名詞"
         }
         3 {
-          $q = "If I ___ more experience, I would apply for that role. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+          $q = "If I ___ more experience, I would apply for that producer role. (" + $Level + "-FB-" + $i.ToString("00") + ")"
           Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @("have", "had", "will have", "am having") -Answer 1 -Explanation "仮定法過去では if 節に過去形を使います。" -KeyPhrase "穴埋め:仮定法"
         }
       }
@@ -267,24 +267,24 @@ function Generate-ResponseChoice {
   param([string]$Level, [int]$SeqStart)
 
   $a1Prompts = @(
-    @("A: How are you?`nB: ___", @("I am fine, thank you.", "At the station.", "Because it is big.", "Two apples."), 0),
-    @("A: What is your name?`nB: ___", @("My name is Ken.", "I am ten years old.", "I like music.", "It is sunny."), 0),
-    @("A: Do you like cats?`nB: ___", @("Yes, I do.", "At five o'clock.", "In my bag.", "Three books."), 0),
-    @("A: Where do you live?`nB: ___", @("I live in Osaka.", "I am happy.", "I have a pen.", "It is Monday."), 0)
+    @("A: Welcome to the wrestling fan meetup. How are you?`nB: ___", @("I am fine, thank you.", "At the station.", "Because it is big.", "Two apples."), 0),
+    @("A: We are making fan name tags. What is your name?`nB: ___", @("My name is Ken.", "I am ten years old.", "I like music.", "It is sunny."), 0),
+    @("A: Do you enjoy watching wrestling?`nB: ___", @("Yes, I do.", "At five o'clock.", "In my bag.", "Three books."), 0),
+    @("A: Which city do you live in for local shows?`nB: ___", @("I live in Osaka.", "I am happy.", "I have a pen.", "It is Monday."), 0)
   )
 
   $a2Prompts = @(
-    @("A: Are you free this afternoon?`nB: ___", @("Yes, I can meet at three.", "I met him yesterday.", "It is the biggest one.", "Because I was tired."), 0),
-    @("A: Why were you late?`nB: ___", @("Because the bus was delayed.", "At the library.", "I will be a teacher.", "No, I don't."), 0),
-    @("A: Could you help me with this report?`nB: ___", @("Sure, I'll help after lunch.", "I helped yesterday only.", "This report is blue.", "At room 204."), 0),
-    @("A: How long have you studied English?`nB: ___", @("For about three years.", "In the classroom.", "My teacher is kind.", "Yes, I studied."), 0)
+    @("A: Are you free this afternoon for the PPV watch party?`nB: ___", @("Yes, I can meet at three.", "I met him yesterday.", "It is the biggest one.", "Because I was tired."), 0),
+    @("A: Why were you late to the arena meetup?`nB: ___", @("Because the bus was delayed.", "At the library.", "I will be a teacher.", "No, I don't."), 0),
+    @("A: Could you help me with this match report?`nB: ___", @("Sure, I'll help after lunch.", "I helped yesterday only.", "This report is blue.", "At room 204."), 0),
+    @("A: How long have you studied wrestling English terms?`nB: ___", @("For about three years.", "In the classroom.", "My teacher is kind.", "Yes, I studied."), 0)
   )
 
   $b1Prompts = @(
-    @("A: Do you think we should postpone the meeting?`nB: ___", @("Yes, unless everyone can join on time.", "I postponed it last year.", "At the office door.", "The meeting is a table."), 0),
-    @("A: How did your presentation go?`nB: ___", @("It went well after I adjusted the slides.", "I present every Tuesday.", "The projector is expensive.", "At nine o'clock exactly."), 0),
-    @("A: Why did you choose that course?`nB: ___", @("It matched the skills I needed for work.", "The course chose me.", "I have chosen tomorrow.", "At the third floor."), 0),
-    @("A: Can you finish the draft by Friday?`nB: ___", @("I can, provided I get the final data today.", "I finished drafts before.", "Friday is my favorite.", "In the same folder."), 0)
+    @("A: Should we postpone the fan strategy meeting before the big show?`nB: ___", @("Yes, unless everyone can join on time.", "I postponed it last year.", "At the office door.", "The meeting is a table."), 0),
+    @("A: How did your Wrestle Kingdom trend presentation go?`nB: ___", @("It went well after I adjusted the slides.", "I present every Tuesday.", "The projector is expensive.", "At nine o'clock exactly."), 0),
+    @("A: Why did you choose that booking analysis course?`nB: ___", @("It matched the skills I needed for work.", "The course chose me.", "I have chosen tomorrow.", "At the third floor."), 0),
+    @("A: Can you finish the preview draft before the title match?`nB: ___", @("I can, provided I get the final data today.", "I finished drafts before.", "Friday is my favorite.", "In the same folder."), 0)
   )
 
   for ($i = 1; $i -le 20; $i++) {
@@ -308,42 +308,42 @@ function Generate-ShortReading {
   param([string]$Level, [int]$SeqStart)
 
   $a1ReadingSet = @(
-    @("Read: Tom goes there after school to use a slide and a swing. Where does Tom go?", @("park", "library", "bank", "museum")),
-    @("Read: Mika borrows picture books there every Saturday. Where does Mika go?", @("library", "school", "station", "store")),
-    @("Read: Ken studies in classrooms and meets his teacher there every weekday. Where does Ken go?", @("school", "hospital", "park", "bank")),
-    @("Read: Sara buys fruit and milk there on her way home. Where does Sara go?", @("store", "library", "museum", "station")),
-    @("Read: Yui waits for the train there in the morning. Where does Yui go?", @("station", "store", "school", "park"))
+    @("Read: Tom practices rolls and stretches after school in an open place near his home. Where does Tom go?", @("park", "library", "bank", "museum")),
+    @("Read: Mika reads wrestler biographies and borrows magazines every Saturday. Where does Mika go?", @("library", "school", "station", "store")),
+    @("Read: Ken takes classes in the daytime and talks with his teacher about famous matches. Where does Ken go?", @("school", "hospital", "park", "bank")),
+    @("Read: Sara buys snacks before watching a weekend wrestling show. Where does Sara go?", @("store", "library", "museum", "station")),
+    @("Read: Yui catches an early train to attend a live event in another city. Where does Yui go?", @("station", "store", "school", "park"))
   )
 
   $a2ReadingSet = @(
-    @("Read: Emma has music practice on Tuesday evenings. She sits at a keyboard and follows her teacher's notes. What does Emma usually do?", @("take a piano lesson", "visit her grandmother", "goes camping", "takes a flight")),
-    @("Read: Nina carries a racket to the court on Wednesday evenings and practices with her friend. What does Nina usually do?", @("play tennis", "study at the cafe", "watches a movie at noon", "help at home")),
-    @("Read: Ryo opens his laptop at a quiet cafe after dinner and reviews vocabulary for an hour. What does Ryo usually do?", @("study at the cafe", "take a piano lesson", "visit her grandmother", "goes camping")),
-    @("Read: Luis helps his parents wash dishes and clean the living room every Friday evening. What does Luis usually do?", @("help at home", "takes a flight", "play tennis", "watches a movie at noon")),
-    @("Read: Aki visits an older family member on Sunday evenings and brings some snacks. What does Aki usually do?", @("visit her grandmother", "study at the cafe", "take a piano lesson", "takes a flight"))
+    @("Read: Emma trains rhythm and timing every Tuesday evening because she wants cleaner ring entrance movement. What does Emma usually do?", @("take a piano lesson", "visit her grandmother", "goes camping", "takes a flight")),
+    @("Read: Nina plays on an outdoor court on Wednesday and says footwork helps her in wrestling drills. What does Nina usually do?", @("play tennis", "study at the cafe", "watches a movie at noon", "help at home")),
+    @("Read: Ryo goes to a quiet cafe after dinner and reviews wrestling English terms for one hour. What does Ryo usually do?", @("study at the cafe", "take a piano lesson", "visit her grandmother", "goes camping")),
+    @("Read: Luis cleans the kitchen and living room on Friday before joining the live stream. What does Luis usually do?", @("help at home", "takes a flight", "play tennis", "watches a movie at noon")),
+    @("Read: Aki visits an older family member on Sunday and talks about the latest title match. What does Aki usually do?", @("visit her grandmother", "study at the cafe", "take a piano lesson", "takes a flight"))
   )
 
   $b1ReadingSet = @(
-    @("Read: The design team compared user feedback from two prototypes and chose the option that triggered fewer support requests. Which prototype did they choose?", @("The prototype that generated fewer support tickets.", "The one with lower price.", "The one launched first.", "The one with more screens.")),
-    @("Read: Aya revised the proposal after the client asked for a shorter timeline and clearer milestones. Why did Aya revise it?", @("Because the client requested changes.", "Because the printer broke.", "Because the budget doubled.", "Because the meeting was canceled.")),
-    @("Read: During the trial week, the support team answered chats first and emails later, which reduced waiting time. What reduced waiting time?", @("Prioritizing chats before emails.", "Hiring ten new agents.", "Closing the help center.", "Sending fewer replies.")),
-    @("Read: Ken shared weekly progress notes so new members could understand decisions quickly. What was the purpose of the notes?", @("To help new members understand decisions.", "To replace all meetings.", "To reduce product features.", "To avoid customer interviews.")),
-    @("Read: The sales group postponed the campaign until they confirmed inventory levels. Why did they postpone it?", @("They needed to confirm inventory.", "They changed office locations.", "They lost internet access.", "They hired fewer staff.")),
-    @("Read: Mei tested three headlines and selected the one that produced the highest click-through rate. Which headline was selected?", @("The headline with the highest click-through rate.", "The longest headline.", "The first headline written.", "The least formal headline.")),
-    @("Read: The team moved the deadline by two days because a key vendor delivered materials late. Why was the deadline moved?", @("A vendor delivered materials late.", "The team finished too early.", "The budget was increased.", "The office was closed for holidays.")),
-    @("Read: Riku summarized customer interviews and grouped comments into usability, pricing, and reliability. What did Riku do with the comments?", @("He grouped them by theme.", "He deleted negative comments.", "He translated all comments.", "He sent them only to sales.")),
-    @("Read: The manager added a checklist before each release so the team would not repeat the same errors. What was the checklist for?", @("To reduce recurring errors.", "To shorten lunch breaks.", "To increase meeting length.", "To reduce testing scope.")),
-    @("Read: After reviewing error logs, the engineer fixed the login bug and monitored reports for three days. What happened after the fix?", @("Reports were monitored for three days.", "All logs were removed immediately.", "The app was redesigned.", "User accounts were reset.")),
-    @("Read: The HR team introduced a mentoring program so junior staff could ask questions more easily. Why was the program introduced?", @("To make it easier for junior staff to ask questions.", "To reduce training materials.", "To evaluate only senior staff.", "To cancel one-on-one meetings.")),
-    @("Read: Because survey responses were low, the team shortened the form and clarified each question. What change was made to improve responses?", @("The form was shortened and clarified.", "The survey was translated into five languages.", "The deadline was removed.", "The audience was narrowed to managers only.")),
-    @("Read: Lina prepared a comparison chart to explain why one supplier was more reliable despite a higher price. What did the chart explain?", @("Why a higher-priced supplier was more reliable.", "Why all suppliers should be replaced.", "Why price should be ignored completely.", "Why delivery speed was unknown.")),
-    @("Read: The project lead asked everyone to update task status every evening to spot delays early. Why was daily status updating required?", @("To detect delays early.", "To increase overtime hours.", "To reduce team communication.", "To skip weekly planning.")),
-    @("Read: The team recorded a short demo video to help remote members understand the workflow before discussion. Why was the video recorded?", @("To help remote members review the process in advance.", "So the product could launch immediately.", "So meetings could be canceled forever.", "So customers could edit the script.")),
-    @("Read: After two weeks, the pilot group said handover mistakes dropped and new members adapted more quickly. What result was reported?", @("Mistakes decreased and onboarding became faster.", "Lower salaries and longer shifts.", "More complaints and slower training.", "No measurable change at all.")),
-    @("Read: Nao changed the meeting agenda to focus on blockers first, which made decisions faster. What made decisions faster?", @("Focusing on blockers first.", "Adding more presentation slides.", "Inviting external speakers.", "Shortening the budget report.")),
-    @("Read: The operations team created a backup plan in case the main server failed during peak hours. Why did they create it?", @("To prepare for server failure during peak hours.", "To lower internet speed intentionally.", "To avoid data backups.", "To stop monitoring system health.")),
-    @("Read: Yuta documented common customer questions and shared sample answers with the support team. What did Yuta share?", @("Sample answers to common questions.", "A list of canceled products.", "Only unresolved tickets.", "A new pricing contract.")),
-    @("Read: The committee approved the proposal after confirming that risks were identified and mitigation steps were realistic. Why was it approved?", @("Risks and mitigation steps were confirmed.", "The document was the shortest.", "No risks were discussed.", "The deadline was removed entirely."))
+    @("Read: Before a major 2020s event, the production team compared fan feedback from two promo page drafts and picked the one that caused fewer support messages. Which draft did they pick?", @("The prototype that generated fewer support tickets.", "The one with lower price.", "The one launched first.", "The one with more screens.")),
+    @("Read: Aya updated the event brief after the sponsor asked for a tighter schedule and clearer milestones for wrestler interviews. Why did Aya update it?", @("Because the client requested changes.", "Because the printer broke.", "Because the budget doubled.", "Because the meeting was canceled.")),
+    @("Read: During a title-match week, the support desk handled live chat before email, and average waiting time dropped. What caused the improvement?", @("Prioritizing chats before emails.", "Hiring ten new agents.", "Closing the help center.", "Sending fewer replies.")),
+    @("Read: Ken posted weekly notes on booking decisions so new staff could follow why each segment was placed in that order. Why were the notes posted?", @("To help new members understand decisions.", "To replace all meetings.", "To reduce product features.", "To avoid customer interviews.")),
+    @("Read: The merch team delayed an online launch until stock for event-day goods was verified. Why did they delay it?", @("They needed to confirm inventory.", "They changed office locations.", "They lost internet access.", "They hired fewer staff.")),
+    @("Read: Mei tested three social headlines for a Roman Reigns feature and selected the one with the best engagement. Which one was selected?", @("The headline with the highest click-through rate.", "The longest headline.", "The first headline written.", "The least formal headline.")),
+    @("Read: A key supplier delivered stage materials late, so the rehearsal schedule moved back by two days. Why was the schedule moved?", @("A vendor delivered materials late.", "The team finished too early.", "The budget was increased.", "The office was closed for holidays.")),
+    @("Read: Riku reviewed comments about Okada and Ospreay segments, then sorted them into pacing, price, and reliability categories. What did Riku do?", @("He grouped them by theme.", "He deleted negative comments.", "He translated all comments.", "He sent them only to sales.")),
+    @("Read: The producer added a pre-show checklist to avoid repeating mistakes seen in earlier cards. What was the checklist for?", @("To reduce recurring errors.", "To shorten lunch breaks.", "To increase meeting length.", "To reduce testing scope.")),
+    @("Read: After fixing a login issue in the fan app, the engineer watched the dashboard for three days during event week. What happened after the fix?", @("Reports were monitored for three days.", "All logs were removed immediately.", "The app was redesigned.", "User accounts were reset.")),
+    @("Read: A mentoring plan was introduced so junior staff handling press work for wrestlers could ask questions faster. Why was it introduced?", @("To make it easier for junior staff to ask questions.", "To reduce training materials.", "To evaluate only senior staff.", "To cancel one-on-one meetings.")),
+    @("Read: Because fan survey completion was low after a live show, the team shortened the form and clarified the prompts. What changed?", @("The form was shortened and clarified.", "The survey was translated into five languages.", "The deadline was removed.", "The audience was narrowed to managers only.")),
+    @("Read: Lina built a chart to show why one supplier was safer for ring setup even though its cost was higher. What did the chart show?", @("Why a higher-priced supplier was more reliable.", "Why all suppliers should be replaced.", "Why price should be ignored completely.", "Why delivery speed was unknown.")),
+    @("Read: The project lead required nightly status updates during tournament week to catch schedule slips quickly. Why was this required?", @("To detect delays early.", "To increase overtime hours.", "To reduce team communication.", "To skip weekly planning.")),
+    @("Read: The media team recorded a short walkthrough so remote members could review the workflow before discussing AEW and WWE coverage. Why was it recorded?", @("To help remote members review the process in advance.", "So the product could launch immediately.", "So meetings could be canceled forever.", "So customers could edit the script.")),
+    @("Read: Two weeks after launch, the pilot group reported fewer handover mistakes and quicker onboarding for new editors. What result was reported?", @("Mistakes decreased and onboarding became faster.", "Lower salaries and longer shifts.", "More complaints and slower training.", "No measurable change at all.")),
+    @("Read: Nao changed the planning agenda to discuss blockers first before reviewing wrestler profile updates. What made decisions faster?", @("Focusing on blockers first.", "Adding more presentation slides.", "Inviting external speakers.", "Shortening the budget report.")),
+    @("Read: The operations team created a fallback plan in case the main server failed during peak streaming for a major event. Why did they create it?", @("To prepare for server failure during peak hours.", "To lower internet speed intentionally.", "To avoid data backups.", "To stop monitoring system health.")),
+    @("Read: Yuta documented common fan questions about card order and shared ready-to-use reply examples with support members. What did Yuta share?", @("Sample answers to common questions.", "A list of canceled products.", "Only unresolved tickets.", "A new pricing contract.")),
+    @("Read: The committee approved the release after confirming risks were identified and mitigation steps were practical for event-day operation. Why was it approved?", @("Risks and mitigation steps were confirmed.", "The document was the shortest.", "No risks were discussed.", "The deadline was removed entirely."))
   )
 
   for ($i = 1; $i -le 20; $i++) {
@@ -374,11 +374,11 @@ function Generate-SentenceBuild {
 
     if ($Level -eq "A1") {
       $pairs = @(
-        @("私は毎朝7時に起きます。", "I get up at seven every morning."),
-        @("彼はサッカーが好きです。", "He likes soccer."),
-        @("これは私のペンです。", "This is my pen."),
-        @("私たちは日曜日に公園へ行きます。", "We go to the park on Sunday."),
-        @("彼女は英語を勉強しています。", "She is studying English.")
+        @("私は毎朝7時に起きて試合ニュースを見ます。", "I get up at seven every morning and watch match news."),
+        @("彼はプロレスが好きです。", "He likes wrestling."),
+        @("これは私の会場チケットです。", "This is my arena ticket."),
+        @("私たちは日曜日に会場へ行きます。", "We go to the arena on Sunday."),
+        @("彼女は英語でレスラー紹介を勉強しています。", "She is studying wrestler introductions in English.")
       )
       $p = $pairs[($i - 1) % $pairs.Count]
       $correct = $p[1]
@@ -388,11 +388,11 @@ function Generate-SentenceBuild {
 
     if ($Level -eq "A2") {
       $pairs = @(
-        @("私は昨日その本を読み終えました。", "I finished reading the book yesterday."),
-        @("もし晴れたら、私たちは散歩に行きます。", "If it is sunny, we will go for a walk."),
-        @("彼女は3年間この町に住んでいます。", "She has lived in this town for three years."),
-        @("この問題は前のものより難しいです。", "This question is more difficult than the previous one."),
-        @("彼は夕食の前に宿題を終えました。", "He finished his homework before dinner.")
+        @("私は昨日その試合レポートを読み終えました。", "I finished reading the match report yesterday."),
+        @("もし晴れたら、私たちは屋外イベントに行きます。", "If it is sunny, we will go to the outdoor event."),
+        @("彼女は3年間この団体を追いかけています。", "She has followed this promotion for three years."),
+        @("このカードは前のものより面白いです。", "This card is more interesting than the previous one."),
+        @("彼は夕食の前に観戦メモを終えました。", "He finished his viewing notes before dinner.")
       )
       $p = $pairs[($i - 1) % $pairs.Count]
       $correct = $p[1]
@@ -402,11 +402,11 @@ function Generate-SentenceBuild {
 
     if ($Level -eq "B1") {
       $pairs = @(
-        @("会議が終わるまでに、私は提案書を完成させているでしょう。", "I will have finished the proposal by the time the meeting ends."),
-        @("そのプロジェクトは、私たちが予想していたよりも多くの時間を要しました。", "The project took more time than we had expected."),
-        @("十分なデータがあれば、その結果をより正確に説明できます。", "If we had enough data, we could explain the results more accurately."),
-        @("彼女は顧客が本当に必要としていることを理解している。", "She understands what the client really needs."),
-        @("私は新しい環境に適応するために、毎日少しずつ練習しています。", "I practice a little every day to adapt to the new environment.")
+        @("記者会見が始まるまでに、私はプレビュー原稿を完成させているでしょう。", "I will have finished the preview by the time the press conference starts."),
+        @("そのイベント準備は、私たちが予想していたよりも多くの時間を要しました。", "The event preparation took more time than we had expected."),
+        @("十分なデータがあれば、その観客傾向をより正確に説明できます。", "If we had enough data, we could explain the audience trends more accurately."),
+        @("彼女はファンが本当に必要としている情報を理解している。", "She understands what fans really need."),
+        @("私は新しい団体の用語に慣れるために、毎日少しずつ練習しています。", "I practice a little every day to adapt to the new promotion terms.")
       )
       $p = $pairs[($i - 1) % $pairs.Count]
       $correct = $p[1]
