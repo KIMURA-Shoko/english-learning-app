@@ -23,7 +23,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ study every day. (A1-FB-02)",
+        "question_text":  "You ___ every day. (A1-FB-02)",
         "choices":  [
                         "study",
                         "studys",
@@ -32,7 +32,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (study)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:02:00Z",
         "source":  "codex_pre_generated"
@@ -61,7 +61,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She ___ cook every day. (A1-FB-04)",
+        "question_text":  "She ___ every day. (A1-FB-04)",
         "choices":  [
                         "cook",
                         "cooks",
@@ -70,7 +70,7 @@
                     ],
         "answer":  1,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (cook)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:04:00Z",
         "source":  "codex_pre_generated"
@@ -99,7 +99,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They ___ play every day. (A1-FB-06)",
+        "question_text":  "They ___ every day. (A1-FB-06)",
         "choices":  [
                         "play",
                         "plays",
@@ -108,7 +108,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (play)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:06:00Z",
         "source":  "codex_pre_generated"
@@ -137,7 +137,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ watch every day. (A1-FB-08)",
+        "question_text":  "You ___ every day. (A1-FB-08)",
         "choices":  [
                         "watch",
                         "watchs",
@@ -146,7 +146,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (watch)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:08:00Z",
         "source":  "codex_pre_generated"
@@ -175,7 +175,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She ___ read every day. (A1-FB-10)",
+        "question_text":  "She ___ every day. (A1-FB-10)",
         "choices":  [
                         "read",
                         "reads",
@@ -184,7 +184,7 @@
                     ],
         "answer":  1,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (read)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:10:00Z",
         "source":  "codex_pre_generated"
@@ -213,7 +213,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They ___ study every day. (A1-FB-12)",
+        "question_text":  "They ___ every day. (A1-FB-12)",
         "choices":  [
                         "study",
                         "studys",
@@ -222,7 +222,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (study)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:12:00Z",
         "source":  "codex_pre_generated"
@@ -251,7 +251,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ cook every day. (A1-FB-14)",
+        "question_text":  "You ___ every day. (A1-FB-14)",
         "choices":  [
                         "cook",
                         "cooks",
@@ -260,7 +260,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (cook)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:14:00Z",
         "source":  "codex_pre_generated"
@@ -289,7 +289,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "She ___ play every day. (A1-FB-16)",
+        "question_text":  "She ___ every day. (A1-FB-16)",
         "choices":  [
                         "play",
                         "plays",
@@ -298,7 +298,7 @@
                     ],
         "answer":  1,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (play)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:16:00Z",
         "source":  "codex_pre_generated"
@@ -327,7 +327,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "They ___ watch every day. (A1-FB-18)",
+        "question_text":  "They ___ every day. (A1-FB-18)",
         "choices":  [
                         "watch",
                         "watchs",
@@ -336,7 +336,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (watch)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:18:00Z",
         "source":  "codex_pre_generated"
@@ -365,7 +365,7 @@
         "cefr_level":  "A1",
         "skill_type":  "grammar",
         "question_type":  "fill_blank",
-        "question_text":  "You ___ read every day. (A1-FB-20)",
+        "question_text":  "You ___ every day. (A1-FB-20)",
         "choices":  [
                         "read",
                         "reads",
@@ -374,7 +374,7 @@
                     ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
-        "key_phrase":  "穴埋め:現在形",
+        "key_phrase":  "穴埋め:現在形 (read)",
         "status":  "draft",
         "created_at":  "2026-02-22T09:20:00Z",
         "source":  "codex_pre_generated"

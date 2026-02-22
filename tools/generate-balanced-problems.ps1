@@ -66,9 +66,9 @@ function Generate-FillBlank {
       } else {
         $verbs = @("play","study","watch","cook","read")
         $v = $verbs[($i - 1) % $verbs.Count]
-        $q = "$sub ___ $v every day. (" + $Level + "-FB-" + $i.ToString("00") + ")"
+        $q = "$sub ___ every day. (" + $Level + "-FB-" + $i.ToString("00") + ")"
         $ans = if ($sub -in @("He","She")) {1} else {0}
-        Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($v, "$($v)s", "$($v)ed", "$($v)ing") -Answer $ans -Explanation "現在形の主語と動詞の形を確認します。" -KeyPhrase "穴埋め:現在形"
+        Add-Problem -Level $Level -Seq $seq -SkillType "grammar" -QuestionType "fill_blank" -QuestionText $q -Choices @($v, "$($v)s", "$($v)ed", "$($v)ing") -Answer $ans -Explanation "現在形の主語と動詞の形を確認します。" -KeyPhrase ("穴埋め:現在形 (" + $v + ")")
       }
     }
 
