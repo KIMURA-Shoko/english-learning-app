@@ -1,0 +1,35 @@
+{
+  "exported_at": "2026-02-22T10:31:49.542Z",
+  "app_version": "v1-localstorage-export",
+  "wrong_problem_ids": [
+    "A2_V_0072",
+    "A2_G_0008",
+    "A2_R_0058"
+  ],
+  "wrong_logs": {
+    "A2_V_0072": {
+      "wrong_count": 1,
+      "last_wrong_at": "2026-02-22T10:31:25.216Z",
+      "wrong_history": [
+        "2026-02-22T10:31:25.216Z"
+      ],
+      "recovery_correct_streak": 0
+    },
+    "A2_G_0008": {
+      "wrong_count": 1,
+      "last_wrong_at": "2026-02-22T10:31:34.480Z",
+      "wrong_history": [
+        "2026-02-22T10:31:34.480Z"
+      ],
+      "recovery_correct_streak": 0
+    },
+    "A2_R_0058": {
+      "wrong_count": 1,
+      "last_wrong_at": "2026-02-22T10:31:46.215Z",
+      "wrong_history": [
+        "2026-02-22T10:31:46.215Z"
+      ],
+      "recovery_correct_streak": 0
+    }
+  }
+}
