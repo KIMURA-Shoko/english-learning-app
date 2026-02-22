@@ -11,6 +11,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -30,6 +36,12 @@
                         "studyed",
                         "studying"
                     ],
+        "choices_ja":  [
+                           "勉強する",
+                           "（訳未整備）studys",
+                           "（訳未整備）studyed",
+                           "勉強している"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (study)",
@@ -49,6 +61,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  1,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -68,6 +86,12 @@
                         "cooked",
                         "cooking"
                     ],
+        "choices_ja":  [
+                           "料理する",
+                           "料理する（三単現）",
+                           "料理した",
+                           "料理している"
+                       ],
         "answer":  1,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (cook)",
@@ -87,6 +111,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  2,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -106,6 +136,12 @@
                         "played",
                         "playing"
                     ],
+        "choices_ja":  [
+                           "する/遊ぶ",
+                           "する（三単現）",
+                           "した",
+                           "している/すること"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (play)",
@@ -125,6 +161,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -144,6 +186,12 @@
                         "watched",
                         "watching"
                     ],
+        "choices_ja":  [
+                           "見る",
+                           "（訳未整備）watchs",
+                           "見た",
+                           "見ている"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (watch)",
@@ -163,6 +211,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  1,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -182,6 +236,12 @@
                         "readed",
                         "reading"
                     ],
+        "choices_ja":  [
+                           "読む",
+                           "読む（三単現）",
+                           "（訳未整備）readed",
+                           "読んでいる/読むこと"
+                       ],
         "answer":  1,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (read)",
@@ -201,6 +261,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  2,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -220,6 +286,12 @@
                         "studyed",
                         "studying"
                     ],
+        "choices_ja":  [
+                           "勉強する",
+                           "（訳未整備）studys",
+                           "（訳未整備）studyed",
+                           "勉強している"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (study)",
@@ -239,6 +311,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -258,6 +336,12 @@
                         "cooked",
                         "cooking"
                     ],
+        "choices_ja":  [
+                           "料理する",
+                           "料理する（三単現）",
+                           "料理した",
+                           "料理している"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (cook)",
@@ -277,6 +361,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  1,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -296,6 +386,12 @@
                         "played",
                         "playing"
                     ],
+        "choices_ja":  [
+                           "する/遊ぶ",
+                           "する（三単現）",
+                           "した",
+                           "している/すること"
+                       ],
         "answer":  1,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (play)",
@@ -315,6 +411,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  2,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -334,6 +436,12 @@
                         "watched",
                         "watching"
                     ],
+        "choices_ja":  [
+                           "見る",
+                           "（訳未整備）watchs",
+                           "見た",
+                           "見ている"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (watch)",
@@ -353,6 +461,12 @@
                         "are",
                         "be"
                     ],
+        "choices_ja":  [
+                           "am（be動詞）",
+                           "is（be動詞）",
+                           "are（be動詞）",
+                           "be（動詞原形）"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合うbe動詞を選びます。",
         "key_phrase":  "穴埋め:be動詞",
@@ -372,6 +486,12 @@
                         "readed",
                         "reading"
                     ],
+        "choices_ja":  [
+                           "読む",
+                           "読む（三単現）",
+                           "（訳未整備）readed",
+                           "読んでいる/読むこと"
+                       ],
         "answer":  0,
         "explanation_ja":  "現在形の主語と動詞の形を確認します。",
         "key_phrase":  "穴埋め:現在形 (read)",
@@ -391,6 +511,12 @@
                         "Because it is big.",
                         "Two apples."
                     ],
+        "choices_ja":  [
+                           "元気です、ありがとうございます。",
+                           "駅で。",
+                           "（参考訳）なぜなら それは is big.",
+                           "2個のりんご。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -410,6 +536,12 @@
                         "I like music.",
                         "It is sunny."
                     ],
+        "choices_ja":  [
+                           "私の名前はケンです。",
+                           "（参考訳）私は am ten 年 old.",
+                           "（参考訳）私は like music.",
+                           "（参考訳）それは is 晴れた."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -429,6 +561,12 @@
                         "In my bag.",
                         "Three books."
                     ],
+        "choices_ja":  [
+                           "はい、そうです。",
+                           "5時に。",
+                           "私のかばんの中です。",
+                           "3冊の本。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -448,6 +586,12 @@
                         "I have a pen.",
                         "It is Monday."
                     ],
+        "choices_ja":  [
+                           "私は大阪に住んでいます。",
+                           "（参考訳）私は am うれしい.",
+                           "（参考訳）私は have 1つの pen.",
+                           "（参考訳）それは is Monday."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -467,6 +611,12 @@
                         "Because it is big.",
                         "Two apples."
                     ],
+        "choices_ja":  [
+                           "元気です、ありがとうございます。",
+                           "駅で。",
+                           "（参考訳）なぜなら それは is big.",
+                           "2個のりんご。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -486,6 +636,12 @@
                         "I like music.",
                         "It is sunny."
                     ],
+        "choices_ja":  [
+                           "私の名前はケンです。",
+                           "（参考訳）私は am ten 年 old.",
+                           "（参考訳）私は like music.",
+                           "（参考訳）それは is 晴れた."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -505,6 +661,12 @@
                         "In my bag.",
                         "Three books."
                     ],
+        "choices_ja":  [
+                           "はい、そうです。",
+                           "5時に。",
+                           "私のかばんの中です。",
+                           "3冊の本。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -524,6 +686,12 @@
                         "I have a pen.",
                         "It is Monday."
                     ],
+        "choices_ja":  [
+                           "私は大阪に住んでいます。",
+                           "（参考訳）私は am うれしい.",
+                           "（参考訳）私は have 1つの pen.",
+                           "（参考訳）それは is Monday."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -543,6 +711,12 @@
                         "Because it is big.",
                         "Two apples."
                     ],
+        "choices_ja":  [
+                           "元気です、ありがとうございます。",
+                           "駅で。",
+                           "（参考訳）なぜなら それは is big.",
+                           "2個のりんご。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -562,6 +736,12 @@
                         "I like music.",
                         "It is sunny."
                     ],
+        "choices_ja":  [
+                           "私の名前はケンです。",
+                           "（参考訳）私は am ten 年 old.",
+                           "（参考訳）私は like music.",
+                           "（参考訳）それは is 晴れた."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -581,6 +761,12 @@
                         "In my bag.",
                         "Three books."
                     ],
+        "choices_ja":  [
+                           "はい、そうです。",
+                           "5時に。",
+                           "私のかばんの中です。",
+                           "3冊の本。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -600,6 +786,12 @@
                         "I have a pen.",
                         "It is Monday."
                     ],
+        "choices_ja":  [
+                           "私は大阪に住んでいます。",
+                           "（参考訳）私は am うれしい.",
+                           "（参考訳）私は have 1つの pen.",
+                           "（参考訳）それは is Monday."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -619,6 +811,12 @@
                         "Because it is big.",
                         "Two apples."
                     ],
+        "choices_ja":  [
+                           "元気です、ありがとうございます。",
+                           "駅で。",
+                           "（参考訳）なぜなら それは is big.",
+                           "2個のりんご。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -638,6 +836,12 @@
                         "I like music.",
                         "It is sunny."
                     ],
+        "choices_ja":  [
+                           "私の名前はケンです。",
+                           "（参考訳）私は am ten 年 old.",
+                           "（参考訳）私は like music.",
+                           "（参考訳）それは is 晴れた."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -657,6 +861,12 @@
                         "In my bag.",
                         "Three books."
                     ],
+        "choices_ja":  [
+                           "はい、そうです。",
+                           "5時に。",
+                           "私のかばんの中です。",
+                           "3冊の本。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -676,6 +886,12 @@
                         "I have a pen.",
                         "It is Monday."
                     ],
+        "choices_ja":  [
+                           "私は大阪に住んでいます。",
+                           "（参考訳）私は am うれしい.",
+                           "（参考訳）私は have 1つの pen.",
+                           "（参考訳）それは is Monday."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -695,6 +911,12 @@
                         "Because it is big.",
                         "Two apples."
                     ],
+        "choices_ja":  [
+                           "元気です、ありがとうございます。",
+                           "駅で。",
+                           "（参考訳）なぜなら それは is big.",
+                           "2個のりんご。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -714,6 +936,12 @@
                         "I like music.",
                         "It is sunny."
                     ],
+        "choices_ja":  [
+                           "私の名前はケンです。",
+                           "（参考訳）私は am ten 年 old.",
+                           "（参考訳）私は like music.",
+                           "（参考訳）それは is 晴れた."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -733,6 +961,12 @@
                         "In my bag.",
                         "Three books."
                     ],
+        "choices_ja":  [
+                           "はい、そうです。",
+                           "5時に。",
+                           "私のかばんの中です。",
+                           "3冊の本。"
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -752,6 +986,12 @@
                         "I have a pen.",
                         "It is Monday."
                     ],
+        "choices_ja":  [
+                           "私は大阪に住んでいます。",
+                           "（参考訳）私は am うれしい.",
+                           "（参考訳）私は have 1つの pen.",
+                           "（参考訳）それは is Monday."
+                       ],
         "answer":  0,
         "explanation_ja":  "質問の意図に合う自然な応答を選びます。",
         "key_phrase":  "応答選択:A1",
@@ -771,6 +1011,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "公園",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -790,6 +1036,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "図書館",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -809,6 +1061,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "学校",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -828,6 +1086,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "店",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -847,6 +1111,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "駅",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -866,6 +1136,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "公園",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -885,6 +1161,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "図書館",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -904,6 +1186,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "学校",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -923,6 +1211,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "店",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -942,6 +1236,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "駅",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -961,6 +1261,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "公園",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -980,6 +1286,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "図書館",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -999,6 +1311,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "学校",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1018,6 +1336,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "店",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1037,6 +1361,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "駅",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1056,6 +1386,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "公園",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1075,6 +1411,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "図書館",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1094,6 +1436,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "学校",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1113,6 +1461,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "店",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1132,6 +1486,12 @@
                         "bank",
                         "museum"
                     ],
+        "choices_ja":  [
+                           "駅",
+                           "病院",
+                           "銀行",
+                           "博物館"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文中の場所情報を確認します。",
         "key_phrase":  "短文読解:A1",
@@ -1151,6 +1511,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は get up 〜で seven 毎 morning.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1170,6 +1536,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は likes サッカー.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1189,6 +1561,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This is 私の pen.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1208,6 +1586,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私たちは go 〜へ/〜するため その 公園 〜に Sunday.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1227,6 +1611,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は is studying 英語.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1246,6 +1636,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は get up 〜で seven 毎 morning.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1265,6 +1661,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は likes サッカー.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1284,6 +1686,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This is 私の pen.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1303,6 +1711,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私たちは go 〜へ/〜するため その 公園 〜に Sunday.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1322,6 +1736,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は is studying 英語.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1341,6 +1761,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は get up 〜で seven 毎 morning.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1360,6 +1786,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は likes サッカー.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1379,6 +1811,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This is 私の pen.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1398,6 +1836,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私たちは go 〜へ/〜するため その 公園 〜に Sunday.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1417,6 +1861,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は is studying 英語.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1436,6 +1886,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は get up 〜で seven 毎 morning.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1455,6 +1911,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は likes サッカー.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1474,6 +1936,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This is 私の pen.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1493,6 +1961,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私たちは go 〜へ/〜するため その 公園 〜に Sunday.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1512,6 +1986,12 @@
                         "He like soccer.",
                         "We goes to park Sunday."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は is studying 英語.",
+                           "（参考訳）私は am up get 〜で seven 毎 morning.",
+                           "（参考訳）彼は like サッカー.",
+                           "（参考訳）私たちは goes 〜へ/〜するため 公園 Sunday."
+                       ],
         "answer":  0,
         "explanation_ja":  "語順と基本文型が自然な英文を選びます。",
         "key_phrase":  "短文英作:A1",
@@ -1531,6 +2011,12 @@
                         "went",
                         "going"
                     ],
+        "choices_ja":  [
+                           "行く",
+                           "行く（三単現）",
+                           "行った（過去形）",
+                           "行っている/行くこと"
+                       ],
         "answer":  2,
         "explanation_ja":  "yesterday があるので過去形を使います。",
         "key_phrase":  "穴埋め:過去形",
@@ -1550,6 +2036,12 @@
                         "had",
                         "having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "has",
+                           "had",
+                           "having"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合わせて have / has を使い分けます。",
         "key_phrase":  "穴埋め:現在完了",
@@ -1569,6 +2061,12 @@
                         "most interesting",
                         "interest"
                     ],
+        "choices_ja":  [
+                           "おもしろい",
+                           "よりおもしろい",
+                           "最もおもしろい",
+                           "興味"
+                       ],
         "answer":  1,
         "explanation_ja":  "than がある比較級文です。",
         "key_phrase":  "穴埋め:比較級",
@@ -1588,6 +2086,12 @@
                         "will stay",
                         "staying"
                     ],
+        "choices_ja":  [
+                           "とどまる",
+                           "とどまった",
+                           "（参考訳）〜するつもり stay",
+                           "とどまっている"
+                       ],
         "answer":  2,
         "explanation_ja":  "条件文の主節で will を使います。",
         "key_phrase":  "穴埋め:if文",
@@ -1607,6 +2111,12 @@
                         "went",
                         "going"
                     ],
+        "choices_ja":  [
+                           "行く",
+                           "行く（三単現）",
+                           "行った（過去形）",
+                           "行っている/行くこと"
+                       ],
         "answer":  2,
         "explanation_ja":  "yesterday があるので過去形を使います。",
         "key_phrase":  "穴埋め:過去形",
@@ -1626,6 +2136,12 @@
                         "had",
                         "having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "has",
+                           "had",
+                           "having"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合わせて have / has を使い分けます。",
         "key_phrase":  "穴埋め:現在完了",
@@ -1645,6 +2161,12 @@
                         "most interesting",
                         "interest"
                     ],
+        "choices_ja":  [
+                           "おもしろい",
+                           "よりおもしろい",
+                           "最もおもしろい",
+                           "興味"
+                       ],
         "answer":  1,
         "explanation_ja":  "than がある比較級文です。",
         "key_phrase":  "穴埋め:比較級",
@@ -1664,6 +2186,12 @@
                         "will stay",
                         "staying"
                     ],
+        "choices_ja":  [
+                           "とどまる",
+                           "とどまった",
+                           "（参考訳）〜するつもり stay",
+                           "とどまっている"
+                       ],
         "answer":  2,
         "explanation_ja":  "条件文の主節で will を使います。",
         "key_phrase":  "穴埋め:if文",
@@ -1683,6 +2211,12 @@
                         "went",
                         "going"
                     ],
+        "choices_ja":  [
+                           "行く",
+                           "行く（三単現）",
+                           "行った（過去形）",
+                           "行っている/行くこと"
+                       ],
         "answer":  2,
         "explanation_ja":  "yesterday があるので過去形を使います。",
         "key_phrase":  "穴埋め:過去形",
@@ -1702,6 +2236,12 @@
                         "had",
                         "having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "has",
+                           "had",
+                           "having"
+                       ],
         "answer":  1,
         "explanation_ja":  "主語に合わせて have / has を使い分けます。",
         "key_phrase":  "穴埋め:現在完了",
@@ -1721,6 +2261,12 @@
                         "most interesting",
                         "interest"
                     ],
+        "choices_ja":  [
+                           "おもしろい",
+                           "よりおもしろい",
+                           "最もおもしろい",
+                           "興味"
+                       ],
         "answer":  1,
         "explanation_ja":  "than がある比較級文です。",
         "key_phrase":  "穴埋め:比較級",
@@ -1740,6 +2286,12 @@
                         "will stay",
                         "staying"
                     ],
+        "choices_ja":  [
+                           "とどまる",
+                           "とどまった",
+                           "（参考訳）〜するつもり stay",
+                           "とどまっている"
+                       ],
         "answer":  2,
         "explanation_ja":  "条件文の主節で will を使います。",
         "key_phrase":  "穴埋め:if文",
@@ -1759,6 +2311,12 @@
                         "went",
                         "going"
                     ],
+        "choices_ja":  [
+                           "行く",
+                           "行く（三単現）",
+                           "行った（過去形）",
+                           "行っている/行くこと"
+                       ],
         "answer":  2,
         "explanation_ja":  "yesterday があるので過去形を使います。",
         "key_phrase":  "穴埋め:過去形",
@@ -1778,6 +2336,12 @@
                         "had",
                         "having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "has",
+                           "had",
+                           "having"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合わせて have / has を使い分けます。",
         "key_phrase":  "穴埋め:現在完了",
@@ -1797,6 +2361,12 @@
                         "most interesting",
                         "interest"
                     ],
+        "choices_ja":  [
+                           "おもしろい",
+                           "よりおもしろい",
+                           "最もおもしろい",
+                           "興味"
+                       ],
         "answer":  1,
         "explanation_ja":  "than がある比較級文です。",
         "key_phrase":  "穴埋め:比較級",
@@ -1816,6 +2386,12 @@
                         "will stay",
                         "staying"
                     ],
+        "choices_ja":  [
+                           "とどまる",
+                           "とどまった",
+                           "（参考訳）〜するつもり stay",
+                           "とどまっている"
+                       ],
         "answer":  2,
         "explanation_ja":  "条件文の主節で will を使います。",
         "key_phrase":  "穴埋め:if文",
@@ -1835,6 +2411,12 @@
                         "went",
                         "going"
                     ],
+        "choices_ja":  [
+                           "行く",
+                           "行く（三単現）",
+                           "行った（過去形）",
+                           "行っている/行くこと"
+                       ],
         "answer":  2,
         "explanation_ja":  "yesterday があるので過去形を使います。",
         "key_phrase":  "穴埋め:過去形",
@@ -1854,6 +2436,12 @@
                         "had",
                         "having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "has",
+                           "had",
+                           "having"
+                       ],
         "answer":  0,
         "explanation_ja":  "主語に合わせて have / has を使い分けます。",
         "key_phrase":  "穴埋め:現在完了",
@@ -1873,6 +2461,12 @@
                         "most interesting",
                         "interest"
                     ],
+        "choices_ja":  [
+                           "おもしろい",
+                           "よりおもしろい",
+                           "最もおもしろい",
+                           "興味"
+                       ],
         "answer":  1,
         "explanation_ja":  "than がある比較級文です。",
         "key_phrase":  "穴埋め:比較級",
@@ -1892,6 +2486,12 @@
                         "will stay",
                         "staying"
                     ],
+        "choices_ja":  [
+                           "とどまる",
+                           "とどまった",
+                           "（参考訳）〜するつもり stay",
+                           "とどまっている"
+                       ],
         "answer":  2,
         "explanation_ja":  "条件文の主節で will を使います。",
         "key_phrase":  "穴埋め:if文",
@@ -1911,6 +2511,12 @@
                         "It is the biggest one.",
                         "Because I was tired."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 私は できる meet 〜で three.",
+                           "（参考訳）私は met him 昨日.",
+                           "（参考訳）それは is その biggest one.",
+                           "（参考訳）なぜなら 私は was tired."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -1930,6 +2536,12 @@
                         "I will be a teacher.",
                         "No, I don\u0027t."
                     ],
+        "choices_ja":  [
+                           "バスが遅れたからです。",
+                           "図書館で。",
+                           "（参考訳）私は 〜するつもり be 1つの teacher.",
+                           "（参考訳）いいえ, 私は don\u0027t."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -1949,6 +2561,12 @@
                         "This report is blue.",
                         "At room 204."
                     ],
+        "choices_ja":  [
+                           "もちろん、昼食後に手伝います。",
+                           "（参考訳）私は helped 昨日 だけ.",
+                           "（参考訳）This レポート is 青い.",
+                           "204号室で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -1968,6 +2586,12 @@
                         "My teacher is kind.",
                         "Yes, I studied."
                     ],
+        "choices_ja":  [
+                           "約3年間です。",
+                           "教室で。",
+                           "（参考訳）私の teacher is kind.",
+                           "（参考訳）はい, 私は studied."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -1987,6 +2611,12 @@
                         "It is the biggest one.",
                         "Because I was tired."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 私は できる meet 〜で three.",
+                           "（参考訳）私は met him 昨日.",
+                           "（参考訳）それは is その biggest one.",
+                           "（参考訳）なぜなら 私は was tired."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2006,6 +2636,12 @@
                         "I will be a teacher.",
                         "No, I don\u0027t."
                     ],
+        "choices_ja":  [
+                           "バスが遅れたからです。",
+                           "図書館で。",
+                           "（参考訳）私は 〜するつもり be 1つの teacher.",
+                           "（参考訳）いいえ, 私は don\u0027t."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2025,6 +2661,12 @@
                         "This report is blue.",
                         "At room 204."
                     ],
+        "choices_ja":  [
+                           "もちろん、昼食後に手伝います。",
+                           "（参考訳）私は helped 昨日 だけ.",
+                           "（参考訳）This レポート is 青い.",
+                           "204号室で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2044,6 +2686,12 @@
                         "My teacher is kind.",
                         "Yes, I studied."
                     ],
+        "choices_ja":  [
+                           "約3年間です。",
+                           "教室で。",
+                           "（参考訳）私の teacher is kind.",
+                           "（参考訳）はい, 私は studied."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2063,6 +2711,12 @@
                         "It is the biggest one.",
                         "Because I was tired."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 私は できる meet 〜で three.",
+                           "（参考訳）私は met him 昨日.",
+                           "（参考訳）それは is その biggest one.",
+                           "（参考訳）なぜなら 私は was tired."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2082,6 +2736,12 @@
                         "I will be a teacher.",
                         "No, I don\u0027t."
                     ],
+        "choices_ja":  [
+                           "バスが遅れたからです。",
+                           "図書館で。",
+                           "（参考訳）私は 〜するつもり be 1つの teacher.",
+                           "（参考訳）いいえ, 私は don\u0027t."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2101,6 +2761,12 @@
                         "This report is blue.",
                         "At room 204."
                     ],
+        "choices_ja":  [
+                           "もちろん、昼食後に手伝います。",
+                           "（参考訳）私は helped 昨日 だけ.",
+                           "（参考訳）This レポート is 青い.",
+                           "204号室で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2120,6 +2786,12 @@
                         "My teacher is kind.",
                         "Yes, I studied."
                     ],
+        "choices_ja":  [
+                           "約3年間です。",
+                           "教室で。",
+                           "（参考訳）私の teacher is kind.",
+                           "（参考訳）はい, 私は studied."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2139,6 +2811,12 @@
                         "It is the biggest one.",
                         "Because I was tired."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 私は できる meet 〜で three.",
+                           "（参考訳）私は met him 昨日.",
+                           "（参考訳）それは is その biggest one.",
+                           "（参考訳）なぜなら 私は was tired."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2158,6 +2836,12 @@
                         "I will be a teacher.",
                         "No, I don\u0027t."
                     ],
+        "choices_ja":  [
+                           "バスが遅れたからです。",
+                           "図書館で。",
+                           "（参考訳）私は 〜するつもり be 1つの teacher.",
+                           "（参考訳）いいえ, 私は don\u0027t."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2177,6 +2861,12 @@
                         "This report is blue.",
                         "At room 204."
                     ],
+        "choices_ja":  [
+                           "もちろん、昼食後に手伝います。",
+                           "（参考訳）私は helped 昨日 だけ.",
+                           "（参考訳）This レポート is 青い.",
+                           "204号室で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2196,6 +2886,12 @@
                         "My teacher is kind.",
                         "Yes, I studied."
                     ],
+        "choices_ja":  [
+                           "約3年間です。",
+                           "教室で。",
+                           "（参考訳）私の teacher is kind.",
+                           "（参考訳）はい, 私は studied."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2215,6 +2911,12 @@
                         "It is the biggest one.",
                         "Because I was tired."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 私は できる meet 〜で three.",
+                           "（参考訳）私は met him 昨日.",
+                           "（参考訳）それは is その biggest one.",
+                           "（参考訳）なぜなら 私は was tired."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2234,6 +2936,12 @@
                         "I will be a teacher.",
                         "No, I don\u0027t."
                     ],
+        "choices_ja":  [
+                           "バスが遅れたからです。",
+                           "図書館で。",
+                           "（参考訳）私は 〜するつもり be 1つの teacher.",
+                           "（参考訳）いいえ, 私は don\u0027t."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2253,6 +2961,12 @@
                         "This report is blue.",
                         "At room 204."
                     ],
+        "choices_ja":  [
+                           "もちろん、昼食後に手伝います。",
+                           "（参考訳）私は helped 昨日 だけ.",
+                           "（参考訳）This レポート is 青い.",
+                           "204号室で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2272,6 +2986,12 @@
                         "My teacher is kind.",
                         "Yes, I studied."
                     ],
+        "choices_ja":  [
+                           "約3年間です。",
+                           "教室で。",
+                           "（参考訳）私の teacher is kind.",
+                           "（参考訳）はい, 私は studied."
+                       ],
         "answer":  0,
         "explanation_ja":  "文脈に合う応答を選びます。",
         "key_phrase":  "応答選択:A2",
@@ -2291,6 +3011,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2310,6 +3036,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2329,6 +3061,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）play tennis",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2348,6 +3086,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）study 〜で その cafe",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2367,6 +3111,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）help 〜で home",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2386,6 +3136,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2405,6 +3161,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2424,6 +3186,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）play tennis",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2443,6 +3211,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）study 〜で その cafe",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2462,6 +3236,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）help 〜で home",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2481,6 +3261,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2500,6 +3286,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2519,6 +3311,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）play tennis",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2538,6 +3336,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）study 〜で その cafe",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2557,6 +3361,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）help 〜で home",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2576,6 +3386,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）visit 彼女の grandmother",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2595,6 +3411,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）take 1つの piano lesson",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2614,6 +3436,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）play tennis",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2633,6 +3461,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）study 〜で その cafe",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2652,6 +3486,12 @@
                         "takes a flight",
                         "watches a movie at noon"
                     ],
+        "choices_ja":  [
+                           "（参考訳）help 〜で home",
+                           "（訳未整備）goes camping",
+                           "（参考訳）takes 1つの flight",
+                           "（参考訳）watches 1つの movie 〜で noon"
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の行動情報をそのまま対応させます。",
         "key_phrase":  "短文読解:A2",
@@ -2671,6 +3511,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 終えた reading その book 昨日.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2690,6 +3536,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし それは is 晴れた, 私たちは 〜するつもり go 〜のために 1つの walk.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2709,6 +3561,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は has 住んでいる 〜で this town 〜のために three 年.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2728,6 +3586,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This 質問 is more difficult than その previous one.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2747,6 +3611,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は 終えた 彼の homework 〜の前に dinner.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2766,6 +3636,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 終えた reading その book 昨日.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2785,6 +3661,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし それは is 晴れた, 私たちは 〜するつもり go 〜のために 1つの walk.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2804,6 +3686,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は has 住んでいる 〜で this town 〜のために three 年.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2823,6 +3711,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This 質問 is more difficult than その previous one.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2842,6 +3736,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は 終えた 彼の homework 〜の前に dinner.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2861,6 +3761,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 終えた reading その book 昨日.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2880,6 +3786,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし それは is 晴れた, 私たちは 〜するつもり go 〜のために 1つの walk.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2899,6 +3811,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は has 住んでいる 〜で this town 〜のために three 年.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2918,6 +3836,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This 質問 is more difficult than その previous one.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2937,6 +3861,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は 終えた 彼の homework 〜の前に dinner.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2956,6 +3886,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 終えた reading その book 昨日.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2975,6 +3911,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし それは is 晴れた, 私たちは 〜するつもり go 〜のために 1つの walk.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -2994,6 +3936,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は has 住んでいる 〜で this town 〜のために three 年.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -3013,6 +3961,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）This 質問 is more difficult than その previous one.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -3032,6 +3986,12 @@
                         "If sunny, we go walking will.",
                         "She living this town for three years."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は 終えた 彼の homework 〜の前に dinner.",
+                           "（参考訳）私は have finish read その book 昨日.",
+                           "（参考訳）もし 晴れた, 私たちは go walking 〜するつもり.",
+                           "（参考訳）彼女は living this town 〜のために three 年."
+                       ],
         "answer":  0,
         "explanation_ja":  "時制と語順が正しい文を選びます。",
         "key_phrase":  "短文英作:A2",
@@ -3051,6 +4011,12 @@
                         "was",
                         "is"
                     ],
+        "choices_ja":  [
+                           "has",
+                           "had",
+                           "（訳未整備）was",
+                           "is（be動詞）"
+                       ],
         "answer":  1,
         "explanation_ja":  "過去のある時点より前の出来事なので過去完了です。",
         "key_phrase":  "穴埋め:過去完了",
@@ -3070,6 +4036,12 @@
                         "has completing",
                         "is complete"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）completed",
+                           "（訳未整備）was completed",
+                           "（訳未整備）has completing",
+                           "（訳未整備）is complete"
+                       ],
         "answer":  1,
         "explanation_ja":  "提案が完了される側なので受動態です。",
         "key_phrase":  "穴埋め:受動態",
@@ -3089,6 +4061,12 @@
                         "that",
                         "what"
                     ],
+        "choices_ja":  [
+                           "who（関係代名詞）",
+                           "where（関係副詞）",
+                           "that（関係代名詞/指示語）",
+                           "what（疑問詞/関係代名詞）"
+                       ],
         "answer":  2,
         "explanation_ja":  "先行詞 job を修飾する関係代名詞です。",
         "key_phrase":  "穴埋め:関係代名詞",
@@ -3108,6 +4086,12 @@
                         "will have",
                         "am having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "had",
+                           "（参考訳）〜するつもり have",
+                           "（訳未整備）am having"
+                       ],
         "answer":  1,
         "explanation_ja":  "仮定法過去では if 節に過去形を使います。",
         "key_phrase":  "穴埋め:仮定法",
@@ -3127,6 +4111,12 @@
                         "was",
                         "is"
                     ],
+        "choices_ja":  [
+                           "has",
+                           "had",
+                           "（訳未整備）was",
+                           "is（be動詞）"
+                       ],
         "answer":  1,
         "explanation_ja":  "過去のある時点より前の出来事なので過去完了です。",
         "key_phrase":  "穴埋め:過去完了",
@@ -3146,6 +4136,12 @@
                         "has completing",
                         "is complete"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）completed",
+                           "（訳未整備）was completed",
+                           "（訳未整備）has completing",
+                           "（訳未整備）is complete"
+                       ],
         "answer":  1,
         "explanation_ja":  "提案が完了される側なので受動態です。",
         "key_phrase":  "穴埋め:受動態",
@@ -3165,6 +4161,12 @@
                         "that",
                         "what"
                     ],
+        "choices_ja":  [
+                           "who（関係代名詞）",
+                           "where（関係副詞）",
+                           "that（関係代名詞/指示語）",
+                           "what（疑問詞/関係代名詞）"
+                       ],
         "answer":  2,
         "explanation_ja":  "先行詞 job を修飾する関係代名詞です。",
         "key_phrase":  "穴埋め:関係代名詞",
@@ -3184,6 +4186,12 @@
                         "will have",
                         "am having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "had",
+                           "（参考訳）〜するつもり have",
+                           "（訳未整備）am having"
+                       ],
         "answer":  1,
         "explanation_ja":  "仮定法過去では if 節に過去形を使います。",
         "key_phrase":  "穴埋め:仮定法",
@@ -3203,6 +4211,12 @@
                         "was",
                         "is"
                     ],
+        "choices_ja":  [
+                           "has",
+                           "had",
+                           "（訳未整備）was",
+                           "is（be動詞）"
+                       ],
         "answer":  1,
         "explanation_ja":  "過去のある時点より前の出来事なので過去完了です。",
         "key_phrase":  "穴埋め:過去完了",
@@ -3222,6 +4236,12 @@
                         "has completing",
                         "is complete"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）completed",
+                           "（訳未整備）was completed",
+                           "（訳未整備）has completing",
+                           "（訳未整備）is complete"
+                       ],
         "answer":  1,
         "explanation_ja":  "提案が完了される側なので受動態です。",
         "key_phrase":  "穴埋め:受動態",
@@ -3241,6 +4261,12 @@
                         "that",
                         "what"
                     ],
+        "choices_ja":  [
+                           "who（関係代名詞）",
+                           "where（関係副詞）",
+                           "that（関係代名詞/指示語）",
+                           "what（疑問詞/関係代名詞）"
+                       ],
         "answer":  2,
         "explanation_ja":  "先行詞 job を修飾する関係代名詞です。",
         "key_phrase":  "穴埋め:関係代名詞",
@@ -3260,6 +4286,12 @@
                         "will have",
                         "am having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "had",
+                           "（参考訳）〜するつもり have",
+                           "（訳未整備）am having"
+                       ],
         "answer":  1,
         "explanation_ja":  "仮定法過去では if 節に過去形を使います。",
         "key_phrase":  "穴埋め:仮定法",
@@ -3279,6 +4311,12 @@
                         "was",
                         "is"
                     ],
+        "choices_ja":  [
+                           "has",
+                           "had",
+                           "（訳未整備）was",
+                           "is（be動詞）"
+                       ],
         "answer":  1,
         "explanation_ja":  "過去のある時点より前の出来事なので過去完了です。",
         "key_phrase":  "穴埋め:過去完了",
@@ -3298,6 +4336,12 @@
                         "has completing",
                         "is complete"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）completed",
+                           "（訳未整備）was completed",
+                           "（訳未整備）has completing",
+                           "（訳未整備）is complete"
+                       ],
         "answer":  1,
         "explanation_ja":  "提案が完了される側なので受動態です。",
         "key_phrase":  "穴埋め:受動態",
@@ -3317,6 +4361,12 @@
                         "that",
                         "what"
                     ],
+        "choices_ja":  [
+                           "who（関係代名詞）",
+                           "where（関係副詞）",
+                           "that（関係代名詞/指示語）",
+                           "what（疑問詞/関係代名詞）"
+                       ],
         "answer":  2,
         "explanation_ja":  "先行詞 job を修飾する関係代名詞です。",
         "key_phrase":  "穴埋め:関係代名詞",
@@ -3336,6 +4386,12 @@
                         "will have",
                         "am having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "had",
+                           "（参考訳）〜するつもり have",
+                           "（訳未整備）am having"
+                       ],
         "answer":  1,
         "explanation_ja":  "仮定法過去では if 節に過去形を使います。",
         "key_phrase":  "穴埋め:仮定法",
@@ -3355,6 +4411,12 @@
                         "was",
                         "is"
                     ],
+        "choices_ja":  [
+                           "has",
+                           "had",
+                           "（訳未整備）was",
+                           "is（be動詞）"
+                       ],
         "answer":  1,
         "explanation_ja":  "過去のある時点より前の出来事なので過去完了です。",
         "key_phrase":  "穴埋め:過去完了",
@@ -3374,6 +4436,12 @@
                         "has completing",
                         "is complete"
                     ],
+        "choices_ja":  [
+                           "（訳未整備）completed",
+                           "（訳未整備）was completed",
+                           "（訳未整備）has completing",
+                           "（訳未整備）is complete"
+                       ],
         "answer":  1,
         "explanation_ja":  "提案が完了される側なので受動態です。",
         "key_phrase":  "穴埋め:受動態",
@@ -3393,6 +4461,12 @@
                         "that",
                         "what"
                     ],
+        "choices_ja":  [
+                           "who（関係代名詞）",
+                           "where（関係副詞）",
+                           "that（関係代名詞/指示語）",
+                           "what（疑問詞/関係代名詞）"
+                       ],
         "answer":  2,
         "explanation_ja":  "先行詞 job を修飾する関係代名詞です。",
         "key_phrase":  "穴埋め:関係代名詞",
@@ -3412,6 +4486,12 @@
                         "will have",
                         "am having"
                     ],
+        "choices_ja":  [
+                           "have",
+                           "had",
+                           "（参考訳）〜するつもり have",
+                           "（訳未整備）am having"
+                       ],
         "answer":  1,
         "explanation_ja":  "仮定法過去では if 節に過去形を使います。",
         "key_phrase":  "穴埋め:仮定法",
@@ -3431,6 +4511,12 @@
                         "At the office door.",
                         "The meeting is a table."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 〜でない限り everyone できる join 〜に 時間.",
+                           "（参考訳）私は postponed それは last year.",
+                           "オフィスの入口で。",
+                           "（参考訳）その 会議 is 1つの table."
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3450,6 +4536,12 @@
                         "The projector is expensive.",
                         "At nine o\u0027clock exactly."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは went うまく 〜の後で 私は 調整した その slides.",
+                           "（参考訳）私は present 毎 Tuesday.",
+                           "（参考訳）その projector is expensive.",
+                           "ちょうど9時に。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3469,6 +4561,12 @@
                         "I have chosen tomorrow.",
                         "At the third floor."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは 一致した その skills 私は 必要だった 〜のために 仕事.",
+                           "（参考訳）その course 選んだ me.",
+                           "（参考訳）私は have chosen tomorrow.",
+                           "3階で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3488,6 +4586,12 @@
                         "Friday is my favorite.",
                         "In the same folder."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は できる, 〜という条件で 私は get その final データ 今日.",
+                           "（参考訳）私は 終えた drafts 〜の前に.",
+                           "（参考訳）Friday is 私の favorite.",
+                           "同じフォルダ内で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3507,6 +4611,12 @@
                         "At the office door.",
                         "The meeting is a table."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 〜でない限り everyone できる join 〜に 時間.",
+                           "（参考訳）私は postponed それは last year.",
+                           "オフィスの入口で。",
+                           "（参考訳）その 会議 is 1つの table."
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3526,6 +4636,12 @@
                         "The projector is expensive.",
                         "At nine o\u0027clock exactly."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは went うまく 〜の後で 私は 調整した その slides.",
+                           "（参考訳）私は present 毎 Tuesday.",
+                           "（参考訳）その projector is expensive.",
+                           "ちょうど9時に。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3545,6 +4661,12 @@
                         "I have chosen tomorrow.",
                         "At the third floor."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは 一致した その skills 私は 必要だった 〜のために 仕事.",
+                           "（参考訳）その course 選んだ me.",
+                           "（参考訳）私は have chosen tomorrow.",
+                           "3階で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3564,6 +4686,12 @@
                         "Friday is my favorite.",
                         "In the same folder."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は できる, 〜という条件で 私は get その final データ 今日.",
+                           "（参考訳）私は 終えた drafts 〜の前に.",
+                           "（参考訳）Friday is 私の favorite.",
+                           "同じフォルダ内で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3583,6 +4711,12 @@
                         "At the office door.",
                         "The meeting is a table."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 〜でない限り everyone できる join 〜に 時間.",
+                           "（参考訳）私は postponed それは last year.",
+                           "オフィスの入口で。",
+                           "（参考訳）その 会議 is 1つの table."
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3602,6 +4736,12 @@
                         "The projector is expensive.",
                         "At nine o\u0027clock exactly."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは went うまく 〜の後で 私は 調整した その slides.",
+                           "（参考訳）私は present 毎 Tuesday.",
+                           "（参考訳）その projector is expensive.",
+                           "ちょうど9時に。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3621,6 +4761,12 @@
                         "I have chosen tomorrow.",
                         "At the third floor."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは 一致した その skills 私は 必要だった 〜のために 仕事.",
+                           "（参考訳）その course 選んだ me.",
+                           "（参考訳）私は have chosen tomorrow.",
+                           "3階で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3640,6 +4786,12 @@
                         "Friday is my favorite.",
                         "In the same folder."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は できる, 〜という条件で 私は get その final データ 今日.",
+                           "（参考訳）私は 終えた drafts 〜の前に.",
+                           "（参考訳）Friday is 私の favorite.",
+                           "同じフォルダ内で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3659,6 +4811,12 @@
                         "At the office door.",
                         "The meeting is a table."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 〜でない限り everyone できる join 〜に 時間.",
+                           "（参考訳）私は postponed それは last year.",
+                           "オフィスの入口で。",
+                           "（参考訳）その 会議 is 1つの table."
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3678,6 +4836,12 @@
                         "The projector is expensive.",
                         "At nine o\u0027clock exactly."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは went うまく 〜の後で 私は 調整した その slides.",
+                           "（参考訳）私は present 毎 Tuesday.",
+                           "（参考訳）その projector is expensive.",
+                           "ちょうど9時に。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3697,6 +4861,12 @@
                         "I have chosen tomorrow.",
                         "At the third floor."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは 一致した その skills 私は 必要だった 〜のために 仕事.",
+                           "（参考訳）その course 選んだ me.",
+                           "（参考訳）私は have chosen tomorrow.",
+                           "3階で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3716,6 +4886,12 @@
                         "Friday is my favorite.",
                         "In the same folder."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は できる, 〜という条件で 私は get その final データ 今日.",
+                           "（参考訳）私は 終えた drafts 〜の前に.",
+                           "（参考訳）Friday is 私の favorite.",
+                           "同じフォルダ内で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3735,6 +4911,12 @@
                         "At the office door.",
                         "The meeting is a table."
                     ],
+        "choices_ja":  [
+                           "（参考訳）はい, 〜でない限り everyone できる join 〜に 時間.",
+                           "（参考訳）私は postponed それは last year.",
+                           "オフィスの入口で。",
+                           "（参考訳）その 会議 is 1つの table."
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3754,6 +4936,12 @@
                         "The projector is expensive.",
                         "At nine o\u0027clock exactly."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは went うまく 〜の後で 私は 調整した その slides.",
+                           "（参考訳）私は present 毎 Tuesday.",
+                           "（参考訳）その projector is expensive.",
+                           "ちょうど9時に。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3773,6 +4961,12 @@
                         "I have chosen tomorrow.",
                         "At the third floor."
                     ],
+        "choices_ja":  [
+                           "（参考訳）それは 一致した その skills 私は 必要だった 〜のために 仕事.",
+                           "（参考訳）その course 選んだ me.",
+                           "（参考訳）私は have chosen tomorrow.",
+                           "3階で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3792,6 +4986,12 @@
                         "Friday is my favorite.",
                         "In the same folder."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は できる, 〜という条件で 私は get その final データ 今日.",
+                           "（参考訳）私は 終えた drafts 〜の前に.",
+                           "（参考訳）Friday is 私の favorite.",
+                           "同じフォルダ内で。"
+                       ],
         "answer":  0,
         "explanation_ja":  "条件や理由を含む自然な返答を判断します。",
         "key_phrase":  "応答選択:B1",
@@ -3811,6 +5011,12 @@
                         "The one launched first.",
                         "The one with more screens."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その one with fewer support requests.",
+                           "（参考訳）その one with lower price.",
+                           "（参考訳）その one 公開した first.",
+                           "（参考訳）その one with more screens."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3830,6 +5036,12 @@
                         "Because the budget doubled.",
                         "Because the meeting was canceled."
                     ],
+        "choices_ja":  [
+                           "（参考訳）なぜなら その 顧客 requested changes.",
+                           "（参考訳）なぜなら その printer broke.",
+                           "（参考訳）なぜなら その budget doubled.",
+                           "（参考訳）なぜなら その 会議 was 中止された."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3849,6 +5061,12 @@
                         "Closing the help center.",
                         "Sending fewer replies."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Prioritizing chats 〜の前に emails.",
+                           "（訳未整備）Hiring ten new agents.",
+                           "（参考訳）Closing その help center.",
+                           "（訳未整備）Sending fewer replies."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3868,6 +5086,12 @@
                         "To reduce product features.",
                         "To avoid customer interviews."
                     ],
+        "choices_ja":  [
+                           "（参考訳）〜へ/〜するため help new members understand decisions.",
+                           "（参考訳）〜へ/〜するため replace すべて meetings.",
+                           "（参考訳）〜へ/〜するため reduce product features.",
+                           "（参考訳）〜へ/〜するため avoid customer interviews."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3887,6 +5111,12 @@
                         "They lost internet access.",
                         "They hired fewer staff."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼らは 必要だった 〜へ/〜するため confirm inventory.",
+                           "（参考訳）彼らは changed オフィス locations.",
+                           "（参考訳）彼らは lost internet access.",
+                           "（参考訳）彼らは hired fewer staff."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3906,6 +5136,12 @@
                         "The first headline written.",
                         "The least formal headline."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その headline with その highest click-through rate.",
+                           "（参考訳）その longest headline.",
+                           "（参考訳）その first headline written.",
+                           "（参考訳）その least formal headline."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3925,6 +5161,12 @@
                         "The budget was increased.",
                         "The office was closed for holidays."
                     ],
+        "choices_ja":  [
+                           "（参考訳）1つの vendor delivered materials late.",
+                           "（参考訳）その チーム 終えた too early.",
+                           "（参考訳）その budget was increased.",
+                           "（参考訳）その オフィス was closed 〜のために holidays."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3944,6 +5186,12 @@
                         "He translated all comments.",
                         "He sent them only to sales."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼は grouped them by theme.",
+                           "（参考訳）彼は deleted negative comments.",
+                           "（参考訳）彼は translated すべて comments.",
+                           "（参考訳）彼は sent them だけ 〜へ/〜するため sales."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3963,6 +5211,12 @@
                         "To increase meeting length.",
                         "To reduce testing scope."
                     ],
+        "choices_ja":  [
+                           "（参考訳）〜へ/〜するため prevent repeated mistakes.",
+                           "（参考訳）〜へ/〜するため shorten lunch breaks.",
+                           "（参考訳）〜へ/〜するため increase 会議 length.",
+                           "（参考訳）〜へ/〜するため reduce testing scope."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -3982,6 +5236,12 @@
                         "The app was redesigned.",
                         "User accounts were reset."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Reports were 監視した 〜のために three days.",
+                           "（参考訳）すべて logs were removed immediately.",
+                           "（参考訳）その app was redesigned.",
+                           "（訳未整備）User accounts were reset."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4001,6 +5261,12 @@
                         "To evaluate only senior staff.",
                         "To cancel one-on-one meetings."
                     ],
+        "choices_ja":  [
+                           "（参考訳）〜へ/〜するため make それは easier 〜のために junior staff 〜へ/〜するため ask 質問.",
+                           "（参考訳）〜へ/〜するため reduce training materials.",
+                           "（参考訳）〜へ/〜するため evaluate だけ senior staff.",
+                           "（参考訳）〜へ/〜するため cancel one-〜に-one meetings."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4020,6 +5286,12 @@
                         "The deadline was removed.",
                         "The audience was narrowed to managers only."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その form was 短くした そして 明確にした.",
+                           "（参考訳）その 調査 was translated into five languages.",
+                           "（参考訳）その deadline was removed.",
+                           "（参考訳）その audience was narrowed 〜へ/〜するため managers だけ."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4039,6 +5311,12 @@
                         "Why price should be ignored completely.",
                         "Why delivery speed was unknown."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Why 1つの higher-priced supplier was more reliable.",
+                           "（参考訳）Why すべて suppliers 〜すべき be replaced.",
+                           "（参考訳）Why price 〜すべき be ignored completely.",
+                           "（訳未整備）Why delivery speed was unknown."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4058,6 +5336,12 @@
                         "To reduce team communication.",
                         "To skip weekly planning."
                     ],
+        "choices_ja":  [
+                           "（参考訳）〜へ/〜するため detect delays early.",
+                           "（参考訳）〜へ/〜するため increase overtime hours.",
+                           "（参考訳）〜へ/〜するため reduce チーム communication.",
+                           "（参考訳）〜へ/〜するため skip weekly planning."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4077,6 +5361,12 @@
                         "So meetings could be canceled forever.",
                         "So customers could edit the script."
                     ],
+        "choices_ja":  [
+                           "（参考訳）だから remote members 〜できるだろう review その workflow.",
+                           "（参考訳）だから その product 〜できるだろう launch immediately.",
+                           "（参考訳）だから meetings 〜できるだろう be 中止された forever.",
+                           "（参考訳）だから customers 〜できるだろう edit その script."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4096,6 +5386,12 @@
                         "More complaints and slower training.",
                         "No measurable change at all."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Fewer handover errors そして faster onboarding.",
+                           "（参考訳）Lower salaries そして longer shifts.",
+                           "（参考訳）More complaints そして slower training.",
+                           "（参考訳）いいえ measurable change 〜で すべて."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4115,6 +5411,12 @@
                         "Inviting external speakers.",
                         "Shortening the budget report."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Focusing 〜に blockers first.",
+                           "（訳未整備）Adding more presentation slides.",
+                           "（訳未整備）Inviting external speakers.",
+                           "（参考訳）Shortening その budget レポート."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4134,6 +5436,12 @@
                         "To avoid data backups.",
                         "To stop monitoring system health."
                     ],
+        "choices_ja":  [
+                           "（参考訳）〜へ/〜するため prepare 〜のために server failure 〜の間に peak hours.",
+                           "（参考訳）〜へ/〜するため lower internet speed intentionally.",
+                           "（参考訳）〜へ/〜するため avoid データ backups.",
+                           "（参考訳）〜へ/〜するため stop monitoring system health."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4153,6 +5461,12 @@
                         "Only unresolved tickets.",
                         "A new pricing contract."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Sample 答え 〜へ/〜するため common 質問.",
+                           "（参考訳）1つの list of 中止された products.",
+                           "（参考訳）だけ unresolved tickets.",
+                           "（参考訳）1つの new pricing contract."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4172,6 +5486,12 @@
                         "No risks were discussed.",
                         "The deadline was removed entirely."
                     ],
+        "choices_ja":  [
+                           "（参考訳）Risks そして mitigation steps were 確認した.",
+                           "（参考訳）その document was その shortest.",
+                           "（参考訳）いいえ risks were discussed.",
+                           "（参考訳）その deadline was removed entirely."
+                       ],
         "answer":  0,
         "explanation_ja":  "本文の要点を根拠に最適な選択肢を判断します。",
         "key_phrase":  "短文読解:B1",
@@ -4191,6 +5511,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 〜するつもり have 終えた その 提案書 by その 時間 その 会議 ends.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4210,6 +5536,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その プロジェクト took more 時間 than 私たちは had expected.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4229,6 +5561,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし 私たちは had enough データ, 私たちは 〜できるだろう explain その 結果 more accurately.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4248,6 +5586,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は understands what その 顧客 really needs.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4267,6 +5611,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は practice 1つの little 毎 日 〜へ/〜するため adapt 〜へ/〜するため その new environment.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4286,6 +5636,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 〜するつもり have 終えた その 提案書 by その 時間 その 会議 ends.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4305,6 +5661,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その プロジェクト took more 時間 than 私たちは had expected.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4324,6 +5686,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし 私たちは had enough データ, 私たちは 〜できるだろう explain その 結果 more accurately.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4343,6 +5711,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は understands what その 顧客 really needs.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4362,6 +5736,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は practice 1つの little 毎 日 〜へ/〜するため adapt 〜へ/〜するため その new environment.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4381,6 +5761,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 〜するつもり have 終えた その 提案書 by その 時間 その 会議 ends.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4400,6 +5786,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その プロジェクト took more 時間 than 私たちは had expected.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4419,6 +5811,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし 私たちは had enough データ, 私たちは 〜できるだろう explain その 結果 more accurately.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4438,6 +5836,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は understands what その 顧客 really needs.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4457,6 +5861,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は practice 1つの little 毎 日 〜へ/〜するため adapt 〜へ/〜するため その new environment.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4476,6 +5886,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は 〜するつもり have 終えた その 提案書 by その 時間 その 会議 ends.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4495,6 +5911,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）その プロジェクト took more 時間 than 私たちは had expected.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4514,6 +5936,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）もし 私たちは had enough データ, 私たちは 〜できるだろう explain その 結果 more accurately.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4533,6 +5961,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）彼女は understands what その 顧客 really needs.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",
@@ -4552,6 +5986,12 @@
                         "Project more time took than we expected had.",
                         "She understand what client need really."
                     ],
+        "choices_ja":  [
+                           "（参考訳）私は practice 1つの little 毎 日 〜へ/〜するため adapt 〜へ/〜するため その new environment.",
+                           "（参考訳）私は 〜するつもり 終えた 提案書 when 会議 end.",
+                           "（参考訳）プロジェクト more 時間 took than 私たちは expected had.",
+                           "（参考訳）彼女は understand what 顧客 need really."
+                       ],
         "answer":  0,
         "explanation_ja":  "複文の構造と時制の整合を確認します。",
         "key_phrase":  "短文英作:B1",

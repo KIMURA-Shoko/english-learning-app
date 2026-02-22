@@ -18,6 +18,136 @@ function Get-SkillLetter([string]$skillType) {
   }
 }
 
+function Get-ChoiceDirectTranslationMap {
+  return @{
+    "I am fine, thank you." = "元気です、ありがとうございます。"
+    "My name is Ken." = "私の名前はケンです。"
+    "Yes, I do." = "はい、そうです。"
+    "I live in Osaka." = "私は大阪に住んでいます。"
+    "Sure, I'll help after lunch." = "もちろん、昼食後に手伝います。"
+    "For about three years." = "約3年間です。"
+    "Because the bus was delayed." = "バスが遅れたからです。"
+    "At the station." = "駅で。"
+    "In my bag." = "私のかばんの中です。"
+    "At five o'clock." = "5時に。"
+    "At room 204." = "204号室で。"
+    "At the library." = "図書館で。"
+    "In the classroom." = "教室で。"
+    "At the office door." = "オフィスの入口で。"
+    "At the third floor." = "3階で。"
+    "At nine o'clock exactly." = "ちょうど9時に。"
+    "In the same folder." = "同じフォルダ内で。"
+    "Two apples." = "2個のりんご。"
+    "Three books." = "3冊の本。"
+    "park" = "公園"
+    "library" = "図書館"
+    "school" = "学校"
+    "store" = "店"
+    "station" = "駅"
+    "hospital" = "病院"
+    "bank" = "銀行"
+    "museum" = "博物館"
+    "am" = "am（be動詞）"
+    "is" = "is（be動詞）"
+    "are" = "are（be動詞）"
+    "be" = "be（動詞原形）"
+    "have" = "have"
+    "has" = "has"
+    "had" = "had"
+    "having" = "having"
+    "go" = "行く"
+    "goes" = "行く（三単現）"
+    "went" = "行った（過去形）"
+    "going" = "行っている/行くこと"
+    "stay" = "とどまる"
+    "stayed" = "とどまった"
+    "staying" = "とどまっている"
+    "watch" = "見る"
+    "watches" = "見る（三単現）"
+    "watched" = "見た"
+    "watching" = "見ている"
+    "read" = "読む"
+    "reads" = "読む（三単現）"
+    "reading" = "読んでいる/読むこと"
+    "play" = "する/遊ぶ"
+    "plays" = "する（三単現）"
+    "played" = "した"
+    "playing" = "している/すること"
+    "study" = "勉強する"
+    "studying" = "勉強している"
+    "cook" = "料理する"
+    "cooks" = "料理する（三単現）"
+    "cooked" = "料理した"
+    "cooking" = "料理している"
+    "interesting" = "おもしろい"
+    "more interesting" = "よりおもしろい"
+    "most interesting" = "最もおもしろい"
+    "interest" = "興味"
+    "that" = "that（関係代名詞/指示語）"
+    "who" = "who（関係代名詞）"
+    "where" = "where（関係副詞）"
+    "what" = "what（疑問詞/関係代名詞）"
+  }
+}
+
+function Get-ChoiceWordTranslationMap {
+  return @{
+    "the" = "その"; "a" = "1つの"; "an" = "1つの"
+    "i" = "私は"; "you" = "あなたは"; "he" = "彼は"; "she" = "彼女は"; "we" = "私たちは"; "they" = "彼らは"; "it" = "それは"
+    "my" = "私の"; "your" = "あなたの"; "his" = "彼の"; "her" = "彼女の"; "their" = "彼らの"; "our" = "私たちの"
+    "because" = "なぜなら"; "after" = "〜の後で"; "before" = "〜の前に"; "during" = "〜の間に"; "unless" = "〜でない限り"
+    "if" = "もし"; "provided" = "〜という条件で"; "for" = "〜のために"; "at" = "〜で"; "in" = "〜で"; "on" = "〜に"; "to" = "〜へ/〜するため"
+    "and" = "そして"; "or" = "または"; "but" = "しかし"; "so" = "だから"
+    "team" = "チーム"; "meeting" = "会議"; "report" = "レポート"; "proposal" = "提案書"; "client" = "顧客"; "project" = "プロジェクト"
+    "goal" = "目標"; "results" = "結果"; "data" = "データ"; "work" = "仕事"; "office" = "オフィス"; "survey" = "調査"
+    "question" = "質問"; "questions" = "質問"; "answer" = "答え"; "answers" = "答え"
+    "time" = "時間"; "today" = "今日"; "yesterday" = "昨日"; "every" = "毎"; "day" = "日"; "week" = "週"; "years" = "年"
+    "english" = "英語"; "soccer" = "サッカー"; "library" = "図書館"; "station" = "駅"; "school" = "学校"; "store" = "店"
+    "park" = "公園"; "bank" = "銀行"; "museum" = "博物館"; "hospital" = "病院"
+    "happy" = "うれしい"; "fine" = "元気な"; "name" = "名前"; "sunny" = "晴れた"; "blue" = "青い"
+    "yes" = "はい"; "no" = "いいえ"; "well" = "うまく"; "exactly" = "ちょうど"; "only" = "だけ"; "all" = "すべて"
+    "can" = "できる"; "will" = "〜するつもり"; "would" = "〜するだろう"; "could" = "〜できるだろう"; "should" = "〜すべき"
+    "finished" = "終えた"; "lived" = "住んでいる"; "matched" = "一致した"; "needed" = "必要だった"
+    "adjusted" = "調整した"; "delayed" = "遅れた"; "canceled" = "中止された"; "shortened" = "短くした"; "clarified" = "明確にした"
+    "confirmed" = "確認した"; "monitored" = "監視した"; "launched" = "公開した"; "chose" = "選んだ"; "reviewed" = "見直した"
+  }
+}
+
+$script:DirectChoiceJa = Get-ChoiceDirectTranslationMap
+$script:WordChoiceJa = Get-ChoiceWordTranslationMap
+
+function Convert-ChoiceToJa {
+  param([string]$Text)
+  if ([string]::IsNullOrWhiteSpace($Text)) { return "" }
+  $raw = $Text.Trim()
+  if ($script:DirectChoiceJa.ContainsKey($raw)) {
+    return [string]$script:DirectChoiceJa[$raw]
+  }
+
+  $matches = [regex]::Matches($raw, "[A-Za-z']+|[^A-Za-z']+")
+  $sb = New-Object System.Text.StringBuilder
+  $translatedCount = 0
+  foreach ($m in $matches) {
+    $part = [string]$m.Value
+    if ($part -match "[A-Za-z]") {
+      $lower = $part.ToLowerInvariant()
+      if ($script:WordChoiceJa.ContainsKey($lower)) {
+        [void]$sb.Append([string]$script:WordChoiceJa[$lower])
+        $translatedCount++
+      } else {
+        [void]$sb.Append($part)
+      }
+    } else {
+      [void]$sb.Append($part)
+    }
+  }
+
+  if ($translatedCount -eq 0) {
+    return "（訳未整備）$raw"
+  }
+  return "（参考訳）$($sb.ToString())"
+}
+
 function Add-Problem {
   param(
     [string]$Level,
@@ -34,6 +164,10 @@ function Add-Problem {
   $script:globalIndex++
   $id = "{0}_{1}_{2}" -f $Level, (Get-SkillLetter $SkillType), $Seq.ToString("0000")
   $created = $createdBase.AddMinutes($script:globalIndex).ToString("yyyy-MM-ddTHH:mm:ssZ")
+  $choicesJa = @()
+  foreach ($c in $Choices) {
+    $choicesJa += (Convert-ChoiceToJa -Text ([string]$c))
+  }
 
   $script:items.Add([pscustomobject]@{
     problem_id = $id
@@ -42,6 +176,7 @@ function Add-Problem {
     question_type = $QuestionType
     question_text = $QuestionText
     choices = $Choices
+    choices_ja = $choicesJa
     answer = $Answer
     explanation_ja = $Explanation
     key_phrase = $KeyPhrase

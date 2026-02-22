@@ -446,6 +446,22 @@ function translateEnglishChoiceToJa(text) {
 }
 
 function renderChoiceTranslations(problem) {
+  const hasStoredTranslations =
+    Array.isArray(problem.choices_ja) &&
+    problem.choices_ja.length === problem.choices.length &&
+    problem.choices_ja.every((t) => typeof t === "string" && t.trim() !== "");
+
+  if (hasStoredTranslations) {
+    const rows = currentChoiceOrder.map((originalIndex, renderedIndex) => {
+      const letter = String.fromCharCode(65 + renderedIndex);
+      const ja = String(problem.choices_ja[originalIndex]);
+      return `<li><strong>${letter}.</strong> ${ja}</li>`;
+    });
+    choiceTranslationsEl.innerHTML = `<p>選択肢の日本語訳</p><ul>${rows.join("")}</ul>`;
+    choiceTranslationsEl.classList.remove("hidden");
+    return;
+  }
+
   const allEnglish = problem.choices.every((c) => isEnglishChoiceText(String(c)));
   if (!allEnglish) {
     choiceTranslationsEl.classList.add("hidden");

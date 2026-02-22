@@ -11,6 +11,7 @@
                      "skill_type",
                      "question_text",
                      "choices",
+                     "choices_ja",
                      "answer",
                      "explanation_ja",
                      "key_phrase",
@@ -97,7 +98,18 @@
                                                           "short_reading",
                                                           "sentence_build"
                                                       ]
-                                         }
+                                         },
+                       "choices_ja":  {
+                                          "type":  "array",
+                                          "description":  "4択選択肢の日本語訳。choicesと同順。",
+                                          "minItems":  4,
+                                          "maxItems":  4,
+                                          "items":  {
+                                                        "type":  "string",
+                                                        "minLength":  1,
+                                                        "maxLength":  300
+                                                    }
+                                      }
                    },
     "allOf":  [
                   {

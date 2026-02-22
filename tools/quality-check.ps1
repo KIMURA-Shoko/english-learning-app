@@ -98,7 +98,7 @@ if (-not ($problems -is [System.Array])) {
 $errors = New-Object System.Collections.Generic.List[object]
 $warnings = New-Object System.Collections.Generic.List[object]
 
-$required = @("problem_id","cefr_level","skill_type","question_text","choices","answer","explanation_ja","key_phrase","status","created_at")
+$required = @("problem_id","cefr_level","skill_type","question_text","choices","choices_ja","answer","explanation_ja","key_phrase","status","created_at")
 $validLevel = @("A1","A2","B1")
 $validSkill = @("grammar","reading","vocabulary")
 $validStatus = @("draft","published")
@@ -196,6 +196,19 @@ for ($i = 0; $i -lt $problems.Count; $i++) {
             $warnings.Add([pscustomobject]@{problem_id=$problemId; type="answer_consistency_warn"; message="Explanation has '正解' but does not include correct choice text"})
           }
         }
+      }
+    }
+  }
+
+  if (-not ($p.choices_ja -is [System.Array])) {
+    $errors.Add([pscustomobject]@{problem_id=$problemId; type="invalid_choices_ja"; message="choices_ja must be array"})
+  } else {
+    if ($p.choices_ja.Count -ne 4) {
+      $errors.Add([pscustomobject]@{problem_id=$problemId; type="choices_ja_count"; message="choices_ja must contain exactly 4 items"})
+    }
+    foreach ($cj in $p.choices_ja) {
+      if ([string]::IsNullOrWhiteSpace([string]$cj)) {
+        $errors.Add([pscustomobject]@{problem_id=$problemId; type="empty_choice_ja"; message="choices_ja contains empty text"})
       }
     }
   }
